@@ -6,10 +6,10 @@
 [![Portfolio](https://img.shields.io/badge/GitHub-Project_Archive-181717?style=flat-square&logo=github)](https://github.com/oadeyan)
 [![Open to Work](https://img.shields.io/badge/Status-Open_to_Opportunities-2ea44f?style=flat-square)](mailto:omobolaji.adeyan@gmail.com)
 
-I am pursuing a degree in Information Technology while developing open-source
-security tools that turn complex data into clear, actionable findings. My work
-focuses on explainable detection, lightweight automation, and software that can
-fit into real security operations workflows.
+I am an Information Technology graduate and cybersecurity professional who
+develops open-source security tools that turn complex data into clear,
+actionable findings. My work focuses on explainable detection, practical
+automation, and software designed for real security operations workflows.
 
 ## What I Build
 
