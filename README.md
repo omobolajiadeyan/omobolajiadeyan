@@ -31,11 +31,14 @@ process, and technical direction. It welcomes contributions through scoped
 first-time contributor tasks. The current
 [v0.3.0 release](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.3.0)
 adds validated SARIF 2.1.0 output for GitHub Code Scanning and CI security
-pipelines.
+pipelines. Its public
+[detection model standard](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/DETECTION_MODEL.md)
+documents feature semantics, limitations, and the evidence required for
+scoring changes.
 
 | Project | What it demonstrates |
 | --- | --- |
-| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Community-led offline phishing detection with calibrated scoring, explainable features, validated SARIF 2.1.0 output, Windows compatibility, CI, governance, releases, and a public roadmap |
+| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Community-led offline phishing detection with explainable heuristic scoring, validated SARIF 2.1.0 output, Windows compatibility, CI, governance, releases, and a public roadmap |
 | [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE analysis using NVD data, AI-assisted reporting, rule-based fallback, remediation guidance, and SOC detection advice |
 | [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Behavioral anomaly detection for users and IP addresses using statistical baselines and weighted risk scoring |
 | [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Threat detection across system and application logs with MITRE ATT&CK mappings and SIEM-ready JSON output |
