@@ -21,9 +21,18 @@ automation, and software designed for real security operations workflows.
 
 ## Selected Engineering Work
 
+### Flagship Community Project
+
+[**PhishGuard AI**](https://github.com/omobolajiadeyan/phishguard-ai) is my
+community-led, open-source phishing detection project. I created and maintain
+its detection model, contributor roadmap, governance, security policy, release
+process, and technical direction. It welcomes contributions through scoped
+[issues](https://github.com/omobolajiadeyan/phishguard-ai/issues), including
+first-time contributor tasks.
+
 | Project | What it demonstrates |
 | --- | --- |
-| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Tested offline phishing detection with calibrated scoring, explainable features, Windows compatibility, and CI |
+| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Community-led offline phishing detection with calibrated scoring, explainable features, Windows compatibility, CI, governance, and a public roadmap |
 | [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE analysis using NVD data, AI-assisted reporting, rule-based fallback, remediation guidance, and SOC detection advice |
 | [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Behavioral anomaly detection for users and IP addresses using statistical baselines and weighted risk scoring |
 | [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Threat detection across system and application logs with MITRE ATT&CK mappings and SIEM-ready JSON output |
@@ -49,6 +58,7 @@ automation, and software designed for real security operations workflows.
 | TruShell OS fallback security fix | [Pull request #55](https://github.com/TruFoundation/TruShell/pull/55) replaces shell-mediated execution with argument-vector execution and adds regression tests |
 | detect-secrets Helm false-positive triage | [Issue investigation](https://github.com/Yelp/detect-secrets/issues/360#issuecomment-4644973135) verifies the reported behavior against current `main` and documents passing coverage |
 | Cyber Resilience Act mapping review | [Source review](https://github.com/secops-ng/secops-ng-framework/issues/193#issuecomment-4644950570) identifies an Article 13 citation mismatch against EUR-Lex before implementation |
+| Sigma CLI design contribution | [Issue proposal](https://github.com/SigmaHQ/sigma-cli/issues/81#issuecomment-4645043507) outlines a backward-compatible approach for configuration and pipeline behavior |
 
 My contribution process and current roadmap are documented in
 [OPEN_SOURCE.md](OPEN_SOURCE.md).
