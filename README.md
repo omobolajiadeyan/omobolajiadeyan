@@ -3,7 +3,7 @@
 **Cybersecurity Engineer | Python Developer | Security Automation**
 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-0A66C2?style=flat-square&logo=gmail&logoColor=white)](mailto:omobolaji.adeyan@gmail.com)
-[![Portfolio](https://img.shields.io/badge/GitHub-Project_Archive-181717?style=flat-square&logo=github)](https://github.com/oadeyan)
+[![Portfolio](https://img.shields.io/badge/GitHub-Security_Projects-181717?style=flat-square&logo=github)](https://github.com/omobolajiadeyan?tab=repositories)
 [![Open to Work](https://img.shields.io/badge/Status-Open_to_Opportunities-2ea44f?style=flat-square)](mailto:omobolaji.adeyan@gmail.com)
 
 I am an Information Technology graduate and cybersecurity professional who
@@ -20,17 +20,14 @@ automation, and software designed for real security operations workflows.
 
 ## Selected Engineering Work
 
-These projects were originally published through my
-[`oadeyan`](https://github.com/oadeyan) project archive.
-
 | Project | What it demonstrates |
 | --- | --- |
-| [PhishGuard AI](https://github.com/oadeyan/phishguard-ai) | Offline phishing detection for URLs and email using explainable feature engineering and probabilistic scoring |
-| [VulnGPT](https://github.com/oadeyan/vulngpt) | CVE analysis using NVD data, AI-assisted reporting, rule-based fallback, remediation guidance, and SOC detection advice |
-| [BehaviorSense](https://github.com/oadeyan/behaviorsense) | Behavioral anomaly detection for users and IP addresses using statistical baselines and weighted risk scoring |
-| [Log Analyzer](https://github.com/oadeyan/log-analyzer) | Threat detection across system and application logs with MITRE ATT&CK mappings and SIEM-ready JSON output |
-| [CVE Dashboard](https://github.com/oadeyan/cve-dashboard) | Real-time vulnerability intelligence from the NVD API with CVSS filtering, search, and structured export |
-| [Secrets Scanner](https://github.com/oadeyan/secrets-scanner) | CI-friendly source-code scanning for exposed credentials, tokens, and other high-risk secrets |
+| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Tested offline phishing detection with calibrated scoring, explainable features, Windows compatibility, and CI |
+| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE analysis using NVD data, AI-assisted reporting, rule-based fallback, remediation guidance, and SOC detection advice |
+| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Behavioral anomaly detection for users and IP addresses using statistical baselines and weighted risk scoring |
+| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Threat detection across system and application logs with MITRE ATT&CK mappings and SIEM-ready JSON output |
+| [CVE Dashboard](https://github.com/omobolajiadeyan/cve-dashboard) | Real-time vulnerability intelligence from the NVD API with CVSS filtering, search, and structured export |
+| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | CI-friendly source-code scanning for exposed credentials, tokens, and other high-risk secrets |
 
 ## Core Skills
 
@@ -69,4 +66,4 @@ open-source collaboration opportunities.
 
 - Email: [omobolaji.adeyan@gmail.com](mailto:omobolaji.adeyan@gmail.com)
 - GitHub: [github.com/omobolajiadeyan](https://github.com/omobolajiadeyan)
-- Project archive: [github.com/oadeyan](https://github.com/oadeyan)
+- Earlier project archive: [github.com/oadeyan](https://github.com/oadeyan)
