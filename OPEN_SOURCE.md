@@ -22,7 +22,7 @@ artificial activity to inflate contribution counts.
 | --- | --- | --- |
 | [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | [v0.3.0](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.3.0) provides schema-validated SARIF 2.1.0 output and a GitHub Code Scanning integration while keeping contributor tasks publicly scoped | Maintained project |
 | [Checkov](https://github.com/bridgecrewio/checkov) | [PR #7573](https://github.com/bridgecrewio/checkov/pull/7573) adds graph-aware support for GitHub's dedicated Terraform vulnerability-alert resource while preserving legacy behavior | Open for review |
-| [TruShell](https://github.com/TruFoundation/TruShell) | [PR #55](https://github.com/TruFoundation/TruShell/pull/55) removes shell-mediated fallback execution and adds regression tests | Open for review |
+| [TruShell](https://github.com/TruFoundation/TruShell) | [Merged PR #55](https://github.com/TruFoundation/TruShell/pull/55) removes shell-mediated fallback execution, adds security regression tests, improves database test isolation, and fixes the CLI help entry point | Merged upstream |
 
 ## Weekly Cadence
 

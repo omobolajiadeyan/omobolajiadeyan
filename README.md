@@ -62,7 +62,7 @@ scoring changes.
 | Contribution | Evidence |
 | --- | --- |
 | Checkov GitHub vulnerability-alert support | [Pull request #7573](https://github.com/bridgecrewio/checkov/pull/7573) migrates `CKV_GIT_3` to a graph-aware policy for the Terraform provider's dedicated alerts resource, with parser-backed legacy and provider 6.12+ regression coverage |
-| TruShell OS fallback security fix | [Pull request #55](https://github.com/TruFoundation/TruShell/pull/55) replaces shell-mediated execution with argument-vector execution and adds regression tests |
+| TruShell OS fallback security fix | [Merged pull request #55](https://github.com/TruFoundation/TruShell/pull/55) replaces shell-mediated execution with argument-vector execution, adds security regression coverage, moves appropriate database tests to in-memory SQLite, and restores the CLI help entry point |
 | detect-secrets Helm false-positive triage | [Issue investigation](https://github.com/Yelp/detect-secrets/issues/360#issuecomment-4644973135) verifies the reported behavior against current `main` and documents passing coverage |
 | Cyber Resilience Act mapping review | [Source review](https://github.com/secops-ng/secops-ng-framework/issues/193#issuecomment-4644950570) identifies an Article 13 citation mismatch against EUR-Lex before implementation |
 | Sigma CLI design contribution | [Issue proposal](https://github.com/SigmaHQ/sigma-cli/issues/81#issuecomment-4645043507) outlines a backward-compatible approach for configuration and pipeline behavior |
