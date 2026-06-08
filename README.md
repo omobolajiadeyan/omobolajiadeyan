@@ -36,7 +36,11 @@ adds validated SARIF 2.1.0 output for GitHub Code Scanning and CI security
 pipelines. Its public
 [detection model standard](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/DETECTION_MODEL.md)
 documents feature semantics, limitations, and the evidence required for
-scoring changes. The project is also receiving external contributions:
+scoring changes. Its merged
+[URL regression benchmark](https://github.com/omobolajiadeyan/phishguard-ai/pull/13)
+reports deterministic confusion-matrix metrics over a documented public-safe
+fixture while explicitly separating regression results from real-world
+accuracy claims. The project is also receiving external contributions:
 [PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7), submitted
 by BeauDevCode, added an ASCII-only CLI mode and was merged after maintainer
 review, cross-version tests, packaging checks, and CodeQL all passed.
@@ -68,6 +72,7 @@ review, cross-version tests, packaging checks, and CodeQL all passed.
 | Contribution | Evidence |
 | --- | --- |
 | PhishGuard community maintenance | [Merged external PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7) documents contributor coordination, requested revisions, local verification, protected CI approval, CodeQL review, and an upstream merge |
+| OWASP agent-security regression tooling | [Pull request #147](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/147) adds recursive directory and glob validation for agent-security scenarios, per-file results, summary counts, CLI tests, and CI documentation |
 | Bandit SNMP detector argument handling | [Pull request #1433](https://github.com/PyCQA/bandit/pull/1433) fixes B508/B509 false negatives and false positives by resolving pysnmp defaults, positional and keyword arguments, explicit `None`, and dynamic values, with exact functional finding assertions |
 | Checkov GitHub vulnerability-alert support | [Pull request #7573](https://github.com/bridgecrewio/checkov/pull/7573) migrates `CKV_GIT_3` to a graph-aware policy for the Terraform provider's dedicated alerts resource, with parser-backed legacy and provider 6.12+ regression coverage |
 | TruShell OS fallback security fix | [Merged pull request #55](https://github.com/TruFoundation/TruShell/pull/55) replaces shell-mediated execution with argument-vector execution, adds security regression coverage, moves appropriate database tests to in-memory SQLite, and restores the CLI help entry point |
