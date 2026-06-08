@@ -16,6 +16,13 @@ Every contribution should meet at least one of these tests:
 I do not use empty forks, cosmetic commit spam, copied profile content, or
 artificial activity to inflate contribution counts.
 
+## Current Public Work
+
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [Checkov](https://github.com/bridgecrewio/checkov) | [PR #7573](https://github.com/bridgecrewio/checkov/pull/7573) adds graph-aware support for GitHub's dedicated Terraform vulnerability-alert resource while preserving legacy behavior | Open for review |
+| [TruShell](https://github.com/TruFoundation/TruShell) | [PR #55](https://github.com/TruFoundation/TruShell/pull/55) removes shell-mediated fallback execution and adds regression tests | Open for review |
+
 ## Weekly Cadence
 
 | Activity | Weekly target |
