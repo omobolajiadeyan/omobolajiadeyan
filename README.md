@@ -3,6 +3,7 @@
 **Cybersecurity Engineer | Python Developer | Security Automation**
 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-0A66C2?style=flat-square&logo=gmail&logoColor=white)](mailto:omobolaji.adeyan@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oeadeyan)
 [![Portfolio](https://img.shields.io/badge/GitHub-Security_Projects-181717?style=flat-square&logo=github)](https://github.com/omobolajiadeyan?tab=repositories)
 [![Open to Work](https://img.shields.io/badge/Status-Open_to_Opportunities-2ea44f?style=flat-square)](mailto:omobolaji.adeyan@gmail.com)
 
@@ -65,5 +66,6 @@ I am open to cybersecurity engineering, software development, research, and
 open-source collaboration opportunities.
 
 - Email: [omobolaji.adeyan@gmail.com](mailto:omobolaji.adeyan@gmail.com)
+- LinkedIn: [linkedin.com/in/oeadeyan](https://www.linkedin.com/in/oeadeyan)
 - GitHub: [github.com/omobolajiadeyan](https://github.com/omobolajiadeyan)
 - Earlier project archive: [github.com/oadeyan](https://github.com/oadeyan)
