@@ -21,8 +21,10 @@ artificial activity to inflate contribution counts.
 | Project | Contribution | Status |
 | --- | --- | --- |
 | [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | [v0.3.0](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.3.0) provides schema-validated SARIF 2.1.0 output and a GitHub Code Scanning integration while keeping contributor tasks publicly scoped | Maintained project |
+| [Bandit](https://github.com/PyCQA/bandit) | [PR #1433](https://github.com/PyCQA/bandit/pull/1433) corrects B508/B509 SNMP argument and default handling with exact functional regression assertions | Open for review |
 | [Checkov](https://github.com/bridgecrewio/checkov) | [PR #7573](https://github.com/bridgecrewio/checkov/pull/7573) adds graph-aware support for GitHub's dedicated Terraform vulnerability-alert resource while preserving legacy behavior | Open for review |
 | [TruShell](https://github.com/TruFoundation/TruShell) | [Merged PR #55](https://github.com/TruFoundation/TruShell/pull/55) removes shell-mediated fallback execution, adds security regression tests, improves database test isolation, and fixes the CLI help entry point | Merged upstream |
+| [detect-secrets](https://github.com/Yelp/detect-secrets) | [Review on PR #961](https://github.com/Yelp/detect-secrets/pull/961#pullrequestreview-4449083618) demonstrates truncated secret capture and scopes the new GitHub token format to `ghs_` without imposing a new fixed maximum | Changes requested |
 
 ## Weekly Cadence
 
