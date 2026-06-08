@@ -28,11 +28,14 @@ community-led, open-source phishing detection project. I created and maintain
 its detection model, contributor roadmap, governance, security policy, release
 process, and technical direction. It welcomes contributions through scoped
 [issues](https://github.com/omobolajiadeyan/phishguard-ai/issues), including
-first-time contributor tasks.
+first-time contributor tasks. The current
+[v0.3.0 release](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.3.0)
+adds validated SARIF 2.1.0 output for GitHub Code Scanning and CI security
+pipelines.
 
 | Project | What it demonstrates |
 | --- | --- |
-| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Community-led offline phishing detection with calibrated scoring, explainable features, Windows compatibility, CI, governance, and a public roadmap |
+| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Community-led offline phishing detection with calibrated scoring, explainable features, validated SARIF 2.1.0 output, Windows compatibility, CI, governance, releases, and a public roadmap |
 | [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE analysis using NVD data, AI-assisted reporting, rule-based fallback, remediation guidance, and SOC detection advice |
 | [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Behavioral anomaly detection for users and IP addresses using statistical baselines and weighted risk scoring |
 | [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Threat detection across system and application logs with MITRE ATT&CK mappings and SIEM-ready JSON output |
