@@ -36,7 +36,10 @@ adds validated SARIF 2.1.0 output for GitHub Code Scanning and CI security
 pipelines. Its public
 [detection model standard](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/DETECTION_MODEL.md)
 documents feature semantics, limitations, and the evidence required for
-scoring changes.
+scoring changes. The project is also receiving external contributions:
+[PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7), submitted
+by BeauDevCode, added an ASCII-only CLI mode and was merged after maintainer
+review, cross-version tests, packaging checks, and CodeQL all passed.
 
 | Project | What it demonstrates |
 | --- | --- |
@@ -49,9 +52,9 @@ scoring changes.
 
 ## Core Skills
 
-`Python` · `Security Automation` · `Threat Detection` · `Log Analysis` ·
-`Behavioral Analytics` · `CVE/NVD` · `MITRE ATT&CK` · `REST APIs` ·
-`JSON` · `CI/CD` · `Git`
+`Python` | `Security Automation` | `Threat Detection` | `Log Analysis` |
+`Behavioral Analytics` | `CVE/NVD` | `MITRE ATT&CK` | `REST APIs` |
+`JSON` | `CI/CD` | `Git`
 
 ## Current Focus
 
@@ -63,12 +66,13 @@ scoring changes.
 
 | Contribution | Evidence |
 | --- | --- |
+| PhishGuard community maintenance | [Merged external PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7) documents contributor coordination, requested revisions, local verification, protected CI approval, CodeQL review, and an upstream merge |
 | Bandit SNMP detector argument handling | [Pull request #1433](https://github.com/PyCQA/bandit/pull/1433) fixes B508/B509 false negatives and false positives by resolving pysnmp defaults, positional and keyword arguments, explicit `None`, and dynamic values, with exact functional finding assertions |
 | Checkov GitHub vulnerability-alert support | [Pull request #7573](https://github.com/bridgecrewio/checkov/pull/7573) migrates `CKV_GIT_3` to a graph-aware policy for the Terraform provider's dedicated alerts resource, with parser-backed legacy and provider 6.12+ regression coverage |
 | TruShell OS fallback security fix | [Merged pull request #55](https://github.com/TruFoundation/TruShell/pull/55) replaces shell-mediated execution with argument-vector execution, adds security regression coverage, moves appropriate database tests to in-memory SQLite, and restores the CLI help entry point |
 | detect-secrets GitHub token-format review | [Security review on PR #961](https://github.com/Yelp/detect-secrets/pull/961#pullrequestreview-4449083618) reproduces truncated secret capture and identifies overbroad token matching against GitHub's new App installation-token guidance |
 | detect-secrets Helm false-positive triage | [Issue investigation](https://github.com/Yelp/detect-secrets/issues/360#issuecomment-4644973135) verifies the reported behavior against current `main` and documents passing coverage |
-| Cyber Resilience Act mapping review | [Source review](https://github.com/secops-ng/secops-ng-framework/issues/193#issuecomment-4644950570) identifies an Article 13 citation mismatch against EUR-Lex before implementation |
+| Cyber Resilience Act mapping review | [Maintainer-accepted source review](https://github.com/secops-ng/secops-ng-framework/issues/193#issuecomment-4646290498) corrects the Article 13(8)/13(9) scope against EUR-Lex; [follow-up review](https://github.com/secops-ng/secops-ng-framework/issues/193#issuecomment-4650967584) catches a second conflicting citation before contradictory compliance data is committed |
 | Sigma CLI design contribution | [Issue proposal](https://github.com/SigmaHQ/sigma-cli/issues/81#issuecomment-4645043507) outlines a backward-compatible approach for configuration and pipeline behavior |
 
 My contribution process and current roadmap are documented in

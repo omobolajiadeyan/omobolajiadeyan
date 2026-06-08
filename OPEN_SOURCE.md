@@ -20,11 +20,12 @@ artificial activity to inflate contribution counts.
 
 | Project | Contribution | Status |
 | --- | --- | --- |
-| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | [v0.3.0](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.3.0) provides schema-validated SARIF 2.1.0 output and a GitHub Code Scanning integration while keeping contributor tasks publicly scoped | Maintained project |
+| [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | [v0.3.0](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.3.0) provides schema-validated SARIF 2.1.0 output; [external PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7) added plain CLI output and was merged after requested revisions, local verification, protected CI, and CodeQL | Maintained project with external contributors |
 | [Bandit](https://github.com/PyCQA/bandit) | [PR #1433](https://github.com/PyCQA/bandit/pull/1433) corrects B508/B509 SNMP argument and default handling with exact functional regression assertions | Open for review |
 | [Checkov](https://github.com/bridgecrewio/checkov) | [PR #7573](https://github.com/bridgecrewio/checkov/pull/7573) adds graph-aware support for GitHub's dedicated Terraform vulnerability-alert resource while preserving legacy behavior | Open for review |
 | [TruShell](https://github.com/TruFoundation/TruShell) | [Merged PR #55](https://github.com/TruFoundation/TruShell/pull/55) removes shell-mediated fallback execution, adds security regression tests, improves database test isolation, and fixes the CLI help entry point | Merged upstream |
 | [detect-secrets](https://github.com/Yelp/detect-secrets) | [Review on PR #961](https://github.com/Yelp/detect-secrets/pull/961#pullrequestreview-4449083618) demonstrates truncated secret capture and scopes the new GitHub token format to `ghs_` without imposing a new fixed maximum | Changes requested |
+| [SecOps-NG](https://github.com/secops-ng/secops-ng-framework) | [Article 13 review](https://github.com/secops-ng/secops-ng-framework/issues/193#issuecomment-4650967584) verifies the corrected support-period scope and identifies a second conflicting mapping before implementation | Maintainer accepted correction; clarification pending |
 
 ## Weekly Cadence
 
