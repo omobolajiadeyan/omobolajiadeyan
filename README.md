@@ -40,7 +40,10 @@ scoring changes. Its merged
 [URL regression benchmark](https://github.com/omobolajiadeyan/phishguard-ai/pull/13)
 reports deterministic confusion-matrix metrics over a documented public-safe
 fixture while explicitly separating regression results from real-world
-accuracy claims. The project is also receiving external contributions:
+accuracy claims. The detector also includes conservatively weighted
+[IDN and punycode hostname signals](https://github.com/omobolajiadeyan/phishguard-ai/pull/14)
+with false-positive regressions for legitimate internationalized domains.
+The project is also receiving external contributions:
 [PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7), submitted
 by BeauDevCode, added an ASCII-only CLI mode and was merged after maintainer
 review, cross-version tests, packaging checks, and CodeQL all passed.
