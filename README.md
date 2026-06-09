@@ -63,11 +63,6 @@ review, cross-version tests, packaging checks, and CodeQL all passed.
 | [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai) | Community-led offline phishing detection with explainable heuristic scoring, validated SARIF 2.1.0 output, Windows compatibility, CI, governance, releases, and a public roadmap |
 | [Location Authentication](https://github.com/omobolajiadeyan/Location-Authentication) | Security redesign of an earlier location-authentication demo: validated radius checks, fail-closed multi-factor decisions, privacy-conscious output, zero runtime dependencies, Python 3.10-3.13 tests, CodeQL, and pinned CI |
 | [FreNiMi Checkers](https://github.com/omobolajiadeyan/frenimi-checkers) | Secure full-stack game platform with minimax AI, realtime WebSocket matchmaking, SQLite ratings, PWA support, hashed sessions, strict origin controls, dependency auditing, and CodeQL |
-| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE analysis using NVD data, AI-assisted reporting, rule-based fallback, remediation guidance, and SOC detection advice |
-| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Behavioral anomaly detection for users and IP addresses using statistical baselines and weighted risk scoring |
-| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Threat detection across system and application logs with MITRE ATT&CK mappings and SIEM-ready JSON output |
-| [CVE Dashboard](https://github.com/omobolajiadeyan/cve-dashboard) | Real-time vulnerability intelligence from the NVD API with CVSS filtering, search, and structured export |
-| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | CI-friendly source-code scanning for exposed credentials, tokens, and other high-risk secrets |
 
 ## Core Skills
 
@@ -115,4 +110,3 @@ open-source collaboration opportunities.
 - Email: [omobolaji.adeyan@gmail.com](mailto:omobolaji.adeyan@gmail.com)
 - LinkedIn: [linkedin.com/in/oeadeyan](https://www.linkedin.com/in/oeadeyan)
 - GitHub: [github.com/omobolajiadeyan](https://github.com/omobolajiadeyan)
-- Earlier project archive: [github.com/oadeyan](https://github.com/oadeyan)
