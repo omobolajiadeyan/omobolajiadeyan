@@ -30,6 +30,10 @@ process, and technical direction. It welcomes contributions through scoped
 [issues](https://github.com/omobolajiadeyan/phishguard-ai/issues), including
 first-time contributor tasks, with a public
 [community roadmap and contribution guide](https://github.com/omobolajiadeyan/phishguard-ai/discussions/11).
+New contributors can follow the project's
+[first-contribution guide](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/FIRST_CONTRIBUTION.md)
+and reproduce its
+[one-minute safe demo](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/QUICK_DEMO.md).
 The current
 [v0.4.0 release](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.4.0)
 ships validated SARIF 2.1.0 output, conservative IDN detection, a reproducible
@@ -44,6 +48,11 @@ fixture while explicitly separating regression results from real-world
 accuracy claims. The detector also includes conservatively weighted
 [IDN and punycode hostname signals](https://github.com/omobolajiadeyan/phishguard-ai/pull/14)
 with false-positive regressions for legitimate internationalized domains.
+Its merged
+[email-authentication analysis](https://github.com/omobolajiadeyan/phishguard-ai/pull/21)
+parses trusted SPF, DKIM, and DMARC results as supporting signals while
+documenting forwarding, mailing-list, DNS-validation, and trust-boundary
+limitations.
 The project is also receiving external contributions:
 [PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7), submitted
 by BeauDevCode, added an ASCII-only CLI mode and was merged after maintainer
