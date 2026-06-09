@@ -76,6 +76,7 @@ review, cross-version tests, packaging checks, and CodeQL all passed.
 | Contribution | Evidence |
 | --- | --- |
 | PhishGuard community maintenance | [Merged external PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7) documents contributor coordination, requested revisions, local verification, protected CI approval, CodeQL review, and an upstream merge |
+| OWASP CVE Lite actionable reporting | [Pull request #602](https://github.com/OWASP/cve-lite-cli/pull/602) adds escaped risk summaries and next-action guidance to single-project and multi-folder HTML vulnerability reports while preserving the JSON contract; 440 tests, build, self-scan, and CodeQL pass |
 | OWASP agent-security regression tooling | [Pull request #147](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/147) adds recursive directory and glob validation for agent-security scenarios, per-file results, summary counts, CLI tests, and CI documentation |
 | Bandit SNMP detector argument handling | [Pull request #1433](https://github.com/PyCQA/bandit/pull/1433) fixes B508/B509 false negatives and false positives by resolving pysnmp defaults, positional and keyword arguments, explicit `None`, and dynamic values, with exact functional finding assertions |
 | Checkov GitHub vulnerability-alert support | [Pull request #7573](https://github.com/bridgecrewio/checkov/pull/7573) migrates `CKV_GIT_3` to a graph-aware policy for the Terraform provider's dedicated alerts resource, with parser-backed legacy and provider 6.12+ regression coverage |
