@@ -27,7 +27,7 @@ I'm a security engineer with 20+ years of experience — starting from designing
 
 My open-source work focuses on tools that work silently inside developer workflows: a phishing detection engine that runs offline with zero dependencies, a UEBA behavioural anomaly detector for insider threat, a CI secret scanner, MITRE ATT&CK-mapped log analysis, and real-time CVE intelligence. I also contribute targeted security fixes to major projects in the Python and cloud security ecosystems — Prowler, Bandit, pip-audit, and OWASP tooling.
 
-I hold a **BS in Information Technology (GPA 3.84, Arizona State University)** and carry the **CISA** and **CompTIA Security+** certifications.
+I hold a **BS in Information Technology (Arizona State University)** and carry the **CISA** and **CompTIA Security+** certifications.
 
 ---
 
@@ -170,7 +170,7 @@ Security engineering grounded in 20+ years of building real systems — from ent
 | Certified Information Systems Auditor (CISA) | ISACA | 2024 |
 | CompTIA Security+ (ce) | CompTIA | 2024 — valid to 2027 |
 | AWS Academy Cloud Foundations | Amazon Web Services | 2024 |
-| BS Information Technology (GPA 3.84) | Arizona State University | 2025 |
+| BS Information Technology | Arizona State University | 2025 |
 
 ---
 
