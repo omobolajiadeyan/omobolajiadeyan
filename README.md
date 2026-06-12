@@ -149,7 +149,7 @@ Full-stack booking and gallery management platform for a photography studio: **N
 
 ---
 
-### [Right Health](https://joinrighthealth.com) — Mental Health Practice Platform
+### Right Health — Mental Health Practice Platform
 
 Production-deployed mental health practice website covering psychiatric evaluation, medication management, therapy, and intake scheduling. Built with a **PHP API** backend serving a multi-page HTML/CSS/JS frontend, client login portal, admin dashboard, and appointment management. Deployed with SSH, structured deployment runbooks, SHA256 site integrity manifests, and a full client handover package.
 
