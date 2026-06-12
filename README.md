@@ -4,6 +4,7 @@
 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-0A66C2?style=flat-square&logo=gmail&logoColor=white)](mailto:omobolaji.adeyan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oeadeyan)
+[![OWASP Nest](https://img.shields.io/badge/OWASP_Nest-Member_Profile-000000?style=flat-square&logo=owasp&logoColor=white)](https://nest.owasp.org/members/omobolajiadeyan)
 [![Portfolio](https://img.shields.io/badge/GitHub-Security_Projects-181717?style=flat-square&logo=github)](https://github.com/omobolajiadeyan?tab=repositories)
 [![Open to Work](https://img.shields.io/badge/Status-Open_to_Opportunities-2ea44f?style=flat-square)](mailto:omobolaji.adeyan@gmail.com)
 
@@ -102,6 +103,14 @@ My contribution process and current roadmap are documented in
 - Design outputs for automation, reporting, and operational use.
 - Document projects so others can evaluate, run, and extend the work.
 
+## GitHub Activity
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=omobolajiadeyan&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=omobolajiadeyan&layout=compact&theme=dark&hide_border=true&langs_count=8)
+
+![Contribution Streak](https://streak-stats.demolab.com?user=omobolajiadeyan&theme=dark&hide_border=true)
+
 ## Contact
 
 I am open to cybersecurity engineering, software development, research, and
@@ -109,4 +118,5 @@ open-source collaboration opportunities.
 
 - Email: [omobolaji.adeyan@gmail.com](mailto:omobolaji.adeyan@gmail.com)
 - LinkedIn: [linkedin.com/in/oeadeyan](https://www.linkedin.com/in/oeadeyan)
+- OWASP Nest: [nest.owasp.org/members/omobolajiadeyan](https://nest.owasp.org/members/omobolajiadeyan)
 - GitHub: [github.com/omobolajiadeyan](https://github.com/omobolajiadeyan)
