@@ -48,7 +48,7 @@ I build security tools with a consistent design principle: output that security 
 - **Email-embedded phishing** — parses RFC 5322 `.eml` files, extracts URLs from both plain-text and HTML parts (including `href` attributes), and scans the full set
 - **SARIF 2.1.0 output** — findings upload natively to GitHub Code Scanning; CI pipelines get annotated security alerts on pull requests
 
-It ships as both a CLI tool and a **reusable GitHub Action** — any pipeline can adopt it with a single `uses: omobolajiadeyan/phishguard-ai@v0.5.0` line.
+It ships as both a CLI tool and a **reusable GitHub Action** — any pipeline can adopt it with a single `uses: omobolajiadeyan/phishguard-ai@v0.5.1` line.
 
 [![GitHub](https://img.shields.io/badge/View_Repo-phishguard--ai-181717?style=flat-square&logo=github)](https://github.com/omobolajiadeyan/phishguard-ai)
 [![Stars](https://img.shields.io/github/stars/omobolajiadeyan/phishguard-ai?style=flat-square&color=58a6ff)](https://github.com/omobolajiadeyan/phishguard-ai/stargazers)
