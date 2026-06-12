@@ -137,13 +137,13 @@ Security engineering grounded in 20+ years of building and shipping real softwar
 
 ---
 
-### [2to1](https://2to1.co) — Social Matching Platform
+### 2to1 — Social Matching Platform
 
 A full-stack social matching application built from the ground up with a production-grade architecture: **React + Vite** frontend, **Express + Prisma** API backend, a dedicated background worker service, **PostgreSQL + Redis**, and Docker Compose for the full local stack. Features mutual match persistence, real-time conversations, message safety enforcement (blocks, archived threads, unavailable accounts), member moderation audit logging, and auth built on httpOnly refresh token cookies with rate limiting and trusted-origin enforcement. End-to-end tested with **Playwright** across web and mobile viewports.
 
 ---
 
-### [Jamnaija](https://jamnaija.onrender.com) — Photography Booking Platform
+### Jamnaija — Photography Booking Platform
 
 Full-stack booking and gallery management platform for a photography studio: **Node.js** backend with **SQLite** persistence, online booking, client account and session management, private client galleries, and an admin dashboard. Public portfolio images are served as permanently watermarked WebP derivatives with server-side protection for originals. Ships with a **Dockerfile** for any Docker host and a **Render Blueprint** for one-click cloud deployment.
 
@@ -167,7 +167,7 @@ Security posture dashboard for government entities: **Vite + React + TypeScript*
 
 ---
 
-### [RCCG Potters Place](https://www.rccgpottersplace.org) — Church Management Platform
+### RCCG Potters Place — Church Management Platform
 
 Full church management system: **PHP** backend, **Twilio** SMS integration, **PayPal** payment processing, custom admin dashboard — built and deployed end-to-end with secure credential handling and role-based access control.
 
