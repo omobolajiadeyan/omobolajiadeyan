@@ -1,6 +1,6 @@
 # Omobolaji Adeyan
 
-**Cybersecurity Engineer | Python Developer | Security Automation**
+**Cybersecurity Engineer · Open-Source Security Tooling · OWASP Contributor**
 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-0A66C2?style=flat-square&logo=gmail&logoColor=white)](mailto:omobolaji.adeyan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oeadeyan)
@@ -8,10 +8,15 @@
 [![Portfolio](https://img.shields.io/badge/GitHub-Security_Projects-181717?style=flat-square&logo=github)](https://github.com/omobolajiadeyan?tab=repositories)
 [![Open to Work](https://img.shields.io/badge/Status-Open_to_Opportunities-2ea44f?style=flat-square)](mailto:omobolaji.adeyan@gmail.com)
 
-I am an Information Technology graduate and cybersecurity professional who
-develops open-source security tools that turn complex data into clear,
-actionable findings. My work focuses on explainable detection, practical
-automation, and software designed for real security operations workflows.
+I build open-source security tools that explain their decisions. My work sits
+at the intersection of threat detection, developer tooling, and security
+automation — with a consistent focus on outputs that security teams can act on
+and that engineers can audit, extend, and trust.
+
+I contribute to established projects in the OWASP ecosystem, cloud security
+platforms (Prowler), SAST tooling (Bandit, Checkov), and secrets detection —
+and I maintain PhishGuard AI, an offline phishing detection engine now
+available as a reusable GitHub Action for any CI pipeline.
 
 ## What I Build
 
@@ -24,40 +29,36 @@ automation, and software designed for real security operations workflows.
 
 ### Flagship Community Project
 
-[**PhishGuard AI**](https://github.com/omobolajiadeyan/phishguard-ai) is my
-community-led, open-source phishing detection project. I created and maintain
-its detection model, contributor roadmap, governance, security policy, release
-process, and technical direction. It welcomes contributions through scoped
-[issues](https://github.com/omobolajiadeyan/phishguard-ai/issues), including
-first-time contributor tasks, with a public
-[community roadmap and contribution guide](https://github.com/omobolajiadeyan/phishguard-ai/discussions/11).
-New contributors can follow the project's
-[first-contribution guide](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/FIRST_CONTRIBUTION.md)
-and reproduce its
-[one-minute safe demo](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/QUICK_DEMO.md).
-The current
-[v0.4.0 release](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.4.0)
-ships validated SARIF 2.1.0 output, conservative IDN detection, a reproducible
-public-safe benchmark, cross-version tests, checksums, and signed build
-provenance. Its public
-[detection model standard](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/DETECTION_MODEL.md)
-documents feature semantics, limitations, and the evidence required for
-scoring changes. Its merged
-[URL regression benchmark](https://github.com/omobolajiadeyan/phishguard-ai/pull/13)
-reports deterministic confusion-matrix metrics over a documented public-safe
-fixture while explicitly separating regression results from real-world
-accuracy claims. The detector also includes conservatively weighted
-[IDN and punycode hostname signals](https://github.com/omobolajiadeyan/phishguard-ai/pull/14)
-with false-positive regressions for legitimate internationalized domains.
-Its merged
-[email-authentication analysis](https://github.com/omobolajiadeyan/phishguard-ai/pull/21)
-parses trusted SPF, DKIM, and DMARC results as supporting signals while
-documenting forwarding, mailing-list, DNS-validation, and trust-boundary
-limitations.
-The project is also receiving external contributions:
+[**PhishGuard AI**](https://github.com/omobolajiadeyan/phishguard-ai) —
+offline, explainable phishing detection for URLs and email. I created and
+maintain its detection model, contributor roadmap, governance, security
+policy, release process, and technical direction. The project is available
+as a
+[reusable GitHub Action](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/action.yml)
+so any CI pipeline can scan URLs and upload SARIF findings to GitHub Code
+Scanning with a single `uses:` line.
+
+The [v0.5.0 release](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/CHANGELOG.md)
+ships four new capabilities — all zero new dependencies, pure Python
+standard library: **URL redirect chain tracing** (`--follow-redirects N`)
+that follows short links and URL shorteners to their real destination;
+**typosquatting detection** using a pure-Python Levenshtein distance
+comparison against 50 well-known brand domains; **`.eml` file analysis**
+(`phishguard eml <file>`) that parses RFC 5322 email files and scans every
+embedded URL; and the **reusable GitHub Action** for CI integration.
+Earlier releases shipped validated SARIF 2.1.0 output, conservative IDN and
+punycode detection with false-positive regressions, SPF/DKIM/DMARC
+`Authentication-Results` parsing, a reproducible public-safe URL benchmark
+with deterministic confusion-matrix metrics, and Windows-safe output across
+Python 3.10–3.13.
+
+The project receives external contributions:
 [PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7), submitted
 by BeauDevCode, added an ASCII-only CLI mode and was merged after maintainer
 review, cross-version tests, packaging checks, and CodeQL all passed.
+Contribution guidance, governance, and the public roadmap are documented in
+[FIRST_CONTRIBUTION.md](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/FIRST_CONTRIBUTION.md)
+and [ROADMAP.md](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/ROADMAP.md).
 
 | Project | What it demonstrates |
 | --- | --- |
@@ -73,14 +74,16 @@ review, cross-version tests, packaging checks, and CodeQL all passed.
 
 ## Current Focus
 
-- Contributing to established open-source cybersecurity projects
-- Improving test coverage and documentation across my security tools
-- Building public evidence of secure software engineering and collaboration
+- Shipping PhishGuard AI v0.5.0 — redirect tracing, typosquatting detection, `.eml` parsing, and a reusable GitHub Action for CI phishing scanning
+- Growing PhishGuard AI's contributor community and real-world adoption via the GitHub Action integration
+- Contributing focused, tested changes to OWASP, Bandit, Checkov, Prowler, and other established security tooling
+- Building documented, reproducible evidence of secure software engineering practice
 
 ## Open Source Contributions
 
 | Contribution | Evidence |
 | --- | --- |
+| PhishGuard AI v0.5.0 — redirect tracing, typosquatting, `.eml`, GitHub Action | [v0.5.0 PR](https://github.com/omobolajiadeyan/phishguard-ai/pulls) adds four zero-dependency capabilities and a reusable GitHub Action; 72 tests pass, repository security policy passes |
 | PhishGuard community maintenance | [Merged external PR #7](https://github.com/omobolajiadeyan/phishguard-ai/pull/7) documents contributor coordination, requested revisions, local verification, protected CI approval, CodeQL review, and an upstream merge |
 | Prowler Microsoft Entra hybrid identity security | [Pull request #11515](https://github.com/prowler-cloud/prowler/pull/11515) adds a Microsoft 365 check that detects cloud-object takeover exposure through soft and hard directory matching; 22 focused and service tests, Black, Flake8, metadata validation, and Bandit pass |
 | OWASP CVE Lite actionable reporting | [Pull request #602](https://github.com/OWASP/cve-lite-cli/pull/602) adds escaped risk summaries and next-action guidance to single-project and multi-folder HTML vulnerability reports while preserving the JSON contract; 440 tests, build, self-scan, and CodeQL pass |
