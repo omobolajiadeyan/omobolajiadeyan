@@ -133,11 +133,51 @@ I contribute focused, tested security fixes to established open-source tools. Th
 
 ## 🖥️ Full-Stack Engineering
 
-Security engineering grounded in 20+ years of building real systems — from enterprise network infrastructure to full-stack web applications with security baked in throughout.
+Security engineering grounded in 20+ years of building and shipping real software — from network infrastructure to full-stack web applications with security baked in at every layer.
 
-- **[FreNiMi Checkers](https://github.com/omobolajiadeyan/frenimi-checkers)** — Multiplayer checkers platform with real-time WebSocket gameplay, minimax AI, SQLite ratings persistence, and PWA support. Built with automated security testing, strict CSP headers, and input validation throughout the stack (HTML/CSS/JS/Express/SQLite).
-- **GovWatch** — Government security posture dashboard: Vite + React + TypeScript frontend, FastAPI backend, surfacing public compliance data in a structured, queryable format.
-- **RCCG Potters Place** — Full church management platform: PHP backend, Twilio SMS integration, PayPal payment processing, custom admin dashboard — designed, built, and deployed end-to-end including secure credential handling and role-based access control.
+---
+
+### 2to1 — Social Matching Platform
+
+A full-stack social matching application built from the ground up with a production-grade architecture: **React + Vite** frontend, **Express + Prisma** API backend, a dedicated background worker service, **PostgreSQL + Redis**, and Docker Compose for the full local stack. Features mutual match persistence, real-time conversations, message safety enforcement (blocks, archived threads, unavailable accounts), member moderation audit logging, and auth built on httpOnly refresh token cookies with rate limiting and trusted-origin enforcement. End-to-end tested with **Playwright** across web and mobile viewports.
+
+---
+
+### Jamnaija — Photography Booking Platform
+
+Full-stack booking and gallery management platform for a photography studio: **Node.js** backend with **SQLite** persistence, online booking, client account and session management, private client galleries, and an admin dashboard. Public portfolio images are served as permanently watermarked WebP derivatives with server-side protection for originals. Ships with a **Dockerfile** for any Docker host and a **Render Blueprint** for one-click cloud deployment.
+
+---
+
+### Right Health — Mental Health Practice Platform
+
+Production-deployed mental health practice website covering psychiatric evaluation, medication management, therapy, and intake scheduling. Built with a **PHP API** backend serving a multi-page HTML/CSS/JS frontend, client login portal, admin dashboard, and appointment management. Deployed with SSH, structured deployment runbooks, SHA256 site integrity manifests, and a full client handover package.
+
+---
+
+### FreNiMi — Health & Fitness Platform
+
+Health and fitness platform with **Node.js / Express** backend, **Prisma ORM**, **Stripe** payment processing, and a **Python AI** layer for personalised recommendations — covering user onboarding, subscription billing, and AI-driven content delivery.
+
+---
+
+### GovWatch — Government Security Posture Dashboard
+
+Security posture dashboard for government entities: **Vite + React + TypeScript** frontend, **FastAPI** Python backend — surfacing public compliance and security data in a structured, queryable format for security teams.
+
+---
+
+### RCCG Potters Place — Church Management Platform
+
+Full church management system: **PHP** backend, **Twilio** SMS integration, **PayPal** payment processing, custom admin dashboard — built and deployed end-to-end with secure credential handling and role-based access control.
+
+---
+
+### FreNiMi Checkers — Multiplayer Game Platform
+
+[![GitHub](https://img.shields.io/badge/View_Repo-frenimi--checkers-181717?style=flat-square&logo=github)](https://github.com/omobolajiadeyan/frenimi-checkers)
+
+Cross-platform checkers platform with minimax AI, real-time **WebSocket** multiplayer, SQLite ratings persistence, and PWA support. Automated security testing, strict CSP headers, and input validation throughout the full stack.
 
 ---
 
