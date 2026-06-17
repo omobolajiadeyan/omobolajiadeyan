@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Security+Engineer+%7C+AppSec+%7C+Threat+Detection;PhishGuard+AI+Maintainer+%7C+OWASP+Contributor;Prowler+%7C+Bandit+%7C+pip-audit+Contributor;CISA+%7C+CompTIA+Security%2B+%7C+20%2B+Years+in+Security" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Security+Engineer+%7C+AppSec+%7C+Threat+Detection;PhishGuard+AI+Maintainer+%7C+OWASP+Contributor;Prowler+%7C+OWASP+%7C+Bandit+Contributor;CISA+%7C+CompTIA+Security%2B+%7C+20%2B+Years+in+Security" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 I'm a security engineer with 20+ years of experience — starting from designing and hardening enterprise networks (firewalls, IDS/IPS, VPNs) through to application security, penetration testing, vulnerability research, and building open-source security tooling. I write code that defends, detects, and explains.
 
-My open-source work focuses on tools that work silently inside developer workflows: a phishing detection engine that runs offline with zero dependencies, a UEBA behavioural anomaly detector for insider threat, a CI secret scanner, MITRE ATT&CK-mapped log analysis, and real-time CVE intelligence. I also contribute targeted security fixes to major projects in the Python and cloud security ecosystems — Prowler, Bandit, pip-audit, and OWASP tooling.
+My open-source work focuses on tools that work silently inside developer workflows: a phishing detection engine that runs offline with zero dependencies, a UEBA behavioural anomaly detector for insider threat, a CI secret scanner, MITRE ATT&CK-mapped log analysis, and real-time CVE intelligence. I also contribute targeted security fixes to major projects in the Python, cloud security, and OWASP ecosystems, including Prowler, Bandit, pip-audit, cve-lite-cli, and agent security regression tooling.
 
 I hold a **BS in Information Technology (Arizona State University)** and carry the **CISA** and **CompTIA Security+** certifications.
 
@@ -99,11 +99,19 @@ The design goal: zero false-negative tolerance on high-confidence patterns, with
 
 I contribute focused, tested security fixes to established open-source tools. The pattern is consistent: identify a real defect that weakens the tool's security posture, fix it precisely, cover it with tests, and pass existing linting and CI.
 
+For dated contribution evidence, see my [open-source activity log](OPEN_SOURCE_LOG.md) and [engagement kit](OPEN_SOURCE.md).
+
 ---
 
 ### Prowler — Cloud Security Platform
 
-**[PR #11515](https://github.com/prowler-cloud/prowler/pull/11515)** — Implemented a new Microsoft Entra ID security check detecting cloud-object takeover risk via hybrid directory synchronisation. When on-premises Active Directory syncs to Azure AD, certain account configurations create privilege escalation paths that Prowler previously had no coverage for. The check identifies these accounts, maps the exposure, and ships with 22 unit tests. Passes Black, Flake8, and Bandit linting throughout.
+**[PR #11515](https://github.com/prowler-cloud/prowler/pull/11515) / [merged PR #11098](https://github.com/prowler-cloud/prowler/pull/11098)** — Contributed improvements to a new Microsoft Entra ID security check detecting cloud-object takeover risk in hybrid directory synchronisation. My work improved permission-error handling, cloud-only tenant classification, metadata cleanup, changelog coverage, and regression tests. The maintainer consolidated the work into the earlier PR #11098, credited me as co-author, and merged the final check upstream.
+
+---
+
+### OWASP Agent Security Regression Harness
+
+**[PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150)** — Added recursive validation support for scenario files, directories, and glob patterns in an OWASP harness for executable security regression testing of agentic applications and MCP-integrated systems. The change prints one validation line per scenario, summarizes valid and invalid counts, exits non-zero on invalid scenarios, and includes CLI tests plus CI documentation. Local validation: 333 tests passed, Ruff passed, mypy passed, and all bundled scenarios validated successfully.
 
 ---
 
