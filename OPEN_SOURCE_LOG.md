@@ -35,3 +35,15 @@ reviewed code, maintainer feedback, tests, and outcomes.
 - Verification: Node test matrix, CodeQL, deployment image build, CodeRabbit, and
   local security checks passed.
 - Status: Open and waiting for required review.
+
+### OpenSSF Scorecard
+
+- Contribution: Dangerous Workflow detection for committer-controlled GitHub
+  Actions contexts.
+- Evidence: [PR #5098](https://github.com/ossf/scorecard/pull/5098).
+- Scope: Added `head_commit.committer.name/email` and
+  `commits[*].committer.name/email` to the untrusted context detector with table
+  tests and a workflow fixture.
+- Local limitation: Go, gofmt, and Docker were not available on the local
+  Windows environment, so validation is delegated to upstream CI.
+- Status: Open for maintainer review; DCO passed.
