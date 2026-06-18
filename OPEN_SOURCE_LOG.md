@@ -3,6 +3,22 @@
 This log records recent, evidence-backed open-source work. Entries focus on
 reviewed code, maintainer feedback, tests, and outcomes.
 
+## 2026-06-18
+
+### OWASP Agent Security Regression Harness
+
+- Contribution: Recursive scenario validation for files, directories, and glob
+  patterns.
+- Evidence: [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150).
+- Outcome: Merged by the maintainer with green lint, test, and security
+  regression scenario checks.
+- Maintainer summary: accepted one-or-more files, directories, and globs via
+  `nargs="+"`; recursive `.yaml` and `.yml` discovery; deduplication through
+  resolved paths; per-file validation lines; summary output; and non-zero exit
+  on invalid scenarios.
+- Signal: Merged upstream contribution in an OWASP project focused on security
+  regression testing for agentic applications.
+
 ## 2026-06-17
 
 ### Prowler
@@ -25,7 +41,7 @@ reviewed code, maintainer feedback, tests, and outcomes.
   `python -m mypy`, and `python -m agent_harness.cli validate scenarios`.
 - Result: 333 tests passed, 1 skipped; all bundled scenarios validated
   successfully.
-- Status: Open for maintainer review.
+- Status: Merged on 2026-06-18.
 
 ### FreNiMi Checkers
 
