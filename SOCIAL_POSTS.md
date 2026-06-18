@@ -56,3 +56,60 @@ contributions.
 
 #Cybersecurity #EmailSecurity #Python #GitHubActions #OpenSource
 
+## LinkedIn: Secure Session Revocation
+
+A recent review on FreNiMi Checkers caught a useful browser-security lesson:
+cleanup order matters.
+
+The project supports player data export/import. Session tokens are intentionally
+excluded from exported data, and online sessions can be revoked. During review,
+we found that imported runtime data could restore stale online match context if
+cleanup happened before runtime restoration.
+
+The fix was simple but important:
+
+- close the existing online socket;
+- restore only the allowed runtime snapshot;
+- then clear active online match context, token state, and connected state.
+
+That prevents imported data from silently putting a player back into stale
+online session state.
+
+This is the kind of issue I like in security engineering: small, reviewable,
+easy to test, and directly tied to user safety.
+
+PR:
+https://github.com/omobolajiadeyan/frenimi-checkers/pull/8
+
+#ApplicationSecurity #JavaScript #WebSockets #SecureCoding #OpenSource
+
+## LinkedIn: Contributor Invitation
+
+I opened a few focused good-first issues across my security tooling projects.
+
+PhishGuard AI needs documentation and adoption help around:
+
+- copy-ready GitHub Action workflow examples;
+- SARIF code-scanning visual examples;
+- Windows install verification;
+- public-safe benchmark case guidance.
+
+FreNiMi Checkers needs help around:
+
+- secure session revocation demo scripting;
+- WebSocket abuse-case test coverage;
+- multiplayer deployment smoke-test documentation.
+
+Each issue is intentionally scoped so a contributor can make a useful,
+reviewable improvement without needing to understand the whole codebase first.
+
+PhishGuard AI:
+https://github.com/omobolajiadeyan/phishguard-ai/issues
+
+FreNiMi Checkers:
+https://github.com/omobolajiadeyan/frenimi-checkers/issues
+
+I welcome focused pull requests, testing feedback, and documentation
+improvements.
+
+#OpenSource #Cybersecurity #GoodFirstIssue #DevSecOps #GitHub
