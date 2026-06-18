@@ -1,142 +1,123 @@
-# Omobolaji Adeyan
+# 👋 Hi, I'm Omobolaji Adeyan
 
-Security engineer building practical AppSec, threat-detection, and security
-automation tools.
+**Security Engineer · Crest Hill, Illinois**
 
-[LinkedIn](https://www.linkedin.com/in/oeadeyan) |
-[Email](mailto:omobolaji.adeyan@gmail.com) |
-[GitHub Marketplace: PhishGuard AI](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
+[LinkedIn](https://www.linkedin.com/in/oeadeyan) · [Email](mailto:omobolaji.adeyan@gmail.com) · [PhishGuard AI on Marketplace](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
 
 ---
 
-## Professional Focus
+## 🔐 PhishGuard AI — Available on the GitHub Marketplace
 
-I build security software that turns noisy technical signals into clear,
-actionable findings. My work combines application security, vulnerability
-management, threat detection, secure automation, and developer-focused tooling.
+I built **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)**, an explainable offline phishing detection engine for URLs and email — published as a **[reusable GitHub Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)**.
+
+PhishGuard AI runs with zero runtime dependencies, outputs JSON and SARIF 2.1.0, and integrates directly with **GitHub Code Scanning**. It treats email authentication (SPF, DKIM, DMARC) as supporting evidence rather than binary pass/fail — reducing false positives from forwarded mail while keeping detection sensitivity.
+
+- URL, email, redirect, typosquatting, and authentication-signal analysis
+- Conservative SPF/DKIM/DMARC scoring from trusted receiver headers
+- SARIF output for GitHub Code Scanning integration
+- Public benchmark fixtures and documented model limitations
+- Scoped good-first issues open for contributors
+
+**Try it:** Add `omobolajiadeyan/phishguard-ai@v0.5.1` to your workflow.
+
+[Repository](https://github.com/omobolajiadeyan/phishguard-ai) | [Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
+
+---
+
+## 🛡️ About Me
+
+I'm a security engineer focused on building practical tools that turn noisy technical signals into clear, actionable findings. My work spans application security, threat detection, vulnerability management, cloud security, and developer-focused automation.
+
+I hold a **BS in Information Technology from Arizona State University** and the **CISA** and **CompTIA Security+** certifications. I prefer focused, well-tested contributions — scoped implementations, tests that protect the behavior being changed, and documented security boundaries.
 
 Current areas of focus:
 
 - Explainable phishing and email-security analysis
 - Security regression testing for agentic and MCP-integrated systems
 - Vulnerability intelligence and CVE workflows
-- Cloud and identity security checks
-- Secure multiplayer and session-management patterns
+- Cloud and identity security posture checks
 - Compliance evidence workflows for application-security findings
 
-I hold a BS in Information Technology from Arizona State University and the
-CISA and CompTIA Security+ certifications.
+---
+
+## 🏆 CISA — Certified Information Systems Auditor
+
+Issued by ISACA. The CISA certification covers IS auditing, control, security, and assurance — providing a structured framework for evaluating security posture across people, process, and technology.
 
 ---
 
-## Recent Public Evidence
+## 🤖 OWASP Agent Security Regression Harness Contributor
 
-| Date | Evidence | Outcome |
-| --- | --- | --- |
-| 2026-06-18 | [OWASP Agent Security Regression Harness PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Merged. Added recursive validation for scenario files, directories, and globs with tests and green CI. |
-| 2026-06-17 | [Prowler PR #11515](https://github.com/prowler-cloud/prowler/pull/11515) and [merged PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Improvements were folded into an earlier upstream PR and credited as co-authored work. |
-| 2026-06-12 | [PhishGuard AI v0.5.1](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.5.1) | Released reusable GitHub Action and Marketplace-ready phishing detector. |
-| 2026-06-12 | [OWASP cve-lite-cli PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) | Merged. Added risk and next-action guidance to HTML vulnerability reports. |
-| 2026-06-10 | [SecOps-NG Framework PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Merged. Added CRA Article 13(8) support-period mapping with cited source updates. |
+I contribute to the **[OWASP Agent Security Regression Harness](https://github.com/OWASP/Agent-Security-Regression-Harness)** — an OWASP project for executable security regression testing in agentic applications and MCP-integrated systems.
 
-For a dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
-For public posting and outreach cadence, see
-[CONTENT_CALENDAR.md](CONTENT_CALENDAR.md) and
-[ARTICLE_DRAFTS.md](ARTICLE_DRAFTS.md).
+**Merged: [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150)** — Added recursive validation for scenario files, directories, and glob patterns with tests and green CI. Teams can now validate entire scenario suites in a single command instead of one file at a time.
 
 ---
 
-## Flagship Projects
+## 🚀 Projects
 
 ### PhishGuard AI
+[Repository](https://github.com/omobolajiadeyan/phishguard-ai) | [Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
 
-[Repository](https://github.com/omobolajiadeyan/phishguard-ai) |
-[Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
-
-Explainable offline phishing detection for URLs and email. PhishGuard AI runs
-with zero runtime dependencies, provides JSON and SARIF 2.1.0 output, and can be
-used as a reusable GitHub Action in CI.
-
-Notable engineering points:
-
-- URL, email, redirect, typosquatting, and authentication-signal analysis
-- Conservative SPF, DKIM, and DMARC handling from trusted receiver headers
-- Public-safe benchmark fixtures and documented model limitations
-- GitHub Code Scanning integration through SARIF output
-- Contributor documentation and scoped good-first issues
+Explainable offline phishing detection for URLs and email. Zero runtime dependencies, SARIF 2.1.0 output, GitHub Code Scanning integration, and documented model limitations. Current release: v0.5.1.
 
 ### FreNiMi Checkers
+[Repository](https://github.com/omobolajiadeyan/frenimi-checkers) | [Live Demo](https://omobolajiadeyan.github.io/frenimi-checkers/)
 
-[Repository](https://github.com/omobolajiadeyan/frenimi-checkers) |
-[Public Demo](https://omobolajiadeyan.github.io/frenimi-checkers/)
+Secure cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings, WebSocket notifications, and PWA support. Security implementation includes hashed session tokens, explicit session revocation, active-match logout protection, bounded WebSocket payloads, strict CORS, and regression tests around multiplayer state.
 
-Secure cross-platform checkers with minimax AI, real-time multiplayer, SQLite
-ratings, WebSocket notifications, PWA support, and automated security testing.
+### BehaviorSense
+[Repository](https://github.com/omobolajiadeyan/behaviorsense)
 
-Security-focused work includes hashed session tokens, explicit session
-revocation, active-match logout protection, bounded WebSocket payloads, strict
-CORS, security headers, and regression tests around multiplayer behavior.
+Behavioral anomaly detection engine for user and IP risk scoring. UEBA patterns for insider threat detection with MITRE ATT&CK mapping.
 
-### AppSec Compliance Bridge
+### AppSec Compliance Bridge *(pre-launch)*
 
-Pre-launch product work for converting application-security scan findings into
-traceable draft NIST SP 800-53 control mappings and POA&M evidence. The project
-is currently private while core architecture, licensing, mappings, parser
-security, and delivery plans are developed.
+Converts application-security scan findings into traceable draft NIST SP 800-53 control mappings and POA&M evidence. Currently private while core architecture, licensing, parser security, and delivery plans are finalized.
 
 ---
 
-## Upstream Contributions
+## 🌍 Open Source Contributions
 
-I prefer focused contributions tied to real issues, tests, and maintainer
-feedback. Selected work:
+I prefer focused contributions tied to real issues, tests, and maintainer feedback. Selected merged work:
 
-- **OWASP Agent Security Regression Harness**:
-  [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150)
-  merged scenario directory and glob validation for security regression suites.
-- **Prowler**:
-  [PR #11515](https://github.com/prowler-cloud/prowler/pull/11515) contributed
-  Microsoft Entra object-takeover check improvements that were folded into
-  merged upstream work.
-- **OWASP cve-lite-cli**:
-  [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) merged risk and
-  next-action guidance for HTML reports.
-- **SecOps-NG Framework**:
-  [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) merged a
-  cited CRA support-period mapping.
-- **OpenSSF Scorecard**:
-  [PR #5098](https://github.com/ossf/scorecard/pull/5098) is open for review,
-  extending Dangerous Workflow detection for committer-controlled GitHub Actions
-  contexts.
+- **OWASP Agent Security Regression Harness** — [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) merged recursive scenario validation for directories and globs with green CI.
+- **Prowler** — [PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) Microsoft Entra directory-sync object-takeover check, credited as co-author in the merged upstream PR.
+- **OWASP cve-lite-cli** — [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) merged risk and next-action guidance for HTML vulnerability reports.
+- **SecOps-NG Framework** — [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) merged CRA Article 13(8) support-period mapping with cited sources.
+- **OpenSSF Scorecard** — [PR #5098](https://github.com/ossf/scorecard/pull/5098) extends Dangerous Workflow detection to committer-controlled GitHub Actions contexts *(open for review)*.
+
+For a full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
 
 ---
 
-## Engineering Standards
+## 📊 GitHub Activity
 
-I aim for work that is useful after the pull request is merged:
-
-- Clear problem statement and scoped implementation
-- Tests that protect the behavior being changed
-- No unrelated refactors or artificial activity
-- Security boundaries documented where trust matters
-- Reproducible verification steps in the PR body
-- Respectful maintainer follow-up and fast review response
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=omobolajiadeyan&show_icons=true&theme=dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=58a6ff)
 
 ---
 
-## Technology
+## 💡 Recent Public Evidence
 
-Python, JavaScript, TypeScript, Node.js, React, FastAPI, PHP, SQLite,
-PostgreSQL, Docker, GitHub Actions, SARIF, CodeQL, security regression testing,
-MITRE ATT&CK, vulnerability management, and cloud-security tooling.
+| Date | Work | Outcome |
+| --- | --- | --- |
+| 2026-06-18 | [OWASP Agent Security Regression Harness PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Merged. Recursive scenario validation with tests and green CI. |
+| 2026-06-17 | [Prowler PR #11515](https://github.com/prowler-cloud/prowler/pull/11515) + [merged PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Folded into upstream merged PR, credited as co-author. |
+| 2026-06-12 | [PhishGuard AI v0.5.1](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.5.1) | Released reusable GitHub Action and Marketplace listing. |
+| 2026-06-12 | [OWASP cve-lite-cli PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) | Merged. Risk and next-action guidance added to HTML reports. |
+| 2026-06-10 | [SecOps-NG Framework PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Merged. CRA Article 13(8) support-period mapping. |
 
 ---
 
-## Contact
+## 🛠️ Technology
 
-I am open to senior security engineering roles, AppSec/tooling collaboration,
-technical advisory conversations, and community work around practical security
-automation.
+Python · JavaScript · TypeScript · Node.js · React · FastAPI · PHP · SQLite · PostgreSQL · Docker · GitHub Actions · SARIF · CodeQL · MITRE ATT\&CK · NIST SP 800-53 · vulnerability management · cloud security tooling
 
-- LinkedIn: https://www.linkedin.com/in/oeadeyan
-- Email: omobolaji.adeyan@gmail.com
+---
+
+## 🌐 Let's Connect
+
+I'm open to senior security engineering roles, AppSec/tooling collaboration, technical advisory conversations, and community work around practical security automation.
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/oeadeyan)
+- 📧 [Email](mailto:omobolaji.adeyan@gmail.com)
