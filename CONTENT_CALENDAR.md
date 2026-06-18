@@ -15,10 +15,16 @@ activity for its own sake.
 
 ## Current Content Priorities
 
-1. OWASP merge post: scenario validation in security regression suites.
-2. PhishGuard post: explainable SPF, DKIM, and DMARC evidence handling.
-3. FreNiMi Checkers post: safe session revocation and WebSocket cleanup.
+1. **READY TO PUBLISH** — OWASP merge post: scenario validation in security regression suites. Draft in ARTICLE_DRAFTS.md Article 1. PR #150 is merged.
+2. PhishGuard post: explainable SPF, DKIM, and DMARC evidence handling. Draft in ARTICLE_DRAFTS.md Article 2.
+3. FreNiMi Checkers post: safe session revocation and WebSocket cleanup. Draft in ARTICLE_DRAFTS.md Article 3.
 4. AppSec Bridge post: mapping scan findings to traceable compliance evidence.
+
+## Publishing Targets
+
+- DEV.to (dev.to) for technical articles — good indexing, developer audience
+- LinkedIn for shorter posts and reach
+- Tag OWASP and relevant maintainers when referencing merged upstream work
 
 ## Outreach Targets
 
@@ -44,6 +50,12 @@ Use focused, respectful outreach:
 - https://github.com/omobolajiadeyan/frenimi-checkers/issues/11
 - https://github.com/omobolajiadeyan/frenimi-checkers/issues/12
 
+### OWASP Agent Security Regression Harness (good-first targets)
+
+- Issue #82: Add SARIF output for code scanning integrations
+- Issue #85: Add suite-level runner for scenario and trace directories
+- Issue #96: Extend MCP host adapter (HTTP transport, OAuth, full lifecycle)
+
 ## Quality Bar
 
 Every public update should answer:
@@ -52,4 +64,3 @@ Every public update should answer:
 - Why does it matter?
 - How can someone verify it?
 - What is the next useful contribution?
-
