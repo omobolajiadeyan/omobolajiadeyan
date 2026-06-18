@@ -40,6 +40,9 @@ CISA and CompTIA Security+ certifications.
 | 2026-06-10 | [SecOps-NG Framework PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Merged. Added CRA Article 13(8) support-period mapping with cited source updates. |
 
 For a dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
+For public posting and outreach cadence, see
+[CONTENT_CALENDAR.md](CONTENT_CALENDAR.md) and
+[ARTICLE_DRAFTS.md](ARTICLE_DRAFTS.md).
 
 ---
 
