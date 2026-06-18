@@ -91,6 +91,12 @@ For a full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
 
 ---
 
+## ✍️ Writing
+
+- 📝 [From Single Files to Scenario Suites: Batch Validation in the OWASP Agent Security Regression Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) — How a scoped CLI contribution makes security regression testing CI-ready.
+
+---
+
 ## 📊 GitHub Activity
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=omobolajiadeyan&show_icons=true&theme=dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=58a6ff)
@@ -102,16 +108,16 @@ For a full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
 | Date | Work | Outcome |
 | --- | --- | --- |
 | 2026-06-18 | [OWASP Agent Security Regression Harness PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Merged. Recursive scenario validation with tests and green CI. |
+| 2026-06-18 | [DEV.to Article: Batch Validation in OWASP Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) | Published. First technical article. |
 | 2026-06-17 | [Prowler PR #11515](https://github.com/prowler-cloud/prowler/pull/11515) + [merged PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Folded into upstream merged PR, credited as co-author. |
 | 2026-06-12 | [PhishGuard AI v0.5.1](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.5.1) | Released reusable GitHub Action and Marketplace listing. |
 | 2026-06-12 | [OWASP cve-lite-cli PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) | Merged. Risk and next-action guidance added to HTML reports. |
-| 2026-06-10 | [SecOps-NG Framework PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Merged. CRA Article 13(8) support-period mapping. |
 
 ---
 
 ## 🛠️ Technology
 
-Python · JavaScript · TypeScript · Node.js · React · FastAPI · PHP · SQLite · PostgreSQL · Docker · GitHub Actions · SARIF · CodeQL · MITRE ATT\&CK · NIST SP 800-53 · vulnerability management · cloud security tooling
+Python · JavaScript · TypeScript · Node.js · React · FastAPI · PHP · SQLite · PostgreSQL · Docker · GitHub Actions · SARIF · CodeQL · MITRE ATT&CK · NIST SP 800-53 · vulnerability management · cloud security tooling
 
 ---
 
