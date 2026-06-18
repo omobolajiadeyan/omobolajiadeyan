@@ -126,4 +126,6 @@ Python · JavaScript · TypeScript · Node.js · React · FastAPI · PHP · SQLi
 I'm open to senior security engineering roles, AppSec/tooling collaboration, technical advisory conversations, and community work around practical security automation.
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/oeadeyan)
+- 🐛 [HackerOne](https://hackerone.com/doidun)
+- 🏆 [CTFtime](https://ctftime.org/user/omobolaji.adeyan)
 - 📧 [Email](mailto:omobolaji.adeyan@gmail.com)
