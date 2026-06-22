@@ -64,3 +64,16 @@ Every public update should answer:
 - Why does it matter?
 - How can someone verify it?
 - What is the next useful contribution?
+
+## Maintainer Follow-Up Schedule
+
+Follow up only when the PR is still open, CI is green, no newer maintainer
+message exists, and at least seven quiet days have passed.
+
+| Earliest date | Pull request | Current position |
+| --- | --- | --- |
+| 2026-06-24 | [OpenSSF Scorecard #5098](https://github.com/ossf/scorecard/pull/5098) | DCO and Kusari pass; waiting for review. |
+| 2026-06-26 | [OWASP Agent Security Regression Harness #153](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/153) | Lint, tests, and security scenarios pass. |
+| 2026-06-27 | [CISA ScubaGear #2237](https://github.com/cisagov/ScubaGear/pull/2237) | Focused DMARC tests pass locally; waiting for review. |
+| 2026-06-29 | [Dependency-Track #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Review changes addressed; DCO, Codacy, and Snyk pass. |
+| 2026-06-29 | [RamenDR ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) | Rebased and newly added workflow action pinned as requested. |
