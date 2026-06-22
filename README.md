@@ -10,7 +10,7 @@
 
 I built **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)**, an explainable offline phishing detection engine for URLs and email — published as a **[reusable GitHub Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)**.
 
-PhishGuard AI runs with zero runtime dependencies, outputs JSON and SARIF 2.1.0, and integrates directly with **GitHub Code Scanning**. It treats email authentication (SPF, DKIM, DMARC) as supporting evidence rather than binary pass/fail — reducing false positives from forwarded mail while keeping detection sensitivity.
+PhishGuard AI runs with zero runtime dependencies, outputs JSON and SARIF 2.1.0, and integrates directly with **GitHub Code Scanning**. It treats email authentication (SPF, DKIM, DMARC) as supporting evidence rather than binary pass/fail, including regression coverage for legitimate forwarding failures.
 
 - URL, email, redirect, typosquatting, and authentication-signal analysis
 - Conservative SPF/DKIM/DMARC scoring from trusted receiver headers
@@ -108,13 +108,16 @@ For a full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
 
 | Date | Work | Outcome |
 | --- | --- | --- |
-| 2026-06-22 | [Dependency-Track PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Open for re-review. Runtime-backed Finding response schema; DCO, Codacy, and Snyk checks pass. |
 | 2026-06-18 | [OWASP Agent Security Regression Harness PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Merged. Recursive scenario validation with tests and green CI. |
 | 2026-06-18 | [DEV.to Article: Batch Validation in OWASP Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) | Published. First technical article. |
 | 2026-06-17 | [Prowler PR #11515](https://github.com/prowler-cloud/prowler/pull/11515) + [merged PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Folded into upstream merged PR, credited as co-author. |
 | 2026-06-12 | [GitHub Actions Marketplace News index](https://github.com/devops-actions/github-actions-marketplace-news/blob/890c224e65fb616db0f8fc8e074d31874d9f871f/content/posts/2026/06/12-22-omobolajiadeyan-phishguard-ai.md) | Independent repository indexed the PhishGuard AI Marketplace v0.5.1 update; this is discoverability evidence, not a usage claim. |
 | 2026-06-12 | [PhishGuard AI v0.5.1](https://github.com/omobolajiadeyan/phishguard-ai/releases/tag/v0.5.1) | Released reusable GitHub Action and Marketplace listing. |
 | 2026-06-12 | [OWASP cve-lite-cli PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) | Merged. Risk and next-action guidance added to HTML reports. |
+
+Current reviewed work: [Dependency-Track PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477)
+adds a runtime-backed Finding response schema. DCO, Codacy, and Snyk checks
+pass; maintainer-requested changes are addressed and awaiting re-review.
 
 ---
 
