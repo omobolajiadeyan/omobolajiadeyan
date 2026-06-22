@@ -2,6 +2,9 @@
 
 ## Article 1: What I Learned Contributing to OWASP Security Regression Tooling
 
+**Status:** Published on
+[DEV Community](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7).
+
 ### Working Title
 
 From Single Files to Scenario Suites: Improving Validation in an OWASP Security
@@ -79,4 +82,3 @@ restore so stale imported state cannot reconnect the user to an old session.
 ### Evidence Link
 
 https://github.com/omobolajiadeyan/frenimi-checkers/pull/8
-

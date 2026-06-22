@@ -3,6 +3,29 @@
 This log records recent, evidence-backed open-source work. Entries focus on
 reviewed code, maintainer feedback, tests, and outcomes.
 
+## 2026-06-22
+
+### Dependency-Track
+
+- Contribution: Runtime-backed OpenAPI response schema for vulnerability
+  findings.
+- Evidence: [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477).
+- Review response: Converted both JSON finding endpoints to return the typed
+  response model and removed the schema-only test after maintainer feedback.
+- Verification: Full 66-module compile reactor and Checkstyle passed locally;
+  DCO, Codacy, and both upstream Snyk checks passed.
+- Status: Open for maintainer re-review.
+
+### PhishGuard AI Visibility Snapshot
+
+- Public repository count: 5 forks on the repository summary.
+- GitHub owner-traffic window: 200 views from 21 unique visitors and 1,479
+  clones from 292 unique cloners.
+- v0.5.1 release assets: 4 combined downloads across the wheel, source archive,
+  and checksum file.
+- Boundary: Traffic and download counts are early discovery signals. They do
+  not establish production use or organizational adoption.
+
 ## 2026-06-18
 
 ### OWASP Agent Security Regression Harness
