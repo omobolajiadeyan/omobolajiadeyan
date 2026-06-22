@@ -86,6 +86,7 @@ I prefer focused contributions tied to real issues, tests, and maintainer feedba
 - **OWASP cve-lite-cli** — [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) merged risk and next-action guidance for HTML vulnerability reports.
 - **SecOps-NG Framework** — [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) merged CRA Article 13(8) support-period mapping with cited sources.
 - **OpenSSF Scorecard** — [PR #5098](https://github.com/ossf/scorecard/pull/5098) extends Dangerous Workflow detection to committer-controlled GitHub Actions contexts *(open for review)*.
+- **Dependency-Track** — [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) adds a runtime-backed OpenAPI Finding response schema *(open for re-review)*.
 
 For a full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
 
@@ -107,6 +108,7 @@ For a full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
 
 | Date | Work | Outcome |
 | --- | --- | --- |
+| 2026-06-22 | [Dependency-Track PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Open for re-review. Runtime-backed Finding response schema; DCO, Codacy, and Snyk checks pass. |
 | 2026-06-18 | [OWASP Agent Security Regression Harness PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Merged. Recursive scenario validation with tests and green CI. |
 | 2026-06-18 | [DEV.to Article: Batch Validation in OWASP Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) | Published. First technical article. |
 | 2026-06-17 | [Prowler PR #11515](https://github.com/prowler-cloud/prowler/pull/11515) + [merged PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Folded into upstream merged PR, credited as co-author. |
