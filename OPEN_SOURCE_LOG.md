@@ -19,6 +19,9 @@ reviewed code, maintainer feedback, tests, and outcomes.
 ### PhishGuard AI Visibility Snapshot
 
 - Public repository count: 5 forks on the repository summary.
+- Independent discoverability: the public
+  [GitHub Actions Marketplace News index](https://github.com/devops-actions/github-actions-marketplace-news/blob/890c224e65fb616db0f8fc8e074d31874d9f871f/content/posts/2026/06/12-22-omobolajiadeyan-phishguard-ai.md)
+  recorded the v0.5.1 Marketplace update.
 - GitHub owner-traffic window: 200 views from 21 unique visitors and 1,479
   clones from 292 unique cloners.
 - v0.5.1 release assets: 4 combined downloads across the wheel, source archive,
