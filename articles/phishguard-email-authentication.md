@@ -173,3 +173,19 @@ its work. It should make the signal, trust boundary, limitation, and scoring
 impact visible enough for another person to test, question, and improve.
 
 That is the direction I am building with PhishGuard AI.
+
+## Feedback I Would Value
+
+If you work with email security, SOC workflows, GitHub Actions, or phishing
+analysis, I would welcome technical feedback on three questions:
+
+1. Should authentication failures influence risk differently for forwarded
+   messages, mailing lists, and direct sender-to-recipient mail?
+2. What additional safe regression examples would make this kind of scoring
+   easier to trust?
+3. Would SARIF output from a phishing detector be useful in your CI or security
+   review workflow, or would another format be more practical?
+
+Comments, issues, and small test cases are welcome. The most useful feedback is
+specific: a false-positive case, a scoring concern, a documentation gap, or a
+workflow where this output would or would not help.

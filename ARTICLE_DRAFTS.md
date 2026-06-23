@@ -42,6 +42,9 @@ https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150
 **LinkedIn companion post:**
 [articles/phishguard-email-authentication-linkedin.md](articles/phishguard-email-authentication-linkedin.md)
 
+**Comment outreach kit:**
+[articles/phishguard-comment-outreach.md](articles/phishguard-comment-outreach.md)
+
 ### Working Title
 
 SPF, DKIM, and DMARC in Phishing Detection: Useful Signals, Not Magic Answers

@@ -31,4 +31,10 @@ https://github.com/omobolajiadeyan/phishguard-ai
 Marketplace Action:
 https://github.com/marketplace/actions/phishguard-ai-phishing-detector
 
+I would especially value comments from people who work with email security,
+SOC workflows, CI security checks, or phishing triage:
+
+Would SARIF output from a phishing detector be useful in your workflow, or is
+JSON/CLI output more practical?
+
 #Cybersecurity #EmailSecurity #Python #OpenSource #DevSecOps
