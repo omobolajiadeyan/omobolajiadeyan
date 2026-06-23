@@ -5,6 +5,19 @@ reviewed code, maintainer feedback, tests, and outcomes.
 
 ## 2026-06-22
 
+### RamenDR ramenctl
+
+- Contribution: GitHub Actions supply-chain hardening by pinning workflow
+  actions to commit SHAs and disabling persisted checkout credentials.
+- Evidence: [PR #466](https://github.com/RamenDR/ramenctl/pull/466).
+- Review response: Rebased on current `main`, pinned the newly added `mdformat`
+  checkout action, added `persist-credentials: false`, and replied to all
+  maintainer review threads.
+- Verification: Checked each pinned action against upstream tag refs with
+  `git ls-remote`. Found and corrected a stale `golangci/golangci-lint-action`
+  `v9` pin, then re-ran the floating action reference search.
+- Status: Open for maintainer review; CodeRabbit passing after the final update.
+
 ### Dependency-Track
 
 - Contribution: Runtime-backed OpenAPI response schema for vulnerability
