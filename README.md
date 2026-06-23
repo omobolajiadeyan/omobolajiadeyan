@@ -27,6 +27,7 @@ See the full evidence record:
 - [Public Evidence Portfolio](PUBLIC_EVIDENCE.md)
 - [Open-Source Activity Log](OPEN_SOURCE_LOG.md)
 - [Evidence Dossier](EVIDENCE_DOSSIER.md)
+- [Profile Benchmark](PROFILE_BENCHMARK.md)
 
 ---
 
