@@ -18,6 +18,14 @@ Weak evidence is kept out of the headline narrative unless it matures. Examples
 include inactive forks, unreviewed experiments, cosmetic changes, or traffic
 numbers without adoption context.
 
+## Benchmark Standard
+
+The profile is being developed against advanced security/open-source profile
+patterns: externally visible recognition, maintainer-reviewed impact, an owned
+tool with real usage, technical writing, and a clear public narrative.
+
+Benchmark notes are tracked in [PROFILE_BENCHMARK.md](PROFILE_BENCHMARK.md).
+
 ## Strongest Evidence
 
 | Area | Evidence | Status | Why It Matters |
