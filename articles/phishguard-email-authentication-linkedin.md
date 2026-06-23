@@ -3,6 +3,9 @@
 I wrote a technical walkthrough of how PhishGuard AI handles SPF, DKIM, and
 DMARC in phishing detection.
 
+Article:
+https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91
+
 The main point:
 
 Email authentication is useful evidence, but it is not a verdict.
@@ -30,6 +33,9 @@ https://github.com/omobolajiadeyan/phishguard-ai
 
 Marketplace Action:
 https://github.com/marketplace/actions/phishguard-ai-phishing-detector
+
+Feedback issue:
+https://github.com/omobolajiadeyan/phishguard-ai/issues/45
 
 I would especially value comments from people who work with email security,
 SOC workflows, CI security checks, or phishing triage:

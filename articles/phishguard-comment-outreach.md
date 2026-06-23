@@ -33,7 +33,7 @@ Would SARIF output from a phishing detector be useful in your workflow, or is
 JSON/CLI output more practical?
 
 Article:
-[paste DEV.to link here]
+https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91
 
 Project:
 https://github.com/omobolajiadeyan/phishguard-ai
@@ -50,7 +50,8 @@ If you have a few minutes, I would value one technical comment on the article,
 especially around false positives, forwarding, SARIF output, or what examples
 would make the scoring easier to trust.
 
-Article: [paste DEV.to link]
+Article:
+https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91
 
 No pressure if now is not a good time. I am trying to improve the project based
 on real practitioner feedback.
@@ -74,7 +75,11 @@ I would value feedback on:
 - Whether SARIF output is useful for CI/security review workflows.
 - Any documentation gaps around `Authentication-Results` trust boundaries.
 
-Article: [paste DEV.to link]
+Article:
+https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91
 
 Related implementation:
 https://github.com/omobolajiadeyan/phishguard-ai/pull/21
+
+Feedback issue:
+https://github.com/omobolajiadeyan/phishguard-ai/issues/45

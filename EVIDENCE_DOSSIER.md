@@ -36,6 +36,7 @@ Benchmark notes are tracked in [PROFILE_BENCHMARK.md](PROFILE_BENCHMARK.md).
 | Cloud security tooling | [Prowler PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Merged with co-author credit | Accepted work in a widely recognized cloud security project. |
 | Compliance/security framework | [SecOps-NG Framework PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Merged | Cited compliance mapping contribution in a public security framework. |
 | Technical writing | [DEV.to OWASP Harness article](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) | Published | Explains implementation decisions and practical value of a merged security contribution. |
+| Technical writing | [DEV.to PhishGuard email-authentication article](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91) | Published | Explains PhishGuard's SPF, DKIM, DMARC, SARIF, and trust-boundary decisions with feedback requested. |
 
 ## Active Reviewed Work
 

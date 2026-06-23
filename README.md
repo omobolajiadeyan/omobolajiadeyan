@@ -133,6 +133,7 @@ For the full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
 ## Writing
 
 - [From Single Files to Scenario Suites: Batch Validation in the OWASP Agent Security Regression Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7)
+- [SPF, DKIM, and DMARC in Phishing Detection: Useful Signals, Not Magic Answers](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91)
 
 ---
 
