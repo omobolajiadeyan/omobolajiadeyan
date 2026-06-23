@@ -1,6 +1,6 @@
 ---
 title: SPF, DKIM, and DMARC in Phishing Detection: Useful Signals, Not Magic Answers
-published: false
+published: true
 description: How PhishGuard AI treats email authentication failures as explainable evidence without turning them into automatic phishing verdicts.
 tags: cybersecurity, emailsecurity, python, opensource
 ---

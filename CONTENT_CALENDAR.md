@@ -16,7 +16,7 @@ activity for its own sake.
 ## Current Content Priorities
 
 1. **PUBLISHED 2026-06-18** — OWASP merge post: [From Single Files to Scenario Suites](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) — live on DEV.to.
-2. **READY TO PUBLISH** - PhishGuard post: explainable SPF, DKIM, and DMARC evidence handling. Draft in `articles/phishguard-email-authentication.md`.
+2. **PUBLISHED 2026-06-22** - PhishGuard post: [SPF, DKIM, and DMARC in Phishing Detection](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91). Feedback issue: https://github.com/omobolajiadeyan/phishguard-ai/issues/45.
 3. FreNiMi Checkers post: safe session revocation and WebSocket cleanup. Draft in ARTICLE_DRAFTS.md Article 3.
 4. AppSec Bridge post: mapping scan findings to traceable compliance evidence.
 

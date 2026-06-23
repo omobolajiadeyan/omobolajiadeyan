@@ -34,7 +34,8 @@ https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150
 
 ## Article 2: Why Email Authentication Failures Are Evidence, Not Proof
 
-**Status:** Ready to publish.
+**Status:** Published on
+[DEV Community](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91).
 
 **Publish-ready draft:**
 [articles/phishguard-email-authentication.md](articles/phishguard-email-authentication.md)
