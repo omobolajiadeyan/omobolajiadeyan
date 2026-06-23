@@ -36,6 +36,8 @@ reviewed code, maintainer feedback, tests, and outcomes.
   [SPF, DKIM, and DMARC in Phishing Detection](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91).
 - Feedback issue opened:
   [phishguard-ai #45](https://github.com/omobolajiadeyan/phishguard-ai/issues/45).
+- Benchmark improvement issue opened:
+  [phishguard-ai #46](https://github.com/omobolajiadeyan/phishguard-ai/issues/46).
 - Independent discoverability: the public
   [GitHub Actions Marketplace News index](https://github.com/devops-actions/github-actions-marketplace-news/blob/890c224e65fb616db0f8fc8e074d31874d9f871f/content/posts/2026/06/12-22-omobolajiadeyan-phishguard-ai.md)
   recorded the v0.5.1 Marketplace update.

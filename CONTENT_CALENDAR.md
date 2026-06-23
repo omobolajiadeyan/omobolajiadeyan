@@ -43,6 +43,8 @@ Use focused, respectful outreach:
 - https://github.com/omobolajiadeyan/phishguard-ai/issues/39
 - https://github.com/omobolajiadeyan/phishguard-ai/issues/40
 - https://github.com/omobolajiadeyan/phishguard-ai/issues/41
+- https://github.com/omobolajiadeyan/phishguard-ai/issues/45
+- https://github.com/omobolajiadeyan/phishguard-ai/issues/46
 
 ### FreNiMi Checkers
 
