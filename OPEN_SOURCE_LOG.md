@@ -3,6 +3,40 @@
 This log records recent, evidence-backed open-source work. Entries focus on
 reviewed code, maintainer feedback, tests, and outcomes.
 
+## 2026-06-28
+
+### GitHub Profile And Evidence Cleanup
+
+- Contribution: Reworked the profile README into a reviewer-first evidence
+  page with a sharper security-engineering headline, strongest public proof
+  points, featured project summary, and separate section for upstream work still
+  under review.
+- Reason: A strong public profile should distinguish merged or published
+  evidence from active PRs so reviewers can verify claims quickly.
+- Status: Published to the profile repository after local review.
+
+### PyPA pip-audit
+
+- Contribution: Proposed respecting `PIPAPI_PYTHON_LOCATION` when
+  `pip-audit --fix` installs remediation packages.
+- Evidence: [PR #1067](https://github.com/pypa/pip-audit/pull/1067).
+- Verification: Added focused unit coverage and ran
+  `python -m pytest test/dependency_source/test_pip.py -q`, with 9 tests
+  passing locally.
+- Status: Open for maintainer review.
+
+### PhishGuard AI
+
+- Contribution: Improved the public first impression and adoption path through
+  documentation updates covering use cases, public-safe benchmark guidance, and
+  PyPI publishing preparation.
+- Evidence:
+  [PR #48](https://github.com/omobolajiadeyan/phishguard-ai/pull/48) and
+  [PR #49](https://github.com/omobolajiadeyan/phishguard-ai/pull/49).
+- Verification: Repository policy and CI checks are passing; PRs are blocked
+  only by required review.
+- Status: Open for review before merge.
+
 ## 2026-06-22
 
 ### RamenDR ramenctl

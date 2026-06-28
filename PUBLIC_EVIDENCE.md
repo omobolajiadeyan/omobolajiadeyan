@@ -14,6 +14,7 @@ as a security engineer and open-source contributor.
 | SecOps-NG merged contribution | https://github.com/secops-ng/secops-ng-framework/pull/281 | Merged compliance/security-framework mapping contribution with source citations. |
 | Dependency-Track reviewed work | https://github.com/DependencyTrack/dependency-track/pull/6477 | Maintainer-requested runtime/schema alignment addressed with DCO, Codacy, and Snyk passing. |
 | RamenDR supply-chain hardening | https://github.com/RamenDR/ramenctl/pull/466 | GitHub Actions SHA pinning, checkout credential hardening, and tag-to-SHA verification evidence. |
+| PyPA pip-audit fix proposal | https://github.com/pypa/pip-audit/pull/1067 | Focused Python packaging-security contribution with unit coverage and local passing tests. |
 | PhishGuard technical article | https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91 | Published article explaining email-authentication scoring, SARIF output, and model boundaries. |
 
 ## Evidence Narrative
@@ -30,7 +31,7 @@ feedback.
 | --- | --- | --- |
 | Strong | Merged OWASP, OWASP cve-lite-cli, Prowler, and SecOps-NG work | Good independent evidence because maintainers outside my repositories accepted or credited the work. |
 | Strong | PhishGuard AI Marketplace Action | Strong owned-project signal because it is released, packaged, documented, and reusable. |
-| Moderate | Dependency-Track, RamenDR, CISA ScubaGear, OpenSSF Scorecard open PRs | Valuable, but strongest only after maintainer approval or merge. |
+| Moderate | Dependency-Track, RamenDR, CISA ScubaGear, OpenSSF Scorecard, and PyPA pip-audit open PRs | Valuable, but strongest only after maintainer approval or merge. |
 | Early | PhishGuard forks, traffic, downloads, Marketplace indexing | Useful discovery signals, but not adoption proof yet. |
 
 ## Next Evidence Priorities
