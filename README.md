@@ -1,58 +1,65 @@
-# Hi, I'm Omobolaji Adeyan
+# Omobolaji Adeyan
 
-**Security Engineer | CISA | OWASP Contributor | Crest Hill, Illinois**
+**CISA-certified Security Engineer building practical security automation for
+developers, security teams, and evidence-driven reviews.**
 
-[LinkedIn](https://www.linkedin.com/in/oeadeyan) | [Email](mailto:omobolaji.adeyan@gmail.com) | [PhishGuard AI on GitHub Marketplace](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
+[LinkedIn](https://www.linkedin.com/in/oeadeyan) |
+[Email](mailto:omobolaji.adeyan@gmail.com) |
+[PhishGuard AI Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
 
 ---
 
-## Evidence Snapshot
+## What I Build
 
-My public work focuses on practical security automation: tools that make risk
-easier to detect, explain, reproduce, and act on.
+I build security tools that turn noisy technical signals into clear,
+reproducible findings. My work focuses on phishing detection, vulnerability
+triage, secure CI/CD, supply-chain hardening, and evidence that can be reviewed
+by maintainers, auditors, and engineering teams.
 
-Current evidence signals:
+The strongest theme across my public work is practical security automation:
+small, testable improvements that make risk easier to detect, explain, and act
+on.
 
-- Built and published **PhishGuard AI**, a reusable GitHub Marketplace Action
-  for explainable offline phishing detection.
-- Contributed merged work to recognized security projects including **OWASP**,
-  **OWASP cve-lite-cli**, **Prowler**, and **SecOps-NG Framework**.
-- Maintain public engineering records with tests, release notes, security
-  boundaries, and dated contribution evidence.
-- Hold the **CISA** and **CompTIA Security+** certifications, with a BS in
-  Information Technology from Arizona State University.
+---
 
-See the full evidence record:
+## Strongest Public Evidence
+
+| Evidence | Status | Link |
+| --- | --- | --- |
+| PhishGuard AI reusable GitHub Action | Published on GitHub Marketplace | [Marketplace](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) |
+| OWASP Agent Security Regression Harness | Merged upstream contribution | [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) |
+| OWASP cve-lite-cli | Merged upstream contribution | [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
+| Prowler cloud security platform | Credited upstream contribution | [PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) |
+| SecOps-NG Framework | Merged compliance/security mapping | [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
+| PhishGuard technical writing | Published engineering article | [Article](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91) |
+
+Full records:
 
 - [Public Evidence Portfolio](PUBLIC_EVIDENCE.md)
 - [Open-Source Activity Log](OPEN_SOURCE_LOG.md)
 - [Evidence Dossier](EVIDENCE_DOSSIER.md)
-- [Profile Benchmark](PROFILE_BENCHMARK.md)
 
 ---
 
-## PhishGuard AI
+## Featured Project: PhishGuard AI
 
 [Repository](https://github.com/omobolajiadeyan/phishguard-ai) |
 [Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
 
-I built **PhishGuard AI**, an explainable offline phishing detection engine for
-URLs and email, published as a reusable GitHub Action.
-
-PhishGuard AI runs with zero runtime dependencies, outputs JSON and SARIF 2.1.0,
-and integrates with GitHub Code Scanning. It treats email authentication signals
-such as SPF, DKIM, and DMARC as supporting evidence rather than binary proof,
-including regression coverage for legitimate forwarding failures.
+**PhishGuard AI** is an explainable offline phishing detection engine for URLs
+and email. It is designed for safe local analysis, CI workflows, and security
+education without sending data to an external API.
 
 Key capabilities:
 
 - URL, email, redirect, typosquatting, and authentication-signal analysis
 - Conservative SPF, DKIM, and DMARC scoring from trusted receiver headers
-- SARIF output for GitHub Code Scanning integration
+- JSON and SARIF 2.1.0 output for automation and GitHub Code Scanning
+- Zero runtime dependencies
 - Public benchmark fixtures and documented model limitations
-- Good-first issues and contribution documentation for new contributors
+- Good-first issues and contribution guidance for new contributors
 
-Try it in a workflow:
+Use it in GitHub Actions:
 
 ```yaml
 - uses: omobolajiadeyan/phishguard-ai@v0.5.1
@@ -64,82 +71,63 @@ Try it in a workflow:
 
 ### PhishGuard AI
 
-Explainable offline phishing detection for URLs and email. Zero runtime
-dependencies, SARIF 2.1.0 output, GitHub Code Scanning integration, benchmark
-fixtures, and documented model limitations.
+Explainable offline phishing detection for URLs and email with SARIF 2.1.0
+output, GitHub Code Scanning support, benchmark fixtures, and conservative
+email-authentication scoring.
 
 ### FreNiMi Checkers
 
 [Repository](https://github.com/omobolajiadeyan/frenimi-checkers) |
 [Live Demo](https://omobolajiadeyan.github.io/frenimi-checkers/)
 
-Secure cross-platform checkers with minimax AI, real-time multiplayer, SQLite
-ratings, WebSocket notifications, and PWA support. Security work includes
-hashed session tokens, explicit session revocation, active-match logout
-protection, bounded WebSocket payloads, strict CORS, and multiplayer regression
-tests.
+Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings,
+WebSocket notifications, and PWA support. Security work includes hashed session
+tokens, explicit session revocation, bounded WebSocket payloads, strict CORS,
+and multiplayer regression tests.
 
 ### AppSec Compliance Bridge
 
 Private pre-launch project for converting application-security scan findings
 into traceable draft NIST SP 800-53 control mappings and POA&M evidence. The
-project is currently private while parser security, architecture, licensing, and
-delivery plans are finalized.
+project is private while parser safety, architecture, licensing, and delivery
+plans are finalized.
 
 ### BehaviorSense
 
 [Repository](https://github.com/omobolajiadeyan/behaviorsense)
 
-Behavioral anomaly detection engine for user and IP risk scoring, including UEBA
-patterns for insider-threat detection and MITRE ATT&CK-style mapping.
+Behavioral anomaly detection engine for user and IP risk scoring, including
+UEBA-style detection patterns for insider-threat and account-risk scenarios.
 
 ---
 
-## Open-Source Contributions
+## Upstream Work Under Review
 
-Selected merged work and active reviewed PRs:
+These are active contributions that are useful evidence of engagement, but I
+keep them separate from merged work until maintainers accept them.
 
-- **OWASP Agent Security Regression Harness**:
-  [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150)
-  merged recursive scenario validation for directories and globs with green CI.
-- **Prowler**:
-  [PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) includes
-  Microsoft Entra directory-sync object-takeover work credited as co-author.
-- **OWASP cve-lite-cli**:
-  [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) merged risk and
-  next-action guidance for HTML vulnerability reports.
-- **SecOps-NG Framework**:
-  [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) merged
-  CRA Article 13(8) support-period mapping with cited sources.
 - **Dependency-Track**:
   [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477)
-  proposes a runtime-backed OpenAPI Finding response schema. Maintainer feedback
-  has been addressed; DCO, Codacy, and Snyk checks pass.
+  proposes a runtime-backed OpenAPI Finding response schema.
 - **RamenDR ramenctl**:
-  [PR #466](https://github.com/RamenDR/ramenctl/pull/466) pins GitHub Actions
-  to commit SHAs, disables persisted checkout credentials, and documents
-  tag-to-SHA verification for supply-chain hardening.
+  [PR #466](https://github.com/RamenDR/ramenctl/pull/466) hardens GitHub
+  Actions workflows with SHA pinning and checkout credential controls.
 - **OpenSSF Scorecard**:
-  [PR #5098](https://github.com/ossf/scorecard/pull/5098) proposes extending
-  Dangerous Workflow detection to committer-controlled GitHub Actions contexts.
+  [PR #5098](https://github.com/ossf/scorecard/pull/5098) extends Dangerous
+  Workflow detection for committer-controlled GitHub Actions contexts.
 - **CISA ScubaGear**:
-  [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) proposes a DMARC
-  policy discovery tree-walk fix for Microsoft 365 baseline assessment logic.
-
-For the full dated record, see [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md).
+  [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) proposes DMARC
+  policy discovery improvements for Microsoft 365 baseline assessment logic.
+- **PyPA pip-audit**:
+  [PR #1067](https://github.com/pypa/pip-audit/pull/1067) proposes respecting
+  `PIPAPI_PYTHON_LOCATION` during `pip-audit --fix`.
 
 ---
 
 ## Writing
 
-- [From Single Files to Scenario Suites: Batch Validation in the OWASP Agent Security Regression Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7)
 - [SPF, DKIM, and DMARC in Phishing Detection: Useful Signals, Not Magic Answers](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91)
-
----
-
-## GitHub Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=omobolajiadeyan&show_icons=true&theme=dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=58a6ff)
+- [From Single Files to Scenario Suites: Batch Validation in the OWASP Agent Security Regression Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7)
 
 ---
 
