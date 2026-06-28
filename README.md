@@ -118,9 +118,6 @@ keep them separate from merged work until maintainers accept them.
 - **CISA ScubaGear**:
   [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) proposes DMARC
   policy discovery improvements for Microsoft 365 baseline assessment logic.
-- **PyPA pip-audit**:
-  [PR #1067](https://github.com/pypa/pip-audit/pull/1067) proposes respecting
-  `PIPAPI_PYTHON_LOCATION` during `pip-audit --fix`.
 
 ---
 
