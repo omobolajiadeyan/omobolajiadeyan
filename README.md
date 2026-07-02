@@ -1,121 +1,144 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0e75b6&center=true&vCenter=true&width=600&lines=CISA-Certified+Security+Engineer;OWASP+%26+OpenSSF+Contributor;Building+Security+Automation+Tools;PhishGuard+AI+on+GitHub+Marketplace" alt="Typing SVG" />
+
 # Omobolaji Adeyan
 
-**CISA-certified Security Engineer building practical security automation for
-developers, security teams, and evidence-driven reviews.**
+**Practical security automation for developers, security teams, and evidence-driven reviews.**
 
-<p align="left">
+<p>
   <img src="https://komarev.com/ghpvc/?username=omobolajiadeyan&label=Profile+Views&color=0e75b6&style=flat" alt="profile views" />
   <a href="https://github.com/marketplace/actions/phishguard-ai-phishing-detector">
     <img src="https://img.shields.io/badge/GitHub%20Marketplace-PhishGuard%20AI-2ea44f?style=flat&logo=github" alt="marketplace" />
   </a>
-  <img src="https://img.shields.io/badge/CISA-Certified-blue?style=flat" alt="CISA" />
-  <img src="https://img.shields.io/badge/OWASP-Contributor-orange?style=flat" alt="OWASP" />
+  <img src="https://img.shields.io/badge/CISA-Certified-0e75b6?style=flat" alt="CISA" />
+  <img src="https://img.shields.io/badge/OWASP-Contributor-E0461C?style=flat" alt="OWASP" />
+  <img src="https://img.shields.io/badge/OpenSSF-Contributor-4A90D9?style=flat" alt="OpenSSF" />
 </p>
 
-[LinkedIn](https://www.linkedin.com/in/oeadeyan) ·
-[Email](mailto:omobolaji.adeyan@gmail.com) ·
-[PhishGuard AI on Marketplace](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
+<p>
+  <a href="https://www.linkedin.com/in/oeadeyan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://hackerone.com/doidun"><img src="https://img.shields.io/badge/HackerOne-494649?style=flat&logo=hackerone&logoColor=white" alt="HackerOne" /></a>
+  &nbsp;
+  <a href="https://dev.to/doidun2"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white" alt="DEV.to" /></a>
+  &nbsp;
+  <a href="mailto:omobolaji.adeyan@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
 
 ---
 
 ## GitHub Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=omobolajiadeyan&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=omobolajiadeyan&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=omobolajiadeyan&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=omobolajiadeyan&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omobolajiadeyan&layout=compact&hide_border=true&langs_count=6&hide=html,css" />
+</p>
+
+---
+
+## Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=omobolajiadeyan&theme=flat&no-frame=true&no-bg=false&margin-w=6&column=7" />
+</p>
+
+---
+
+## Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omobolajiadeyan&theme=minimal&hide_border=true&area=true" />
 </p>
 
 ---
 
 ## What I Build
 
-I build security tools that turn noisy technical signals into clear,
-reproducible findings. My work focuses on phishing detection, vulnerability
-triage, secure CI/CD, supply-chain hardening, and evidence that can be reviewed
-by maintainers, auditors, and engineering teams.
+I build security tools that turn noisy technical signals into clear, reproducible findings. My work spans phishing detection, vulnerability triage, secure CI/CD, supply-chain hardening, and evidence auditable by maintainers, compliance teams, and security engineers.
 
-The strongest theme across my public work is practical security automation:
-small, testable improvements that make risk easier to detect, explain, and act on.
+The strongest theme across my public work: **practical security automation** — small, testable, well-documented tools that make risk easier to detect, explain, and act on.
 
 ---
 
 ## Strongest Public Evidence
 
 | Evidence | Status | Link |
-| --- | --- | --- |
+|---|---|---|
 | PhishGuard AI reusable GitHub Action | Published on GitHub Marketplace | [Marketplace](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) |
 | OWASP Agent Security Regression Harness | Merged upstream contribution | [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) |
 | OWASP cve-lite-cli | Merged upstream contribution | [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
-| RamenDR ramenctl (GitHub Actions hardening) | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
+| RamenDR ramenctl — GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
 | Prowler cloud security platform | Credited upstream contribution | [PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) |
 | SecOps-NG Framework | Merged compliance/security mapping | [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
 | SPF, DKIM, and DMARC in Phishing Detection | Published engineering article | [Article](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91) |
 | OWASP Agent Security Batch Validation | Published engineering article | [Article](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) |
 
-Full records:
-
-- [Public Evidence Portfolio](PUBLIC_EVIDENCE.md)
-- [Open-Source Activity Log](OPEN_SOURCE_LOG.md)
-- [Evidence Dossier](EVIDENCE_DOSSIER.md)
+Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) · [Open-Source Activity Log](OPEN_SOURCE_LOG.md) · [Evidence Dossier](EVIDENCE_DOSSIER.md)
 
 ---
 
 ## Featured Project: PhishGuard AI
 
-[Repository](https://github.com/omobolajiadeyan/phishguard-ai) ·
-[Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
+<a href="https://github.com/omobolajiadeyan/phishguard-ai">
+  <img align="right" width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=phishguard-ai&hide_border=true" />
+</a>
 
-**PhishGuard AI** is an explainable offline phishing detection engine for URLs
-and email. Designed for safe local analysis, CI workflows, and security
-education without sending data to an external API.
+**PhishGuard AI** is an explainable offline phishing detection engine for URLs and email with zero external dependencies — safe for local analysis, CI workflows, and security education.
 
-Key capabilities:
-
-- URL, email, redirect, typosquatting, and authentication-signal analysis
-- Conservative SPF, DKIM, and DMARC scoring from trusted receiver headers
-- JSON and SARIF 2.1.0 output for automation and GitHub Code Scanning
+- URL, email, redirect, typosquatting & auth-signal analysis
+- Conservative SPF / DKIM / DMARC scoring from receiver headers
+- JSON and **SARIF 2.1.0** output for GitHub Code Scanning
 - Zero runtime dependencies
 - Public benchmark fixtures and documented model limitations
-- Good-first issues and contribution guidance for new contributors
-
-Use it in GitHub Actions:
 
 ```yaml
+# Drop into any GitHub Actions workflow:
 - uses: omobolajiadeyan/phishguard-ai@v0.5.1
 ```
+
+[Repository](https://github.com/omobolajiadeyan/phishguard-ai) · [Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
+
+<br clear="right"/>
 
 ---
 
 ## Selected Projects
 
-### FreNiMi Checkers
+<p align="left">
+  <a href="https://github.com/omobolajiadeyan/behaviorsense">
+    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=behaviorsense&hide_border=true" />
+  </a>
+  <a href="https://github.com/omobolajiadeyan/cve-dashboard">
+    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=cve-dashboard&hide_border=true" />
+  </a>
+</p>
 
-[Repository](https://github.com/omobolajiadeyan/frenimi-checkers) ·
-[Live Demo](https://omobolajiadeyan.github.io/frenimi-checkers/)
+<p align="left">
+  <a href="https://github.com/omobolajiadeyan/secrets-scanner">
+    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=secrets-scanner&hide_border=true" />
+  </a>
+  <a href="https://github.com/omobolajiadeyan/vulngpt">
+    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=vulngpt&hide_border=true" />
+  </a>
+</p>
 
-Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings,
-WebSocket notifications, and PWA support. Security work includes hashed session
-tokens, explicit session revocation, bounded WebSocket payloads, strict CORS,
-and multiplayer regression tests.
+<p align="left">
+  <a href="https://github.com/omobolajiadeyan/frenimi-checkers">
+    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=frenimi-checkers&hide_border=true" />
+  </a>
+  <a href="https://github.com/omobolajiadeyan/log-analyzer">
+    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=log-analyzer&hide_border=true" />
+  </a>
+</p>
 
-### BehaviorSense
-
-[Repository](https://github.com/omobolajiadeyan/behaviorsense)
-
-Behavioral anomaly detection engine for user and IP risk scoring, including
-UEBA-style detection patterns for insider-threat and account-risk scenarios.
-
-### CVE Dashboard
-
-[Repository](https://github.com/omobolajiadeyan/cve-dashboard)
-
-Real-time CVE intelligence dashboard pulling live data from the NVD API,
-with filtering, severity scoring, and vulnerability trend tracking.
-
-### AppSec Compliance Bridge
-
-Private pre-launch project for converting application-security scan findings
-into traceable draft NIST SP 800-53 control mappings and POA&M evidence.
+**AppSec Compliance Bridge** *(private)* — converts appsec scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence. Private while parser safety, architecture, and delivery plans are finalized.
 
 ---
 
@@ -123,9 +146,11 @@ into traceable draft NIST SP 800-53 control mappings and POA&M evidence.
 
 Active contributions pending maintainer acceptance:
 
-- **Dependency-Track** — [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477): runtime-backed OpenAPI Finding response schema
-- **OpenSSF Scorecard** — [PR #5098](https://github.com/ossf/scorecard/pull/5098): extends Dangerous Workflow detection for committer-controlled GitHub Actions contexts
-- **CISA ScubaGear** — [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237): DMARC policy discovery improvements for M365 baseline assessment logic
+| Project | PR | Description |
+|---|---|---|
+| Dependency-Track | [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Runtime-backed OpenAPI Finding response schema |
+| OpenSSF Scorecard | [PR #5098](https://github.com/ossf/scorecard/pull/5098) | Dangerous Workflow detection for committer-controlled Actions contexts |
+| CISA ScubaGear | [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) | DMARC policy discovery improvements for M365 baseline assessment |
 
 ---
 
@@ -161,19 +186,22 @@ Active contributions pending maintainer acceptance:
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![SARIF](https://img.shields.io/badge/SARIF-2.1.0-blueviolet?style=flat)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-red?style=flat)
-![NIST SP 800-53](https://img.shields.io/badge/NIST%20SP%20800--53-blue?style=flat)
-![CodeQL](https://img.shields.io/badge/CodeQL-purple?style=flat&logo=github)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-DA3832?style=flat)
+![NIST SP 800-53](https://img.shields.io/badge/NIST%20SP%20800--53-003087?style=flat)
+![CodeQL](https://img.shields.io/badge/CodeQL-6F42C1?style=flat&logo=github)
 
 ---
 
 ## Contact
 
-Open to senior security engineering roles, application-security tooling
-collaboration, technical advisory conversations, and community work around
-practical security automation.
+Open to **senior security engineering roles**, appsec tooling collaboration, technical advisory, and community work around practical security automation.
 
-- [LinkedIn](https://www.linkedin.com/in/oeadeyan)
-- [HackerOne](https://hackerone.com/doidun)
-- [CTFtime](https://ctftime.org/user/omobolaji.adeyan)
-- [Email](mailto:omobolaji.adeyan@gmail.com)
+<p>
+  <a href="https://www.linkedin.com/in/oeadeyan"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://hackerone.com/doidun"><img src="https://img.shields.io/badge/HackerOne-Profile-494649?style=flat&logo=hackerone&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://ctftime.org/user/omobolaji.adeyan"><img src="https://img.shields.io/badge/CTFtime-Profile-0A0A0A?style=flat" /></a>
+  &nbsp;
+  <a href="mailto:omobolaji.adeyan@gmail.com"><img src="https://img.shields.io/badge/Email-omobolaji.adeyan%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+</p>
