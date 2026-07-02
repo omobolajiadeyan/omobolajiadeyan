@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0e75b6&center=true&vCenter=true&width=600&lines=CISA-Certified+Security+Engineer;OWASP+%26+OpenSSF+Contributor;Building+Security+Automation+Tools;PhishGuard+AI+on+GitHub+Marketplace" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0e75b6&center=true&vCenter=true&width=640&lines=CISA-Certified+Security+Engineer;OWASP+%26+OpenSSF+Contributor;Building+Security+Automation+Tools;PhishGuard+AI+on+GitHub+Marketplace" alt="Typing SVG" />
 
 # Omobolaji Adeyan
 
@@ -33,28 +33,11 @@
 ## GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=omobolajiadeyan&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=omobolajiadeyan&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
+  <img src="https://streak-stats.demolab.com/?user=omobolajiadeyan&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omobolajiadeyan&layout=compact&hide_border=true&langs_count=6&hide=html,css" />
-</p>
-
----
-
-## Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=omobolajiadeyan&theme=flat&no-frame=true&no-bg=false&margin-w=6&column=7" />
-</p>
-
----
-
-## Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omobolajiadeyan&theme=minimal&hide_border=true&area=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omobolajiadeyan&theme=minimal&hide_border=true&area=true" alt="Contribution Activity" />
 </p>
 
 ---
@@ -86,16 +69,17 @@ Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) · [Open-Source Ac
 
 ## Featured Project: PhishGuard AI
 
-<a href="https://github.com/omobolajiadeyan/phishguard-ai">
-  <img align="right" width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=phishguard-ai&hide_border=true" />
-</a>
-
 **PhishGuard AI** is an explainable offline phishing detection engine for URLs and email with zero external dependencies — safe for local analysis, CI workflows, and security education.
+
+[![Stars](https://img.shields.io/github/stars/omobolajiadeyan/phishguard-ai?style=flat&label=Stars)](https://github.com/omobolajiadeyan/phishguard-ai)
+[![Forks](https://img.shields.io/github/forks/omobolajiadeyan/phishguard-ai?style=flat&label=Forks)](https://github.com/omobolajiadeyan/phishguard-ai/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/omobolajiadeyan/phishguard-ai?style=flat&label=Last+Commit)](https://github.com/omobolajiadeyan/phishguard-ai/commits)
+[![Marketplace](https://img.shields.io/badge/GitHub%20Marketplace-2ea44f?style=flat&logo=github)](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
 
 - URL, email, redirect, typosquatting & auth-signal analysis
 - Conservative SPF / DKIM / DMARC scoring from receiver headers
 - JSON and **SARIF 2.1.0** output for GitHub Code Scanning
-- Zero runtime dependencies
+- Zero runtime dependencies — safe for air-gapped and offline environments
 - Public benchmark fixtures and documented model limitations
 
 ```yaml
@@ -103,48 +87,73 @@ Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) · [Open-Source Ac
 - uses: omobolajiadeyan/phishguard-ai@v0.5.1
 ```
 
-[Repository](https://github.com/omobolajiadeyan/phishguard-ai) · [Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
-
-<br clear="right"/>
-
 ---
 
 ## Selected Projects
 
-<p align="left">
-  <a href="https://github.com/omobolajiadeyan/behaviorsense">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=behaviorsense&hide_border=true" />
-  </a>
-  <a href="https://github.com/omobolajiadeyan/cve-dashboard">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=cve-dashboard&hide_border=true" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/omobolajiadeyan/behaviorsense">BehaviorSense</a></h3>
+      <p>Behavioral anomaly detection engine for user and IP risk scoring. UEBA-style patterns for insider-threat and account-risk scenarios.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/behaviorsense?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/behaviorsense?style=flat" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
+      <p>Real-time CVE intelligence dashboard pulling live data from the NVD API, with filtering, severity scoring, and trend tracking.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/cve-dashboard?style=flat" />
+        <img src="https://img.shields.io/github/forks/omobolajiadeyan/cve-dashboard?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/omobolajiadeyan/secrets-scanner">Secrets Scanner</a></h3>
+      <p>CI-friendly credential and API key scanner. Catches exposed secrets before they reach production.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/secrets-scanner?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/secrets-scanner?style=flat" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/omobolajiadeyan/vulngpt">VulnGPT</a></h3>
+      <p>CVE analysis with NVD data and AI-assisted remediation guidance.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/vulngpt?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/vulngpt?style=flat" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/omobolajiadeyan/frenimi-checkers">FreNiMi Checkers</a></h3>
+      <p>Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings, WebSocket notifications, and PWA support. Security-hardened sessions.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/frenimi-checkers?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/frenimi-checkers?style=flat" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
+      <p>Threat detection with MITRE ATT&CK mappings for log analysis and security operations.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/log-analyzer?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-<p align="left">
-  <a href="https://github.com/omobolajiadeyan/secrets-scanner">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=secrets-scanner&hide_border=true" />
-  </a>
-  <a href="https://github.com/omobolajiadeyan/vulngpt">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=vulngpt&hide_border=true" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://github.com/omobolajiadeyan/frenimi-checkers">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=frenimi-checkers&hide_border=true" />
-  </a>
-  <a href="https://github.com/omobolajiadeyan/log-analyzer">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=omobolajiadeyan&repo=log-analyzer&hide_border=true" />
-  </a>
-</p>
-
-**AppSec Compliance Bridge** *(private)* — converts appsec scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence. Private while parser safety, architecture, and delivery plans are finalized.
+**AppSec Compliance Bridge** *(private)* — converts appsec scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence.
 
 ---
 
 ## Upstream Work Under Review
-
-Active contributions pending maintainer acceptance:
 
 | Project | PR | Description |
 |---|---|---|
@@ -163,32 +172,17 @@ Active contributions pending maintainer acceptance:
 
 ## Technology
 
-**Languages**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,php,nodejs,react,fastapi,postgres,sqlite,docker&perline=10" alt="Tech Stack" />
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-
-**Frameworks & Runtimes**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-**Data & Infrastructure**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-**Security & Standards**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![SARIF](https://img.shields.io/badge/SARIF-2.1.0-blueviolet?style=flat)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-DA3832?style=flat)
-![NIST SP 800-53](https://img.shields.io/badge/NIST%20SP%20800--53-003087?style=flat)
-![CodeQL](https://img.shields.io/badge/CodeQL-6F42C1?style=flat&logo=github)
+<p align="center">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/SARIF-2.1.0-blueviolet?style=flat" />
+  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-DA3832?style=flat" />
+  <img src="https://img.shields.io/badge/NIST%20SP%20800--53-003087?style=flat" />
+  <img src="https://img.shields.io/badge/CodeQL-6F42C1?style=flat&logo=github" />
+</p>
 
 ---
 
