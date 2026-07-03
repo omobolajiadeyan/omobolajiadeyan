@@ -3,6 +3,48 @@
 This log records recent, evidence-backed open-source work. Entries focus on
 reviewed code, maintainer feedback, tests, and outcomes.
 
+## 2026-07-03
+
+### PhishGuard AI
+
+- Contribution: Merged a public-safe benchmark recall improvement using a
+  reserved opaque-hostname-label signal with documented guardrails.
+- Evidence: [PR #52](https://github.com/omobolajiadeyan/phishguard-ai/pull/52).
+- Verification: `python -m pytest` passed with 88 tests; repository policy
+  passed; the default fixture remained `tp=7 tn=7 fp=0 fn=0`; the public-safe
+  URL-Phish slice improved from `tp=1 fn=4` to `tp=5 fn=0` with zero false
+  positives.
+- Status: Merged.
+
+- Contribution: Merged first-impression, use-case, public evidence, Windows
+  install, Code Scanning, roadmap, benchmark contribution, and PyPI trusted
+  publishing documentation improvements.
+- Evidence:
+  [PR #37](https://github.com/omobolajiadeyan/phishguard-ai/pull/37),
+  [PR #42](https://github.com/omobolajiadeyan/phishguard-ai/pull/42),
+  [PR #43](https://github.com/omobolajiadeyan/phishguard-ai/pull/43),
+  [PR #47](https://github.com/omobolajiadeyan/phishguard-ai/pull/47),
+  [PR #48](https://github.com/omobolajiadeyan/phishguard-ai/pull/48), and
+  [PR #49](https://github.com/omobolajiadeyan/phishguard-ai/pull/49).
+- Status: Merged after required checks passed.
+
+### FreNiMi Checkers
+
+- Contribution: Merged revocable online sessions with server-side active-match
+  protection, WebSocket cleanup, bearer-token export hardening, security docs,
+  and regression tests.
+- Evidence: [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8).
+- Verification: `npm run check`, `npm test`, `npm run policy`, and
+  `npm run audit` passed locally; GitHub CI and CodeQL passed before merge.
+- Status: Merged.
+
+### Dependency-Track
+
+- Contribution: Posted a concise re-review request after maintainer-requested
+  runtime/schema fixes and green DCO, Codacy, and Snyk checks.
+- Evidence: [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477#issuecomment-4871283267).
+- Status: Waiting for maintainer re-review.
+
 ## 2026-06-28
 
 ### GitHub Profile And Evidence Cleanup

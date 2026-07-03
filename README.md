@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0e75b6&center=true&vCenter=true&width=640&lines=CISA-Certified+Security+Engineer;OWASP+%26+OpenSSF+Contributor;Building+Security+Automation+Tools;PhishGuard+AI+on+GitHub+Marketplace" alt="Typing SVG" />
 
@@ -46,7 +46,7 @@
 
 I build security tools that turn noisy technical signals into clear, reproducible findings. My work spans phishing detection, vulnerability triage, secure CI/CD, supply-chain hardening, and evidence auditable by maintainers, compliance teams, and security engineers.
 
-The strongest theme across my public work: **practical security automation** — small, testable, well-documented tools that make risk easier to detect, explain, and act on.
+The strongest theme across my public work: **practical security automation** â€” small, testable, well-documented tools that make risk easier to detect, explain, and act on.
 
 ---
 
@@ -55,32 +55,40 @@ The strongest theme across my public work: **practical security automation** —
 | Evidence | Status | Link |
 |---|---|---|
 | PhishGuard AI reusable GitHub Action | Published on GitHub Marketplace | [Marketplace](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) |
+| PhishGuard benchmark improvement | Public-safe recall improved with documented regression evidence | [PR #52](https://github.com/omobolajiadeyan/phishguard-ai/pull/52) |
+| FreNiMi Checkers secure sessions | Revocable multiplayer sessions, token-export hardening, and tests | [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8) |
 | OWASP Agent Security Regression Harness | Merged upstream contribution | [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) |
 | OWASP cve-lite-cli | Merged upstream contribution | [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
-| RamenDR ramenctl — GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
+| RamenDR ramenctl â€” GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
 | Prowler cloud security platform | Credited upstream contribution | [PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) |
 | SecOps-NG Framework | Merged compliance/security mapping | [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
 | SPF, DKIM, and DMARC in Phishing Detection | Published engineering article | [Article](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91) |
 | OWASP Agent Security Batch Validation | Published engineering article | [Article](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) |
 
-Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) · [Open-Source Activity Log](OPEN_SOURCE_LOG.md) · [Evidence Dossier](EVIDENCE_DOSSIER.md)
+Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) Â· [Open-Source Activity Log](OPEN_SOURCE_LOG.md) Â· [Evidence Dossier](EVIDENCE_DOSSIER.md)
 
 ---
 
 ## Featured Project: PhishGuard AI
 
-**PhishGuard AI** is an explainable offline phishing detection engine for URLs and email with zero external dependencies — safe for local analysis, CI workflows, and security education.
+**PhishGuard AI** is an explainable offline phishing detection engine for URLs and email with zero external dependencies â€” safe for local analysis, CI workflows, and security education.
 
 [![Stars](https://img.shields.io/github/stars/omobolajiadeyan/phishguard-ai?style=flat&label=Stars)](https://github.com/omobolajiadeyan/phishguard-ai)
 [![Forks](https://img.shields.io/github/forks/omobolajiadeyan/phishguard-ai?style=flat&label=Forks)](https://github.com/omobolajiadeyan/phishguard-ai/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/omobolajiadeyan/phishguard-ai?style=flat&label=Last+Commit)](https://github.com/omobolajiadeyan/phishguard-ai/commits)
 [![Marketplace](https://img.shields.io/badge/GitHub%20Marketplace-2ea44f?style=flat&logo=github)](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
 
-- URL, email, redirect, typosquatting & auth-signal analysis
-- Conservative SPF / DKIM / DMARC scoring from receiver headers
-- JSON and **SARIF 2.1.0** output for GitHub Code Scanning
-- Zero runtime dependencies — safe for air-gapped and offline environments
-- Public benchmark fixtures and documented model limitations
+Key capabilities:
+
+- URL, email, redirect, typosquatting, and authentication-signal analysis
+- Conservative SPF, DKIM, and DMARC scoring from trusted receiver headers
+- JSON and SARIF 2.1.0 output for automation and GitHub Code Scanning
+- Zero runtime dependencies
+- Public benchmark fixtures, documented model limitations, and dated
+  before/after regression evidence
+- Good-first issues and contribution guidance for new contributors
+
+Use it in GitHub Actions:
 
 ```yaml
 # Drop into any GitHub Actions workflow:
@@ -132,7 +140,7 @@ Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) · [Open-Source Ac
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/omobolajiadeyan/frenimi-checkers">FreNiMi Checkers</a></h3>
-      <p>Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings, WebSocket notifications, and PWA support. Security-hardened sessions.</p>
+      <p>Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings, WebSocket notifications, PWA support, revocable sessions, and token-export hardening.</p>
       <p>
         <img src="https://img.shields.io/github/stars/omobolajiadeyan/frenimi-checkers?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/frenimi-checkers?style=flat" />
@@ -149,7 +157,7 @@ Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) · [Open-Source Ac
   </tr>
 </table>
 
-**AppSec Compliance Bridge** *(private)* — converts appsec scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence.
+**AppSec Compliance Bridge** *(private)* - converts appsec scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence.
 
 ---
 
@@ -199,3 +207,4 @@ Open to **senior security engineering roles**, appsec tooling collaboration, tec
   &nbsp;
   <a href="mailto:omobolaji.adeyan@gmail.com"><img src="https://img.shields.io/badge/Email-omobolaji.adeyan%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
+
