@@ -7,6 +7,14 @@ reviewed code, maintainer feedback, tests, and outcomes.
 
 ### PhishGuard AI
 
+- Contribution: Added a stable Python API guide documenting `score_url`,
+  `score_email`, and `classify`, with executable documentation examples.
+- Evidence: [PR #53](https://github.com/omobolajiadeyan/phishguard-ai/pull/53).
+- Verification: `python -m unittest discover -s tests -v` passed with 91
+  tests; repository policy passed; PR CI, CodeQL, self-scan, packaging, and
+  CodeRabbit checks passed.
+- Status: Merged.
+
 - Contribution: Merged a public-safe benchmark recall improvement using a
   reserved opaque-hostname-label signal with documented guardrails.
 - Evidence: [PR #52](https://github.com/omobolajiadeyan/phishguard-ai/pull/52).
@@ -28,7 +36,21 @@ reviewed code, maintainer feedback, tests, and outcomes.
   [PR #49](https://github.com/omobolajiadeyan/phishguard-ai/pull/49).
 - Status: Merged after required checks passed.
 
+- Maintenance: Closed completed Windows install verification issue after
+  confirming the guide was merged and linked from the README.
+- Evidence: [Issue #40](https://github.com/omobolajiadeyan/phishguard-ai/issues/40).
+- Status: Closed as completed.
+
 ### FreNiMi Checkers
+
+- Contribution: Added a public session-revocation demo script, multiplayer
+  deployment smoke-test checklist, README links, and a test isolation fix so
+  local matchmaking tests use the intended in-memory database.
+- Evidence: [PR #16](https://github.com/omobolajiadeyan/frenimi-checkers/pull/16).
+- Verification: `npm run check`, `npm run policy`, `npm test`, and
+  `npm run audit` passed locally; PR CI, CodeQL, deployment-image, and
+  CodeRabbit checks passed.
+- Status: Merged.
 
 - Contribution: Merged revocable online sessions with server-side active-match
   protection, WebSocket cleanup, bearer-token export hardening, security docs,

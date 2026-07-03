@@ -11,7 +11,9 @@ as a security engineer and open-source contributor.
 | Prowler credited contribution | https://github.com/prowler-cloud/prowler/pull/11515 | Maintainer folded improvements into earlier merged work and credited contribution. |
 | PhishGuard AI Marketplace Action | https://github.com/marketplace/actions/phishguard-ai-phishing-detector | Public reusable security tool available through GitHub Marketplace. |
 | PhishGuard benchmark improvement | https://github.com/omobolajiadeyan/phishguard-ai/pull/52 | Dated before/after regression evidence: public-safe recall improved while preserving zero false positives on checked-in legitimate samples. |
+| PhishGuard Python API guide | https://github.com/omobolajiadeyan/phishguard-ai/pull/53 | Maintained-project evidence: documented import surface, executable examples, and cross-version CI. |
 | FreNiMi Checkers secure session lifecycle | https://github.com/omobolajiadeyan/frenimi-checkers/pull/8 | Owned full-stack security evidence: session revocation, WebSocket cleanup, active-match protection, token-export hardening, and tests. |
+| FreNiMi Checkers deployment readiness | https://github.com/omobolajiadeyan/frenimi-checkers/pull/16 | Demo script, deployment smoke-test checklist, and local test isolation fix for reliable verification. |
 | OWASP cve-lite-cli merged contribution | https://github.com/OWASP/cve-lite-cli/pull/602 | Merged vulnerability-reporting improvement in OWASP tooling. |
 | SecOps-NG merged contribution | https://github.com/secops-ng/secops-ng-framework/pull/281 | Merged compliance/security-framework mapping contribution with source citations. |
 | Dependency-Track reviewed work | https://github.com/DependencyTrack/dependency-track/pull/6477 | Maintainer-requested runtime/schema alignment addressed with DCO, Codacy, and Snyk passing. |
@@ -32,7 +34,7 @@ feedback.
 | --- | --- | --- |
 | Strong | Merged OWASP, OWASP cve-lite-cli, Prowler, and SecOps-NG work | Good independent evidence because maintainers outside my repositories accepted or credited the work. |
 | Strong | PhishGuard AI Marketplace Action | Strong owned-project signal because it is released, packaged, documented, and reusable. |
-| Strong | PhishGuard benchmark and FreNiMi session-security work | Strong owned-project evidence because the changes are merged, tested, documented, and tied to reproducible security behavior. |
+| Strong | PhishGuard benchmark/API docs and FreNiMi session/deployment-readiness work | Strong owned-project evidence because the changes are merged, tested, documented, and tied to reproducible security behavior. |
 | Moderate | Dependency-Track, RamenDR, CISA ScubaGear, and OpenSSF Scorecard open PRs | Valuable, but strongest only after maintainer approval or merge. |
 | Early | PhishGuard forks, traffic, downloads, Marketplace indexing | Useful discovery signals, but not adoption proof yet. |
 
