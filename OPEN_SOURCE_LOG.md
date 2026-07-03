@@ -7,6 +7,15 @@ reviewed code, maintainer feedback, tests, and outcomes.
 
 ### PhishGuard AI
 
+- Contribution: Added a safe adoption and showcase path with a third-party
+  workflow trial, evidence-quality guidance, and structured adoption report
+  issue template.
+- Evidence: [PR #54](https://github.com/omobolajiadeyan/phishguard-ai/pull/54).
+- Verification: `python -m unittest discover -s tests -v` passed with 91
+  tests; repository policy passed; PR CI, CodeQL, self-scan, packaging, and
+  CodeRabbit checks passed.
+- Status: Merged.
+
 - Contribution: Added a stable Python API guide documenting `score_url`,
   `score_email`, and `classify`, with executable documentation examples.
 - Evidence: [PR #53](https://github.com/omobolajiadeyan/phishguard-ai/pull/53).
@@ -42,6 +51,15 @@ reviewed code, maintainer feedback, tests, and outcomes.
 - Status: Closed as completed.
 
 ### FreNiMi Checkers
+
+- Contribution: Added a public playtest guide and structured issue template so
+  browser, accessibility, offline, rules, and deployment feedback can become
+  useful public evidence.
+- Evidence: [PR #17](https://github.com/omobolajiadeyan/frenimi-checkers/pull/17).
+- Verification: `npm run check`, `npm run policy`, `npm test`, and
+  `npm run audit` passed locally; PR CI, CodeQL, deployment-image, and
+  CodeRabbit checks passed.
+- Status: Merged.
 
 - Contribution: Added a public session-revocation demo script, multiplayer
   deployment smoke-test checklist, README links, and a test isolation fix so

@@ -57,8 +57,10 @@ The strongest theme across my public work: **practical security automation** â�
 | PhishGuard AI reusable GitHub Action | Published on GitHub Marketplace | [Marketplace](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) |
 | PhishGuard benchmark improvement | Public-safe recall improved with documented regression evidence | [PR #52](https://github.com/omobolajiadeyan/phishguard-ai/pull/52) |
 | PhishGuard Python API guide | Stable import examples with executable documentation tests | [PR #53](https://github.com/omobolajiadeyan/phishguard-ai/pull/53) |
+| PhishGuard adoption path | Safe third-party workflow trial and showcase issue template | [PR #54](https://github.com/omobolajiadeyan/phishguard-ai/pull/54) |
 | FreNiMi Checkers secure sessions | Revocable multiplayer sessions, token-export hardening, and tests | [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8) |
 | FreNiMi Checkers deployment readiness | Session-revocation demo, smoke-test checklist, and test isolation fix | [PR #16](https://github.com/omobolajiadeyan/frenimi-checkers/pull/16) |
+| FreNiMi Checkers playtest path | Structured public playtest guide and feedback template | [PR #17](https://github.com/omobolajiadeyan/frenimi-checkers/pull/17) |
 | OWASP Agent Security Regression Harness | Merged upstream contribution | [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) |
 | OWASP cve-lite-cli | Merged upstream contribution | [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
 | RamenDR ramenctl â€” GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
@@ -87,6 +89,7 @@ Key capabilities:
 - JSON and SARIF 2.1.0 output for automation and GitHub Code Scanning
 - Zero runtime dependencies
 - Stable Python API guide with importable examples covered by tests
+- Adoption guide for safe third-party workflow examples and public usage reports
 - Public benchmark fixtures, documented model limitations, and dated
   before/after regression evidence
 - Good-first issues and contribution guidance for new contributors
@@ -143,7 +146,7 @@ Use it in GitHub Actions:
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/omobolajiadeyan/frenimi-checkers">FreNiMi Checkers</a></h3>
-      <p>Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings, WebSocket notifications, PWA support, revocable sessions, deployment smoke tests, and token-export hardening.</p>
+      <p>Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings, WebSocket notifications, PWA support, revocable sessions, deployment smoke tests, public playtest guidance, and token-export hardening.</p>
       <p>
         <img src="https://img.shields.io/github/stars/omobolajiadeyan/frenimi-checkers?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/frenimi-checkers?style=flat" />
