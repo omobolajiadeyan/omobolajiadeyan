@@ -58,6 +58,7 @@ The strongest theme across my public work: **practical security automation** Ã¢â
 | PhishGuard benchmark improvement | Public-safe recall improved with documented regression evidence | [PR #52](https://github.com/omobolajiadeyan/phishguard-ai/pull/52) |
 | PhishGuard Python API guide | Stable import examples with executable documentation tests | [PR #53](https://github.com/omobolajiadeyan/phishguard-ai/pull/53) |
 | PhishGuard adoption path | Safe third-party workflow trial and showcase issue template | [PR #54](https://github.com/omobolajiadeyan/phishguard-ai/pull/54) |
+| PhishGuard email-auth parser coverage | SPF/DKIM/DMARC parser trust-boundary tests expanded | [PR #55](https://github.com/omobolajiadeyan/phishguard-ai/pull/55) |
 | FreNiMi Checkers secure sessions | Revocable multiplayer sessions, token-export hardening, and tests | [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8) |
 | FreNiMi Checkers deployment readiness | Session-revocation demo, smoke-test checklist, and test isolation fix | [PR #16](https://github.com/omobolajiadeyan/frenimi-checkers/pull/16) |
 | FreNiMi Checkers playtest path | Structured public playtest guide and feedback template | [PR #17](https://github.com/omobolajiadeyan/frenimi-checkers/pull/17) |

@@ -13,6 +13,7 @@ as a security engineer and open-source contributor.
 | PhishGuard benchmark improvement | https://github.com/omobolajiadeyan/phishguard-ai/pull/52 | Dated before/after regression evidence: public-safe recall improved while preserving zero false positives on checked-in legitimate samples. |
 | PhishGuard Python API guide | https://github.com/omobolajiadeyan/phishguard-ai/pull/53 | Maintained-project evidence: documented import surface, executable examples, and cross-version CI. |
 | PhishGuard adoption path | https://github.com/omobolajiadeyan/phishguard-ai/pull/54 | Clear process for safe third-party workflow examples, showcase reports, and conservative adoption claims. |
+| PhishGuard email-auth parser matrix | https://github.com/omobolajiadeyan/phishguard-ai/pull/55 | Trust-boundary evidence: SPF/DKIM/DMARC parser behavior expanded for `none`, whitespace, ordering, unrelated methods, and unsupported values without changing scoring behavior. |
 | FreNiMi Checkers secure session lifecycle | https://github.com/omobolajiadeyan/frenimi-checkers/pull/8 | Owned full-stack security evidence: session revocation, WebSocket cleanup, active-match protection, token-export hardening, and tests. |
 | FreNiMi Checkers deployment readiness | https://github.com/omobolajiadeyan/frenimi-checkers/pull/16 | Demo script, deployment smoke-test checklist, and local test isolation fix for reliable verification. |
 | FreNiMi Checkers playtest path | https://github.com/omobolajiadeyan/frenimi-checkers/pull/17 | Public feedback guide and issue template for real browser, accessibility, offline, rules, and deployment testing. |
@@ -36,7 +37,7 @@ feedback.
 | --- | --- | --- |
 | Strong | Merged OWASP, OWASP cve-lite-cli, Prowler, and SecOps-NG work | Good independent evidence because maintainers outside my repositories accepted or credited the work. |
 | Strong | PhishGuard AI Marketplace Action | Strong owned-project signal because it is released, packaged, documented, and reusable. |
-| Strong | PhishGuard benchmark/API/adoption docs and FreNiMi session/deployment/playtest work | Strong owned-project evidence because the changes are merged, tested, documented, and tied to reproducible security behavior. |
+| Strong | PhishGuard benchmark/API/adoption/parser coverage and FreNiMi session/deployment/playtest work | Strong owned-project evidence because the changes are merged, tested, documented, and tied to reproducible security behavior. |
 | Moderate | Dependency-Track, RamenDR, CISA ScubaGear, and OpenSSF Scorecard open PRs | Valuable, but strongest only after maintainer approval or merge. |
 | Early | PhishGuard forks, traffic, downloads, Marketplace indexing | Useful discovery signals, but not adoption proof yet. |
 
