@@ -7,6 +7,17 @@ reviewed code, maintainer feedback, tests, and outcomes.
 
 ### PhishGuard AI
 
+- Contribution: Expanded the `Authentication-Results` parser matrix for
+  `none`, mixed whitespace, method ordering, unrelated authentication methods,
+  unsupported values, and partial unsupported values without changing runtime
+  scoring behavior.
+- Evidence: [PR #55](https://github.com/omobolajiadeyan/phishguard-ai/pull/55).
+- Verification: `python -m unittest discover -s tests -v` passed with 92
+  tests; `python -m py_compile email_auth.py features.py model.py phishguard.py
+  reporting.py` passed; repository policy passed; PR CI, CodeQL, self-scan,
+  packaging, and CodeRabbit checks passed.
+- Status: Merged.
+
 - Contribution: Added a safe adoption and showcase path with a third-party
   workflow trial, evidence-quality guidance, and structured adoption report
   issue template.
