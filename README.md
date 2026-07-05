@@ -70,7 +70,7 @@ The strongest theme across my public work: **practical security automation** â�
 | SPF, DKIM, and DMARC in Phishing Detection | Published engineering article | [Article](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91) |
 | OWASP Agent Security Batch Validation | Published engineering article | [Article](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7) |
 
-Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) Â· [Open-Source Activity Log](OPEN_SOURCE_LOG.md) Â· [Evidence Dossier](EVIDENCE_DOSSIER.md)
+Full records: [Public Evidence Portfolio](PUBLIC_EVIDENCE.md) Â· [Open-Source Activity Log](OPEN_SOURCE_LOG.md) Â· [Evidence Dossier](EVIDENCE_DOSSIER.md) Â· [Domain Architecture](DOMAIN_ARCHITECTURE.md)
 
 ---
 
