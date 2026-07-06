@@ -1,7 +1,7 @@
 # Open-Source Activity Log
 
-This log records recent, evidence-backed open-source work. Entries focus on
-reviewed code, maintainer feedback, tests, and outcomes.
+This log records recent open-source contributions in detail — what changed,
+why, and how it was verified.
 
 ## 2026-07-03
 
@@ -97,16 +97,6 @@ reviewed code, maintainer feedback, tests, and outcomes.
 - Status: Waiting for maintainer re-review.
 
 ## 2026-06-28
-
-### GitHub Profile And Evidence Cleanup
-
-- Contribution: Reworked the profile README into a reviewer-first evidence
-  page with a sharper security-engineering headline, strongest public proof
-  points, featured project summary, and separate section for upstream work still
-  under review.
-- Reason: A strong public profile should distinguish merged or published
-  evidence from active PRs so reviewers can verify claims quickly.
-- Status: Published to the profile repository after local review.
 
 ### PyPA pip-audit
 
