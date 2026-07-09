@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0e75b6&center=true&vCenter=true&width=640&lines=Security+Engineer;OWASP+%26+OpenSSF+Contributor;Building+Security+Automation+Tools;PhishGuard+AI+on+GitHub+Marketplace" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0e75b6&center=true&vCenter=true&width=640&lines=Security+Engineer;OWASP+Contributor;Building+Security+Automation+Tools;PhishGuard+AI+on+GitHub+Marketplace" alt="Typing SVG" />
 
 # Omobolaji Adeyan
 
@@ -12,7 +12,6 @@
     <img src="https://img.shields.io/badge/GitHub%20Marketplace-PhishGuard%20AI-2ea44f?style=flat&logo=github" alt="marketplace" />
   </a>
   <img src="https://img.shields.io/badge/OWASP-Contributor-E0461C?style=flat" alt="OWASP" />
-  <img src="https://img.shields.io/badge/OpenSSF-Contributor-4A90D9?style=flat" alt="OpenSSF" />
 </p>
 
 <p>
