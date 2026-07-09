@@ -17,6 +17,8 @@
 </p>
 
 <p>
+  <a href="https://omobolajiadeyan.com"><img src="https://img.shields.io/badge/Website-omobolajiadeyan.com-0e75b6?style=flat&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/oeadeyan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   &nbsp;
   <a href="https://hackerone.com/doidun"><img src="https://img.shields.io/badge/HackerOne-494649?style=flat&logo=hackerone&logoColor=white" alt="HackerOne" /></a>
