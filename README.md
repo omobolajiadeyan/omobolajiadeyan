@@ -46,7 +46,7 @@
 
 I build security tools that turn noisy technical signals into clear, reproducible findings. My work spans phishing detection, vulnerability triage, secure CI/CD, supply-chain hardening, and evidence auditable by maintainers, compliance teams, and security engineers.
 
-The strongest theme across my public work: **practical security automation** â€” small, testable, well-documented tools that make risk easier to detect, explain, and act on.
+The strongest theme across my public work: **practical security automation** - small, testable, well-documented tools that make risk easier to detect, explain, and act on.
 
 ---
 
@@ -59,12 +59,13 @@ The strongest theme across my public work: **practical security automation** â�
 | PhishGuard Python API guide | Stable import examples with executable documentation tests | [PR #53](https://github.com/omobolajiadeyan/phishguard-ai/pull/53) |
 | PhishGuard adoption path | Safe third-party workflow trial and showcase issue template | [PR #54](https://github.com/omobolajiadeyan/phishguard-ai/pull/54) |
 | PhishGuard email-auth parser coverage | SPF/DKIM/DMARC parser trust-boundary tests expanded | [PR #55](https://github.com/omobolajiadeyan/phishguard-ai/pull/55) |
+| PhishGuard July maintenance | CodeQL, article links, product attribution, and documentation cleanup merged | [PRs #60-64](https://github.com/omobolajiadeyan/phishguard-ai/pulls?q=60+61+62+63+64) |
 | FreNiMi Checkers secure sessions | Revocable multiplayer sessions, token-export hardening, and tests | [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8) |
 | FreNiMi Checkers deployment readiness | Session-revocation demo, smoke-test checklist, and test isolation fix | [PR #16](https://github.com/omobolajiadeyan/frenimi-checkers/pull/16) |
 | FreNiMi Checkers playtest path | Structured public playtest guide and feedback template | [PR #17](https://github.com/omobolajiadeyan/frenimi-checkers/pull/17) |
 | OWASP Agent Security Regression Harness | Merged upstream contribution | [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) |
 | OWASP cve-lite-cli | Merged upstream contribution | [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
-| RamenDR ramenctl â€” GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
+| RamenDR ramenctl - GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
 | Prowler cloud security platform | Credited upstream contribution | [PR #11098](https://github.com/prowler-cloud/prowler/pull/11098) |
 | SecOps-NG Framework | Merged compliance/security mapping | [PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
 | SPF, DKIM, and DMARC in Phishing Detection | Published engineering article | [Article](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91) |
@@ -76,7 +77,7 @@ Full contribution history: [Open-Source Activity Log](OPEN_SOURCE_LOG.md)
 
 ## Featured Project: PhishGuard AI
 
-**PhishGuard AI** is an explainable offline phishing detection engine for URLs and email with zero external dependencies â€” safe for local analysis, CI workflows, and security education.
+**PhishGuard AI** is an explainable offline phishing detection engine for URLs and email with zero external dependencies - safe for local analysis, CI workflows, and security education.
 
 [![Stars](https://img.shields.io/github/stars/omobolajiadeyan/phishguard-ai?style=flat&label=Stars)](https://github.com/omobolajiadeyan/phishguard-ai)
 [![Forks](https://img.shields.io/github/forks/omobolajiadeyan/phishguard-ai?style=flat&label=Forks)](https://github.com/omobolajiadeyan/phishguard-ai/network/members)
