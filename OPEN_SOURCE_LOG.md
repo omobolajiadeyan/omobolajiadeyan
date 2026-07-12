@@ -3,6 +3,26 @@
 This log records recent open-source contributions in detail — what changed,
 why, and how it was verified.
 
+## 2026-07-12
+
+### GitHub Profile And PhishGuard Maintenance
+
+- Contribution: Refreshed the public profile evidence table to include the
+  July PhishGuard maintenance set, covering CodeQL workflow updates, article
+  links, product attribution, and documentation cleanup.
+- Evidence:
+  [PR #60](https://github.com/omobolajiadeyan/phishguard-ai/pull/60),
+  [PR #61](https://github.com/omobolajiadeyan/phishguard-ai/pull/61),
+  [PR #62](https://github.com/omobolajiadeyan/phishguard-ai/pull/62),
+  [PR #63](https://github.com/omobolajiadeyan/phishguard-ai/pull/63), and
+  [PR #64](https://github.com/omobolajiadeyan/phishguard-ai/pull/64).
+- Verification: The latest `fix/redirect-etld1-domain-comparison` branch runs
+  for Tests, PhishGuard Self-Scan, and CodeQL were green on 2026-07-08.
+- Notification triage: Old PhishGuard CI failure notifications were superseded
+  by successful runs; Checkov PR #7573 is closed upstream, so its old security
+  workflow notification is no longer actionable.
+- Status: Profile evidence updated.
+
 ## 2026-07-03
 
 ### PhishGuard AI
