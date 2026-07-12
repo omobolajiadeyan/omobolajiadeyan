@@ -175,7 +175,7 @@ Use it in GitHub Actions:
 |---|---|---|
 | Dependency-Track | [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Runtime-backed OpenAPI Finding response schema |
 | OpenSSF Scorecard | [PR #5098](https://github.com/ossf/scorecard/pull/5098) | Dangerous Workflow detection for committer-controlled Actions contexts |
-| CISA ScubaGear | [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) | DMARC policy discovery improvements for M365 baseline assessment |
+| cisagov/ScubaGear | [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) | DMARC policy discovery improvements for M365 baseline assessment |
 
 ---
 
