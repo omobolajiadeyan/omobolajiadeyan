@@ -5,6 +5,21 @@ why, and how it was verified.
 
 ## 2026-07-13
 
+### Prowler AWS Amplify Secret Detection Prototype
+
+- Contribution: Built a focused Prowler prototype for
+  `amplify_app_no_secrets_in_environment`, adding a new AWS Amplify service and
+  a check for app-level and branch-level environment variables that may contain
+  secrets.
+- Evidence:
+  [issue comment](https://github.com/prowler-cloud/prowler/issues/11817#issuecomment-4959091139)
+  and
+  [branch](https://github.com/omobolajiadeyan/prowler/tree/issue-11817-amplify-secrets).
+- Verification: Focused pytest run passed with 6 tests in a temporary Python
+  3.12 environment; direct metadata load for the new check succeeded.
+- Status: Branch prepared and pushed to the fork; upstream issue is already
+  assigned, so the next step is maintainer guidance before opening a PR.
+
 ### GitHub Profile Consistency And PhishGuard CI Maintenance
 
 - Contribution: Updated the GitHub profile bio to remove ambiguous
