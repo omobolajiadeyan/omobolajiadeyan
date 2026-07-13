@@ -5,6 +5,21 @@ why, and how it was verified.
 
 ## 2026-07-13
 
+### Security Tool GitHub Action And SARIF Adoption Path
+
+- Contribution: Upgraded `secrets-scanner` and `log-analyzer` from standalone
+  CLI tools into CI-adoptable security tools by adding SARIF 2.1.0 export,
+  reusable GitHub Action metadata, safer documentation, and tests for the new
+  automation outputs.
+- Evidence:
+  [secrets-scanner commit](https://github.com/omobolajiadeyan/secrets-scanner/commit/2c93834)
+  and
+  [log-analyzer commit](https://github.com/omobolajiadeyan/log-analyzer/commit/92c8301).
+- Verification: `secrets-scanner` passed 21 unit tests and produced a SARIF
+  report without exposing raw sample secrets; `log-analyzer` passed 16 unit
+  tests and produced a MITRE-mapped SARIF report from sample logs.
+- Status: Fixed, documented, and pushed.
+
 ### Prowler AWS Amplify Secret Detection Prototype
 
 - Contribution: Built a focused Prowler prototype for
