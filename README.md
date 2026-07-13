@@ -60,9 +60,9 @@ The strongest theme across my public work: **practical security automation** - s
 | PhishGuard adoption path | Safe third-party workflow trial and showcase issue template | [PR #54](https://github.com/omobolajiadeyan/phishguard-ai/pull/54) |
 | PhishGuard email-auth parser coverage | SPF/DKIM/DMARC parser trust-boundary tests expanded | [PR #55](https://github.com/omobolajiadeyan/phishguard-ai/pull/55) |
 | PhishGuard July maintenance | CodeQL, article links, product attribution, and documentation cleanup merged | [PRs #60-64](https://github.com/omobolajiadeyan/phishguard-ai/pulls?q=60+61+62+63+64) |
-| FreNiMi Checkers secure sessions | Revocable multiplayer sessions, token-export hardening, and tests | [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8) |
-| FreNiMi Checkers deployment readiness | Session-revocation demo, smoke-test checklist, and test isolation fix | [PR #16](https://github.com/omobolajiadeyan/frenimi-checkers/pull/16) |
-| FreNiMi Checkers playtest path | Structured public playtest guide and feedback template | [PR #17](https://github.com/omobolajiadeyan/frenimi-checkers/pull/17) |
+| BehaviorSense and VulnGPT maintenance | Fixed Windows CLI output crashes and restored passing tests | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
+| Prowler Amplify secret detection | Prototype for app and branch environment-variable secret scanning | [Issue #11817](https://github.com/prowler-cloud/prowler/issues/11817#issuecomment-4959091139) |
+| Security tool portfolio verification | CVE, log-analysis, secret-scanning, behavior, and vulnerability tools tested | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
 | OWASP Agent Security Regression Harness | Merged upstream contribution | [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) |
 | OWASP cve-lite-cli | Merged upstream contribution | [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
 | RamenDR ramenctl - GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
@@ -118,12 +118,11 @@ Use it in GitHub Actions:
       </p>
     </td>
     <td width="50%">
-      <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
-      <p>Real-time CVE intelligence dashboard pulling live data from the NVD API, with filtering, severity scoring, and trend tracking.</p>
+      <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
+      <p>Threat detection with MITRE ATT&CK mappings for log analysis and security operations.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/cve-dashboard?style=flat" />
-        <img src="https://img.shields.io/github/forks/omobolajiadeyan/cve-dashboard?style=flat" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat" />
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/log-analyzer?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat" />
       </p>
     </td>
   </tr>
@@ -147,19 +146,19 @@ Use it in GitHub Actions:
   </tr>
   <tr>
     <td width="50%">
-      <h3><a href="https://github.com/omobolajiadeyan/frenimi-checkers">FreNiMi Checkers</a></h3>
-      <p>Cross-platform checkers with minimax AI, real-time multiplayer, SQLite ratings, WebSocket notifications, PWA support, revocable sessions, deployment smoke tests, public playtest guidance, and token-export hardening.</p>
+      <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
+      <p>Real-time CVE intelligence dashboard pulling live data from the NVD API, with filtering, severity scoring, and trend tracking.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/frenimi-checkers?style=flat" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/frenimi-checkers?style=flat" />
+        <img src="https://img.shields.io/github/stars/omobolajiadeyan/cve-dashboard?style=flat" />
+        <img src="https://img.shields.io/github/forks/omobolajiadeyan/cve-dashboard?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat" />
       </p>
     </td>
     <td width="50%">
-      <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
-      <p>Threat detection with MITRE ATT&CK mappings for log analysis and security operations.</p>
+      <h3><a href="https://github.com/omobolajiadeyan/prowler/tree/issue-11817-amplify-secrets">Prowler Amplify Secret Check</a></h3>
+      <p>A cloud-security contribution prototype that scans AWS Amplify app and branch environment variables for possible secrets without exposing secret values.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/log-analyzer?style=flat" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/prowler/issue-11817-amplify-secrets?style=flat" />
       </p>
     </td>
   </tr>
