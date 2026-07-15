@@ -174,6 +174,7 @@ Use it in GitHub Actions:
 | Project | PR | Description |
 |---|---|---|
 | OWASP Agent Security Regression Harness | [PR #153](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/153) | SARIF 2.1.0 output for GitHub Code Scanning integrations |
+| OWASP Agent Security Regression Harness | [PR #159](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/159) | Explicit goal-event support for OpenAI Agents SDK adapter runs |
 | awesome-incident-response | [PR #306](https://github.com/meirwah/awesome-incident-response/pull/306) | Add PhishGuard AI to the incident-response tools catalog |
 | Dependency-Track | [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Runtime-backed OpenAPI Finding response schema |
 | OpenSSF Scorecard | [PR #5098](https://github.com/ossf/scorecard/pull/5098) | Dangerous Workflow detection for committer-controlled Actions contexts |
