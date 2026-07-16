@@ -173,6 +173,8 @@ Use it in GitHub Actions:
 
 | Project | PR | Description |
 |---|---|---|
+| OWASP Agent Security Regression Harness | [PR #153](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/153) | SARIF 2.1.0 output for GitHub Code Scanning integrations |
+| OWASP Agent Security Regression Harness | [PR #159](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/159) | Explicit goal-event support for OpenAI Agents SDK adapter runs |
 | Dependency-Track | [PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Runtime-backed OpenAPI Finding response schema |
 | OpenSSF Scorecard | [PR #5098](https://github.com/ossf/scorecard/pull/5098) | Dangerous Workflow detection for committer-controlled Actions contexts |
 | cisagov/ScubaGear | [PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) | DMARC policy discovery improvements for M365 baseline assessment |

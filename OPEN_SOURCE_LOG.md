@@ -5,6 +5,19 @@ why, and how it was verified.
 
 ## 2026-07-13
 
+### Profile Evidence Refresh
+
+- Contribution: Updated the profile homepage to reflect active upstream work
+  under review, including OWASP Agent Security Regression Harness SARIF output
+  and OpenAI Agents adapter goal-event support.
+- Evidence:
+  [OWASP PR #153](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/153)
+  and
+  [OWASP PR #159](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/159).
+- Verification: Confirmed both PRs are open, mergeable, and have passing
+  project checks before listing them as active evidence.
+- Status: Profile updated.
+
 ### Security Tool GitHub Action And SARIF Adoption Path
 
 - Contribution: Upgraded `secrets-scanner` and `log-analyzer` from standalone
