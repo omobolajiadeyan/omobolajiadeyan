@@ -15,15 +15,16 @@ why, and how it was verified.
   `trusted-authserv-id`.
 - Evidence:
   [PR #70](https://github.com/omobolajiadeyan/phishguard-ai/pull/70)
+  merged,
+  [PR #68](https://github.com/omobolajiadeyan/phishguard-ai/pull/68)
   merged, and
   [PR #69](https://github.com/omobolajiadeyan/phishguard-ai/pull/69)
-  refreshed with passing checks.
+  merged.
 - Verification: `python -m unittest discover -s tests -v` passed with 122
   tests; `python tools/repository_policy.py` passed; PR #69 checks passed for
   tests across Python 3.10 through 3.13, package, Marketplace action,
   repository policy, self-scan, CodeQL, and Analyze Python.
-- Status: PR #70 merged; PR #69 is green and ready for maintainer review when
-  taken out of draft.
+- Status: PRs #68, #69, and #70 merged.
 
 ## 2026-07-13
 
