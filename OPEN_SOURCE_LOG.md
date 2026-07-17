@@ -5,6 +5,22 @@ why, and how it was verified.
 
 ## 2026-07-16
 
+### Anchore SBOM Action Supply-Chain Reliability
+
+- Contribution: Opened a focused upstream PR to Anchore `sbom-action` to retry
+  transient Syft download failures, addressing intermittent GitHub release CDN
+  `504` failures that can break SBOM generation in CI.
+- Scope: Added configurable `syft-download-retry-count` and
+  `syft-download-retry-delay` inputs to both the main action and
+  `download-syft` sub-action, documented the inputs, added tests for retry
+  recovery and invalid retry input, and rebuilt the bundled action.
+- Evidence:
+  [Anchore PR #699](https://github.com/anchore/sbom-action/pull/699).
+- Verification: `npm run build`, `npm run lint`,
+  `node --import tsx --test --experimental-test-module-mocks tests/SyftGithubAction.test.ts`,
+  and `npm run package` passed locally. DCO is passing on the upstream PR.
+- Status: Open, mergeable, and awaiting maintainer review.
+
 ### PhishGuard Code Scanning And Trust-Boundary Maintenance
 
 - Contribution: Fixed the PhishGuard AI pull-request code-scanning posture by
