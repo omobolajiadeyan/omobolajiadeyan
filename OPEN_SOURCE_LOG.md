@@ -3,6 +3,28 @@
 This log records recent open-source contributions in detail — what changed,
 why, and how it was verified.
 
+## 2026-07-16
+
+### PhishGuard Code Scanning And Trust-Boundary Maintenance
+
+- Contribution: Fixed the PhishGuard AI pull-request code-scanning posture by
+  preventing sample phishing URLs from being uploaded to GitHub Code Scanning
+  on pull requests while still validating SARIF output in CI.
+- Contribution: Addressed a CodeQL finding in the EML authentication trust
+  boundary by avoiding CLI output that echoed the caller-supplied
+  `trusted-authserv-id`.
+- Evidence:
+  [PR #70](https://github.com/omobolajiadeyan/phishguard-ai/pull/70)
+  merged, and
+  [PR #69](https://github.com/omobolajiadeyan/phishguard-ai/pull/69)
+  refreshed with passing checks.
+- Verification: `python -m unittest discover -s tests -v` passed with 122
+  tests; `python tools/repository_policy.py` passed; PR #69 checks passed for
+  tests across Python 3.10 through 3.13, package, Marketplace action,
+  repository policy, self-scan, CodeQL, and Analyze Python.
+- Status: PR #70 merged; PR #69 is green and ready for maintainer review when
+  taken out of draft.
+
 ## 2026-07-13
 
 ### Profile Evidence Refresh

@@ -60,6 +60,7 @@ The strongest theme across my public work: **practical security automation** - s
 | PhishGuard adoption path | Safe third-party workflow trial and showcase issue template | [PR #54](https://github.com/omobolajiadeyan/phishguard-ai/pull/54) |
 | PhishGuard email-auth parser coverage | SPF/DKIM/DMARC parser trust-boundary tests expanded | [PR #55](https://github.com/omobolajiadeyan/phishguard-ai/pull/55) |
 | PhishGuard July maintenance | CodeQL, article links, product attribution, and documentation cleanup merged | [PRs #60-64](https://github.com/omobolajiadeyan/phishguard-ai/pulls?q=60+61+62+63+64) |
+| PhishGuard code-scanning hygiene | PR self-scan, SARIF validation, and EML trust-boundary hardening | [Log](OPEN_SOURCE_LOG.md#2026-07-16) |
 | Security tools as GitHub Actions | Added SARIF 2.1.0 and reusable Action support to Secrets Scanner and Log Analyzer | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
 | BehaviorSense and VulnGPT maintenance | Fixed Windows CLI output crashes and restored passing tests | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
 | Prowler Amplify secret detection | Prototype for app and branch environment-variable secret scanning | [Issue #11817](https://github.com/prowler-cloud/prowler/issues/11817#issuecomment-4959091139) |
