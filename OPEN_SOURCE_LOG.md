@@ -3,6 +3,32 @@
 This log records recent open-source contributions in detail — what changed,
 why, and how it was verified.
 
+## 2026-07-17
+
+### PhishGuard AI REST API Server
+
+- Contribution: Added a `phishguard serve` REST API mode to PhishGuard AI, the
+  next item queued on the project roadmap, for SIEM and proxy integrations
+  that want a long-running scoring endpoint instead of shelling out to the
+  CLI per lookup.
+- Scope: Implemented `server.py` on the Python standard library's
+  `http.server`, introducing no new runtime dependencies. Exposes
+  `GET /healthz`, `POST /v1/url` (with optional `follow_redirects`), and
+  `POST /v1/email`, all reusing the existing scoring path so responses match
+  the CLI exactly. The server binds to `127.0.0.1` by default since it has no
+  authentication of its own. Added 10 tests covering success and validation
+  paths, and updated the README, CHANGELOG, and ROADMAP.
+- Evidence:
+  [PR #71](https://github.com/omobolajiadeyan/phishguard-ai/pull/71).
+- Verification: `python -m unittest discover -s tests -v` passed with 132
+  tests; `python tools/repository_policy.py` passed, confirming no new
+  runtime dependency was introduced; `ruff check` was clean on all new and
+  touched files; manually started the server and exercised all three
+  endpoints with `curl`, confirming correct verdicts and a `400` on invalid
+  input.
+- Status: Open, CI passing across Python 3.10-3.13, packaging, repository
+  policy, and the Marketplace action check; awaiting CodeQL and final review.
+
 ## 2026-07-16
 
 ### Anchore SBOM Action Supply-Chain Reliability
