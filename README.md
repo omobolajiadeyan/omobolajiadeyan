@@ -61,6 +61,7 @@ The strongest theme across my public work: **practical security automation** - s
 | PhishGuard email-auth parser coverage | SPF/DKIM/DMARC parser trust-boundary tests expanded | [PR #55](https://github.com/omobolajiadeyan/phishguard-ai/pull/55) |
 | PhishGuard July maintenance | CodeQL, article links, product attribution, and documentation cleanup merged | [PRs #60-64](https://github.com/omobolajiadeyan/phishguard-ai/pulls?q=60+61+62+63+64) |
 | PhishGuard code-scanning hygiene | PR self-scan, SARIF validation, and EML trust-boundary hardening | [Log](OPEN_SOURCE_LOG.md#2026-07-16) |
+| PhishGuard REST API server | Stdlib-only `serve` mode for SIEM/proxy integrations, zero new dependencies | [PR #71](https://github.com/omobolajiadeyan/phishguard-ai/pull/71) |
 | Anchore SBOM Action reliability | Open PR adding retry support for transient Syft download failures | [PR #699](https://github.com/anchore/sbom-action/pull/699) |
 | Security tools as GitHub Actions | Added SARIF 2.1.0 and reusable Action support to Secrets Scanner and Log Analyzer | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
 | BehaviorSense and VulnGPT maintenance | Fixed Windows CLI output crashes and restored passing tests | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
