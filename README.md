@@ -7,7 +7,6 @@
 **Practical security automation for developers, security teams, and evidence-driven reviews.**
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=omobolajiadeyan&label=Profile+Views&color=0e75b6&style=flat" alt="profile views" />
   <a href="https://github.com/marketplace/actions/phishguard-ai-phishing-detector">
     <img src="https://img.shields.io/badge/GitHub%20Marketplace-PhishGuard%20AI-2ea44f?style=flat&logo=github" alt="marketplace" />
   </a>
@@ -27,18 +26,6 @@
 </p>
 
 </div>
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=omobolajiadeyan&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omobolajiadeyan&theme=minimal&hide_border=true&area=true" alt="Contribution Activity" />
-</p>
 
 ---
 
@@ -63,10 +50,8 @@ The strongest theme across my public work: **practical security automation** - s
 | PhishGuard code-scanning hygiene | PR self-scan, SARIF validation, and EML trust-boundary hardening | [Log](OPEN_SOURCE_LOG.md#2026-07-16) |
 | PhishGuard REST API server | Stdlib-only `serve` mode for SIEM/proxy integrations, zero new dependencies | [PR #71](https://github.com/omobolajiadeyan/phishguard-ai/pull/71) |
 | Anchore SBOM Action reliability | Open PR adding retry support for transient Syft download failures | [PR #699](https://github.com/anchore/sbom-action/pull/699) |
-| Security tools as GitHub Actions | Added SARIF 2.1.0 and reusable Action support to Secrets Scanner and Log Analyzer | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
-| BehaviorSense and VulnGPT maintenance | Fixed Windows CLI output crashes and restored passing tests | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
+| Security tool portfolio hardening | SARIF 2.1.0 + reusable Action support added to Secrets Scanner and Log Analyzer; Windows CLI crashes fixed and tests restored across BehaviorSense, VulnGPT, and CVE Dashboard | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
 | Prowler Amplify secret detection | Prototype for app and branch environment-variable secret scanning | [Issue #11817](https://github.com/prowler-cloud/prowler/issues/11817#issuecomment-4959091139) |
-| Security tool portfolio verification | CVE, log-analysis, secret-scanning, behavior, and vulnerability tools tested | [Log](OPEN_SOURCE_LOG.md#2026-07-13) |
 | OWASP Agent Security Regression Harness | Merged upstream contribution | [PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) |
 | OWASP cve-lite-cli | Merged upstream contribution | [PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
 | RamenDR ramenctl - GitHub Actions hardening | Merged upstream contribution | [PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
@@ -117,7 +102,6 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/behaviorsense">BehaviorSense</a></h3>
       <p>Behavioral anomaly detection engine for user and IP risk scoring. UEBA-style patterns for insider-threat and account-risk scenarios.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/behaviorsense?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/behaviorsense?style=flat" />
       </p>
     </td>
@@ -125,7 +109,6 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
       <p>Threat detection with MITRE ATT&CK mappings, JSON and SARIF output, and a reusable GitHub Action for security operations workflows.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/log-analyzer?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat" />
       </p>
     </td>
@@ -135,7 +118,6 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/secrets-scanner">Secrets Scanner</a></h3>
       <p>CI-friendly credential and API key scanner with redacted JSON/SARIF output and a reusable GitHub Action for Code Scanning workflows.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/secrets-scanner?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/secrets-scanner?style=flat" />
       </p>
     </td>
@@ -143,7 +125,6 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/vulngpt">VulnGPT</a></h3>
       <p>CVE analysis with NVD data and AI-assisted remediation guidance.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/vulngpt?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/vulngpt?style=flat" />
       </p>
     </td>
@@ -153,8 +134,6 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
       <p>Real-time CVE intelligence dashboard pulling live data from the NVD API, with filtering, severity scoring, and trend tracking.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/omobolajiadeyan/cve-dashboard?style=flat" />
-        <img src="https://img.shields.io/github/forks/omobolajiadeyan/cve-dashboard?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat" />
       </p>
     </td>
@@ -194,7 +173,7 @@ Use it in GitHub Actions:
 ## Technology
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,php,nodejs,react,fastapi,postgres,sqlite,docker&perline=10" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,sqlite,docker&perline=10" alt="Tech Stack" />
 </p>
 
 <p align="center">
