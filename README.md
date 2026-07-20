@@ -29,7 +29,7 @@
 
 ---
 
-## What I Build
+## 🧭 What I Build
 
 I build security tools that turn noisy technical signals into clear, reproducible findings. My work spans phishing detection, vulnerability triage, secure CI/CD, supply-chain hardening, and evidence auditable by maintainers, compliance teams, and security engineers.
 
@@ -37,7 +37,15 @@ The strongest theme across my public work: **practical security automation** - s
 
 ---
 
-## Strongest Public Evidence
+## 📊 GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://streak-stats.demolab.com?user=omobolajiadeyan&hide_border=true&background=00000000&ring=0E75B6&fire=0E75B6&currStreakLabel=0E75B6&currStreakNum=0e75b6&sideNums=808080&sideLabels=808080&dates=808080" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🏆 Strongest Public Evidence
 
 | Evidence | Status | Link |
 |---|---|---|
@@ -64,7 +72,7 @@ Full contribution history: [Open-Source Activity Log](OPEN_SOURCE_LOG.md)
 
 ---
 
-## Featured Project: PhishGuard AI
+## 🚀 Featured Project: PhishGuard AI
 
 **PhishGuard AI** is an explainable offline phishing detection engine for URLs and email with zero external dependencies - safe for local analysis, CI workflows, and security education.
 
@@ -94,7 +102,7 @@ Use it in GitHub Actions:
 
 ---
 
-## Selected Projects
+## 🗂️ Selected Projects
 
 <table>
   <tr>
@@ -102,6 +110,7 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/behaviorsense">BehaviorSense</a></h3>
       <p>Behavioral anomaly detection engine for user and IP risk scoring. UEBA-style patterns for insider-threat and account-risk scenarios.</p>
       <p>
+        <img src="https://img.shields.io/github/languages/top/omobolajiadeyan/behaviorsense?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/behaviorsense?style=flat" />
       </p>
     </td>
@@ -109,6 +118,7 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
       <p>Threat detection with MITRE ATT&CK mappings, JSON and SARIF output, and a reusable GitHub Action for security operations workflows.</p>
       <p>
+        <img src="https://img.shields.io/github/languages/top/omobolajiadeyan/log-analyzer?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat" />
       </p>
     </td>
@@ -118,6 +128,7 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/secrets-scanner">Secrets Scanner</a></h3>
       <p>CI-friendly credential and API key scanner with redacted JSON/SARIF output and a reusable GitHub Action for Code Scanning workflows.</p>
       <p>
+        <img src="https://img.shields.io/github/languages/top/omobolajiadeyan/secrets-scanner?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/secrets-scanner?style=flat" />
       </p>
     </td>
@@ -125,6 +136,7 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/vulngpt">VulnGPT</a></h3>
       <p>CVE analysis with NVD data and AI-assisted remediation guidance.</p>
       <p>
+        <img src="https://img.shields.io/github/languages/top/omobolajiadeyan/vulngpt?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/vulngpt?style=flat" />
       </p>
     </td>
@@ -134,6 +146,7 @@ Use it in GitHub Actions:
       <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
       <p>Real-time CVE intelligence dashboard pulling live data from the NVD API, with filtering, severity scoring, and trend tracking.</p>
       <p>
+        <img src="https://img.shields.io/github/languages/top/omobolajiadeyan/cve-dashboard?style=flat" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat" />
       </p>
     </td>
@@ -151,7 +164,7 @@ Use it in GitHub Actions:
 
 ---
 
-## Upstream Work Under Review
+## 🔧 Upstream Work Under Review
 
 | Project | PR | Description |
 |---|---|---|
@@ -163,14 +176,14 @@ Use it in GitHub Actions:
 
 ---
 
-## Writing
+## ✍️ Writing
 
 - [SPF, DKIM, and DMARC in Phishing Detection: Useful Signals, Not Magic Answers](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91)
 - [From Single Files to Scenario Suites: Batch Validation in the OWASP Agent Security Regression Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7)
 
 ---
 
-## Technology
+## 🧰 Technology
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,sqlite,docker&perline=10" alt="Tech Stack" />
@@ -186,7 +199,7 @@ Use it in GitHub Actions:
 
 ---
 
-## Contact
+## 📫 Contact
 
 Open to **senior security engineering roles**, appsec tooling collaboration, technical advisory, and community work around practical security automation.
 
