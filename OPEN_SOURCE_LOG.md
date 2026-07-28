@@ -129,8 +129,8 @@ why, and how it was verified.
 
 ### GitHub Profile Consistency And PhishGuard CI Maintenance
 
-- Contribution: Updated the GitHub profile bio to remove ambiguous
-  `CISA-certified` wording and align the public description with the accurate
+- Contribution: Updated the GitHub profile bio to remove inaccurate
+  certification wording and align the public description with the accurate
   role: Security Engineer, OWASP contributor, and PhishGuard AI maintainer.
 - Contribution: Replaced two split Dependabot CodeQL updates with a single
   combined workflow update so `github/codeql-action/init` and
