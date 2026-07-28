@@ -68,7 +68,7 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
   <img src="assets/phishguard-demo.svg" alt="PhishGuard AI CLI output comparing a safe input against a phishing input" width="80%" />
 </p>
 
-<p align="center"><sub>Real CLI output on two public-safe inputs (<code>example.com</code> and the TEST-NET-1 documentation range) — see <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a> for the exact commands and a reproducible benchmark.</sub></p>
+<p align="center"><sub>Real CLI output on two public-safe inputs (<code>example.com</code> and the TEST-NET-1 documentation range), refreshed July 28, 2026 — see <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/docs/evaluator-guide/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a> for the exact commands and reproducible benchmark evidence.</sub></p>
 
 ---
 
