@@ -3,6 +3,40 @@
 This log records recent open-source contributions in detail — what changed,
 why, and how it was verified.
 
+## 2026-07-28
+
+### Product Readiness And Reviewer Experience
+
+- Contribution: Added external evaluator documentation to BehaviorSense and
+  VulnGPT so reviewers can run safe demos, understand expected outputs, and see
+  clear trust boundaries before judging the tools.
+- Contribution: Added TypeScript-powered static report viewers to BehaviorSense
+  and VulnGPT. These viewers load exported JSON reports in the browser and make
+  anomaly/CVE output easier for security professionals to inspect without a
+  backend dashboard.
+- Contribution: Added public-safe AppSec Compliance Bridge demo documentation
+  and a React/TypeScript frontend shell showing the intended upload,
+  normalization, draft control-mapping, and draft POA&M workflow.
+- Contribution: Updated the GitHub profile portfolio cards to replace raw
+  GitHub language-percentage badges with product stack badges covering Python
+  engines, TypeScript viewers, JavaScript demos, SARIF, NVD triage, and GitHub
+  Actions.
+- Evidence:
+  [BehaviorSense viewer commit](https://github.com/omobolajiadeyan/behaviorsense/commit/bb2fdb9),
+  [BehaviorSense docs commit](https://github.com/omobolajiadeyan/behaviorsense/commit/8b9a472),
+  [VulnGPT viewer commit](https://github.com/omobolajiadeyan/vulngpt/commit/5b62fb2),
+  [VulnGPT docs commit](https://github.com/omobolajiadeyan/vulngpt/commit/f3cfe34),
+  [AppSec demo docs commit](https://github.com/omobolajiadeyan/appsec-bridge/commit/fa53843),
+  [AppSec React shell commit](https://github.com/omobolajiadeyan/appsec-bridge/commit/11b50b5),
+  and
+  [profile stack-badge commit](https://github.com/omobolajiadeyan/omobolajiadeyan/commit/0766c84).
+- Verification: BehaviorSense unit tests passed with 6 tests; VulnGPT unit
+  tests passed with 4 tests. AppSec frontend build was not run locally because
+  the current Node binary on this macOS 12 machine fails to start due to a
+  missing `libc++` symbol.
+- Status: BehaviorSense, VulnGPT, AppSec Compliance Bridge, and profile
+  updates pushed.
+
 ## 2026-07-17
 
 ### PhishGuard AI REST API Server
