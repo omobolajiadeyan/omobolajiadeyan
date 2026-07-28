@@ -62,7 +62,7 @@ PhishGuard AI is an explainable offline phishing detection engine for URLs and e
   </tr>
 </table>
 
-Recent work includes benchmark recall improvements, a stable Python API guide, SARIF validation, REST API server mode, third-party adoption templates, and expanded parser trust-boundary tests.
+Recent work includes benchmark recall improvements, a stable Python API guide, SARIF validation, REST API server mode, third-party adoption templates, expanded parser trust-boundary tests, and an unpacked Chrome/Edge extension prototype for current-page URL checks.
 
 <p align="center">
   <img src="assets/phishguard-demo.svg" alt="PhishGuard AI CLI output comparing a safe input against a phishing input" width="80%" />
@@ -151,6 +151,7 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
 
 | Product | Recent Upgrade | Evidence |
 |---|---|---|
+| PhishGuard AI | Added an unpacked Chrome/Edge browser extension prototype so users can check the current tab or paste a URL without using the CLI | [Extension commit](https://github.com/omobolajiadeyan/phishguard-ai/commit/1c4992c), [Extension guide](https://github.com/omobolajiadeyan/phishguard-ai/blob/docs/evaluator-guide/docs/BROWSER_EXTENSION.md) |
 | BehaviorSense | Added evaluator docs and a TypeScript browser report viewer for exported anomaly JSON | [Viewer commit](https://github.com/omobolajiadeyan/behaviorsense/commit/bb2fdb9), [Docs commit](https://github.com/omobolajiadeyan/behaviorsense/commit/8b9a472) |
 | VulnGPT | Added evaluator docs and a TypeScript browser report viewer for CVE triage JSON | [Viewer commit](https://github.com/omobolajiadeyan/vulngpt/commit/5b62fb2), [Docs commit](https://github.com/omobolajiadeyan/vulngpt/commit/f3cfe34) |
 | AppSec Compliance Bridge | Added public-safe demo docs and a React/TypeScript frontend shell for the upload-to-POA&M workflow | [Demo docs](https://github.com/omobolajiadeyan/appsec-bridge/commit/fa53843), [React shell](https://github.com/omobolajiadeyan/appsec-bridge/commit/11b50b5) |
