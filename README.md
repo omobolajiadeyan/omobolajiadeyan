@@ -10,6 +10,9 @@
 <a href="https://owasp.org">
   <img src="https://img.shields.io/badge/OWASP-Contributor-E0461C?style=flat-square" alt="OWASP Contributor" />
 </a>
+<a href="https://www.comptia.org/certifications/security">
+  <img src="https://img.shields.io/badge/Security%2B-Certified-0052CC?style=flat-square" alt="CompTIA Security+ Certified" />
+</a>
 <a href="https://www.linkedin.com/in/oeadeyan">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
@@ -28,7 +31,7 @@ I build tools and contribute to open-source security projects where the output h
 |---|---|
 | [PhishGuard AI](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) on GitHub Marketplace | I can take a security idea from implementation to packaged, reusable developer workflow |
 | OWASP, Prowler, SecOps-NG, RamenDR work | I contribute inside established security communities and respond to maintainer standards |
-| Security+, BS Information Technology | I connect hands-on engineering with governance, auditability, and risk language |
+| Security+, AWS Academy Cloud Foundations, BS Information Technology | I connect hands-on engineering with governance, auditability, and risk language |
 
 ---
 
@@ -92,14 +95,14 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/behaviorsense">BehaviorSense</a></h3>
-      <p>Behavioral anomaly detection for user and IP risk scoring, including UEBA-style insider-threat patterns.</p>
+      <p>Behavioral anomaly detection for user and IP risk scoring, including UEBA-style insider-threat patterns and a TypeScript report viewer for exported JSON.</p>
       <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/behaviorsense?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/behaviorsense?style=flat-square" alt="Last commit" /></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/vulngpt">VulnGPT</a></h3>
-      <p>CVE analysis with NVD data and AI-assisted remediation guidance for faster vulnerability triage.</p>
+      <p>CVE analysis with NVD data, deterministic triage, optional AI-assisted narrative, and a TypeScript report viewer for reviewer-friendly output.</p>
       <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/vulngpt?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/vulngpt?style=flat-square" alt="Last commit" /></p>
     </td>
     <td width="50%" valign="top">
@@ -110,7 +113,7 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
   </tr>
 </table>
 
-**Private pre-launch:** AppSec Compliance Bridge converts application-security scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence.
+**Private pre-launch:** AppSec Compliance Bridge converts application-security scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence, with a React/TypeScript demo shell now in progress.
 
 ---
 
