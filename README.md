@@ -147,6 +147,17 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
 
 ---
 
+## Product Readiness Evidence
+
+| Product | Recent Upgrade | Evidence |
+|---|---|---|
+| BehaviorSense | Added evaluator docs and a TypeScript browser report viewer for exported anomaly JSON | [Viewer commit](https://github.com/omobolajiadeyan/behaviorsense/commit/bb2fdb9), [Docs commit](https://github.com/omobolajiadeyan/behaviorsense/commit/8b9a472) |
+| VulnGPT | Added evaluator docs and a TypeScript browser report viewer for CVE triage JSON | [Viewer commit](https://github.com/omobolajiadeyan/vulngpt/commit/5b62fb2), [Docs commit](https://github.com/omobolajiadeyan/vulngpt/commit/f3cfe34) |
+| AppSec Compliance Bridge | Added public-safe demo docs and a React/TypeScript frontend shell for the upload-to-POA&M workflow | [Demo docs](https://github.com/omobolajiadeyan/appsec-bridge/commit/fa53843), [React shell](https://github.com/omobolajiadeyan/appsec-bridge/commit/11b50b5) |
+| GitHub profile | Replaced raw language-percentage badges with product stack badges that show Python, TypeScript, JavaScript, SARIF, and GitHub Actions roles | [Profile commit](https://github.com/omobolajiadeyan/omobolajiadeyan/commit/0766c84) |
+
+---
+
 ## Open-Source Proof
 
 | Area | Selected Evidence |
