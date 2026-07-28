@@ -10,9 +10,6 @@
 <a href="https://owasp.org">
   <img src="https://img.shields.io/badge/OWASP-Contributor-E0461C?style=flat-square" alt="OWASP Contributor" />
 </a>
-<a href="https://www.isaca.org/credentialing/cisa">
-  <img src="https://img.shields.io/badge/CISA-Certified-0052CC?style=flat-square" alt="CISA Certified" />
-</a>
 <a href="https://www.linkedin.com/in/oeadeyan">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
@@ -30,8 +27,8 @@ I build tools and contribute to open-source security projects where the output h
 | Signal | What It Shows |
 |---|---|
 | [PhishGuard AI](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) on GitHub Marketplace | I can take a security idea from implementation to packaged, reusable developer workflow |
-| OWASP, Prowler, SecOps-NG, RamenDR, OpenSSF, CISA ScubaGear work | I contribute inside established security communities and respond to maintainer standards |
-| CISA, Security+, BS Information Technology | I connect hands-on engineering with governance, auditability, and risk language |
+| OWASP, Prowler, SecOps-NG, RamenDR work | I contribute inside established security communities and respond to maintainer standards |
+| Security+, BS Information Technology | I connect hands-on engineering with governance, auditability, and risk language |
 
 ---
 
@@ -63,6 +60,12 @@ PhishGuard AI is an explainable offline phishing detection engine for URLs and e
 </table>
 
 Recent work includes benchmark recall improvements, a stable Python API guide, SARIF validation, REST API server mode, third-party adoption templates, and expanded parser trust-boundary tests.
+
+<p align="center">
+  <img src="assets/phishguard-demo.svg" alt="PhishGuard AI CLI output comparing a safe input against a phishing input" width="80%" />
+</p>
+
+<p align="center"><sub>Real CLI output on two public-safe inputs (<code>example.com</code> and the TEST-NET-1 documentation range) — see <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a> for the exact commands and a reproducible benchmark.</sub></p>
 
 ---
 
@@ -116,9 +119,9 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
 | Area | Selected Evidence |
 |---|---|
 | Application security automation | [OWASP Agent Security Regression Harness PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150), [OWASP cve-lite-cli PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
-| Cloud and compliance security | [Prowler PR #11098](https://github.com/prowler-cloud/prowler/pull/11098), [SecOps-NG PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281), [CISA ScubaGear PR #2237](https://github.com/cisagov/ScubaGear/pull/2237) |
-| Supply-chain hardening | [RamenDR ramenctl PR #466](https://github.com/RamenDR/ramenctl/pull/466), [OpenSSF Scorecard PR #5098](https://github.com/ossf/scorecard/pull/5098), [Anchore SBOM Action PR #699](https://github.com/anchore/sbom-action/pull/699) |
-| API and vulnerability tooling | [Dependency-Track PR #6477](https://github.com/DependencyTrack/dependency-track/pull/6477), PhishGuard API/server work, SARIF validation, Code Scanning hygiene |
+| Cloud and compliance security | [Prowler PR #11098](https://github.com/prowler-cloud/prowler/pull/11098), [SecOps-NG PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
+| Supply-chain hardening | [RamenDR ramenctl PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
+| API and vulnerability tooling | PhishGuard API/server work, SARIF validation, Code Scanning hygiene |
 
 Full dated record: [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)
 
