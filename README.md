@@ -79,36 +79,66 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/phishguard-ai">PhishGuard AI</a></h3>
       <p>Offline phishing analysis with explainable scoring, SARIF output, Code Scanning support, and Marketplace packaging.</p>
-      <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/phishguard-ai?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/phishguard-ai?style=flat-square" alt="Last commit" /></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
+        <img src="https://img.shields.io/badge/JavaScript-browser%20demo-F7DF1E?style=flat-square&logo=javascript&logoColor=111" alt="JavaScript browser demo" />
+        <img src="https://img.shields.io/badge/SARIF-Code%20Scanning-374151?style=flat-square" alt="SARIF Code Scanning" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/phishguard-ai?style=flat-square" alt="Last commit" />
+      </p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/secrets-scanner">Secrets Scanner</a></h3>
       <p>CI-friendly credential scanner with redacted JSON/SARIF output and reusable GitHub Action support.</p>
-      <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/secrets-scanner?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/secrets-scanner?style=flat-square" alt="Last commit" /></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
+        <img src="https://img.shields.io/badge/SARIF-export-374151?style=flat-square" alt="SARIF export" />
+        <img src="https://img.shields.io/badge/GitHub%20Action-CI%20ready-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Action" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/secrets-scanner?style=flat-square" alt="Last commit" />
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
       <p>Threat detection with MITRE ATT&amp;CK mappings, structured output, SARIF support, and security operations workflows.</p>
-      <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/log-analyzer?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat-square" alt="Last commit" /></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
+        <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-mapping-DA3832?style=flat-square" alt="MITRE ATT&CK mapping" />
+        <img src="https://img.shields.io/badge/SARIF-output-374151?style=flat-square" alt="SARIF output" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat-square" alt="Last commit" />
+      </p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/behaviorsense">BehaviorSense</a></h3>
       <p>Behavioral anomaly detection for user and IP risk scoring, including UEBA-style insider-threat patterns and a TypeScript report viewer for exported JSON.</p>
-      <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/behaviorsense?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/behaviorsense?style=flat-square" alt="Last commit" /></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-engine-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python engine" />
+        <img src="https://img.shields.io/badge/TypeScript-report%20viewer-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript report viewer" />
+        <img src="https://img.shields.io/badge/MITRE%20hints-triage-374151?style=flat-square" alt="MITRE hints" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/behaviorsense?style=flat-square" alt="Last commit" />
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/vulngpt">VulnGPT</a></h3>
       <p>CVE analysis with NVD data, deterministic triage, optional AI-assisted narrative, and a TypeScript report viewer for reviewer-friendly output.</p>
-      <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/vulngpt?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/vulngpt?style=flat-square" alt="Last commit" /></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-engine-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python engine" />
+        <img src="https://img.shields.io/badge/TypeScript-report%20viewer-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript report viewer" />
+        <img src="https://img.shields.io/badge/NVD-CVE%20triage-374151?style=flat-square" alt="NVD CVE triage" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/vulngpt?style=flat-square" alt="Last commit" />
+      </p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
       <p>Real-time CVE intelligence using NVD data, filtering, severity scoring, and trend tracking.</p>
-      <p><img src="https://img.shields.io/github/languages/top/omobolajiadeyan/cve-dashboard?style=flat-square" alt="Top language" /> <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat-square" alt="Last commit" /></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-data%20pipeline-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python data pipeline" />
+        <img src="https://img.shields.io/badge/Dashboard-CVE%20intelligence-0F766E?style=flat-square" alt="CVE intelligence dashboard" />
+        <img src="https://img.shields.io/badge/NVD-live%20data-374151?style=flat-square" alt="NVD live data" />
+        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat-square" alt="Last commit" />
+      </p>
     </td>
   </tr>
 </table>
