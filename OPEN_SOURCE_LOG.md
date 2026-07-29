@@ -3,6 +3,29 @@
 This log records recent open-source contributions in detail — what changed,
 why, and how it was verified.
 
+## 2026-07-29
+
+### Log Analyzer Product Evidence And Browser Report Viewer
+
+- Contribution: Upgraded Log Analyzer from a CLI-only supporting tool into a
+  more reviewable product surface with structured JSON summary evidence,
+  project evidence docs, evaluator guide, evidence graphic, and a static
+  JavaScript report viewer for exported JSON.
+- Scope: Added risk-level, severity-count, category-count, and top-offending-IP
+  summary fields to JSON exports while preserving SARIF output and the existing
+  GitHub Action path. Added `web/` with a sample report viewer that loads real
+  analyzer output and supports local JSON upload.
+- Evidence:
+  [Log Analyzer upgrade commit](https://github.com/omobolajiadeyan/log-analyzer/commit/8350b0b),
+  [project evidence](https://github.com/omobolajiadeyan/log-analyzer/blob/main/docs/PROJECT_EVIDENCE.md),
+  and
+  [evaluator guide](https://github.com/omobolajiadeyan/log-analyzer/blob/main/docs/EVALUATOR_GUIDE.md).
+- Verification: `python3 -m unittest discover -s tests -v` passed with 18
+  tests. `web/sample-report.json` and generated SARIF both validated as JSON.
+  The browser report viewer was served locally and checked with a headless Edge
+  screenshot; long log snippets now stay inside alert cards.
+- Status: Pushed to `omobolajiadeyan/log-analyzer` main.
+
 ## 2026-07-28
 
 ### Product Readiness And Reviewer Experience
