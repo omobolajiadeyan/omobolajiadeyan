@@ -5,6 +5,27 @@ why, and how it was verified.
 
 ## 2026-07-29
 
+### Product Usability Critique And Evidence Tightening
+
+- Contribution: Reviewed the public security-tool portfolio from an external
+  evaluator perspective: first-run clarity, sample data, evidence links,
+  browser viewer availability, output safety, and whether the value is obvious
+  to a security reviewer.
+- Scope: Strengthened Secrets Scanner's README evidence path, added
+  BehaviorSense and VulnGPT `PROJECT_EVIDENCE.md` pages, added evidence
+  graphics, refreshed their sample JSON reports, and corrected an outdated
+  BehaviorSense roadmap item now that a browser report viewer exists.
+- Evidence:
+  [Secrets Scanner README evidence commit](https://github.com/omobolajiadeyan/secrets-scanner/commit/3a9ef9b),
+  [BehaviorSense evidence commit](https://github.com/omobolajiadeyan/behaviorsense/commit/b864ec9),
+  and
+  [VulnGPT evidence commit](https://github.com/omobolajiadeyan/vulngpt/commit/813712e).
+- Verification: Secrets Scanner passed 23 tests, BehaviorSense passed 6 tests,
+  VulnGPT passed 4 tests, evidence SVGs parsed successfully, sample JSON
+  reports validated, demo commands regenerated sample reports, and the three
+  static viewers served successfully over local HTTP.
+- Status: Pushed to the public repositories.
+
 ### Secrets Scanner And CVE Dashboard Product Evidence
 
 - Contribution: Upgraded the remaining public portfolio tools so they have
