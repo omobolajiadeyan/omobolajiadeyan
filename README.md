@@ -88,9 +88,10 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/secrets-scanner">Secrets Scanner</a></h3>
-      <p>CI-friendly credential scanner with redacted JSON/SARIF output and reusable GitHub Action support.</p>
+      <p>CI-friendly credential scanner with redacted JSON/SARIF output, reusable GitHub Action support, and a browser report viewer for safe evidence review.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
+        <img src="https://img.shields.io/badge/JavaScript-report%20viewer-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript report viewer" />
         <img src="https://img.shields.io/badge/SARIF-export-374151?style=flat-square" alt="SARIF export" />
         <img src="https://img.shields.io/badge/GitHub%20Action-CI%20ready-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Action" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/secrets-scanner?style=flat-square" alt="Last commit" />
@@ -133,9 +134,10 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
-      <p>Real-time CVE intelligence using NVD data, filtering, severity scoring, and trend tracking.</p>
+      <p>Real-time and offline CVE intelligence using NVD data, severity aggregation, JSON evidence export, and a browser report viewer for reviewer-friendly triage.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-data%20pipeline-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python data pipeline" />
+        <img src="https://img.shields.io/badge/JavaScript-report%20viewer-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript report viewer" />
         <img src="https://img.shields.io/badge/Dashboard-CVE%20intelligence-0F766E?style=flat-square" alt="CVE intelligence dashboard" />
         <img src="https://img.shields.io/badge/NVD-live%20data-374151?style=flat-square" alt="NVD live data" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat-square" alt="Last commit" />
@@ -154,6 +156,8 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
 |---|---|---|
 | PhishGuard AI | Added an unpacked Chrome/Edge browser extension prototype so users can check the current tab or paste a URL without using the CLI | [Extension commit](https://github.com/omobolajiadeyan/phishguard-ai/commit/1c4992c), [Extension guide](https://github.com/omobolajiadeyan/phishguard-ai/blob/docs/evaluator-guide/docs/BROWSER_EXTENSION.md) |
 | Log Analyzer | Added JSON summary evidence, evaluator docs, an evidence graphic, and a JavaScript browser report viewer for exported log findings | [Upgrade commit](https://github.com/omobolajiadeyan/log-analyzer/commit/8350b0b), [Evidence guide](https://github.com/omobolajiadeyan/log-analyzer/blob/main/docs/PROJECT_EVIDENCE.md) |
+| Secrets Scanner | Added redacted summary evidence, evaluator docs, an evidence graphic, and a JavaScript browser report viewer for exported secret findings | [Upgrade commit](https://github.com/omobolajiadeyan/secrets-scanner/commit/37079a9), [Evidence guide](https://github.com/omobolajiadeyan/secrets-scanner/blob/main/docs/PROJECT_EVIDENCE.md) |
+| CVE Dashboard | Added offline JSON input, summary exports, evaluator docs, an evidence graphic, a saved viewer screenshot, and a JavaScript report viewer for CVE triage evidence | [Upgrade commit](https://github.com/omobolajiadeyan/cve-dashboard/commit/2d32b19), [Evidence guide](https://github.com/omobolajiadeyan/cve-dashboard/blob/main/docs/PROJECT_EVIDENCE.md) |
 | BehaviorSense | Added evaluator docs and a TypeScript browser report viewer for exported anomaly JSON | [Viewer commit](https://github.com/omobolajiadeyan/behaviorsense/commit/bb2fdb9), [Docs commit](https://github.com/omobolajiadeyan/behaviorsense/commit/8b9a472) |
 | VulnGPT | Added evaluator docs and a TypeScript browser report viewer for CVE triage JSON | [Viewer commit](https://github.com/omobolajiadeyan/vulngpt/commit/5b62fb2), [Docs commit](https://github.com/omobolajiadeyan/vulngpt/commit/f3cfe34) |
 | AppSec Compliance Bridge | Added public-safe demo docs and a React/TypeScript frontend shell for the upload-to-POA&M workflow | [Demo docs](https://github.com/omobolajiadeyan/appsec-bridge/commit/fa53843), [React shell](https://github.com/omobolajiadeyan/appsec-bridge/commit/11b50b5) |
