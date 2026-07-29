@@ -100,9 +100,10 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
-      <p>Threat detection with MITRE ATT&amp;CK mappings, structured output, SARIF support, and security operations workflows.</p>
+      <p>Threat detection with MITRE ATT&amp;CK mappings, structured JSON/SARIF output, and a browser report viewer for exported evidence.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
+        <img src="https://img.shields.io/badge/JavaScript-report%20viewer-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript report viewer" />
         <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-mapping-DA3832?style=flat-square" alt="MITRE ATT&CK mapping" />
         <img src="https://img.shields.io/badge/SARIF-output-374151?style=flat-square" alt="SARIF output" />
         <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat-square" alt="Last commit" />
@@ -152,6 +153,7 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
 | Product | Recent Upgrade | Evidence |
 |---|---|---|
 | PhishGuard AI | Added an unpacked Chrome/Edge browser extension prototype so users can check the current tab or paste a URL without using the CLI | [Extension commit](https://github.com/omobolajiadeyan/phishguard-ai/commit/1c4992c), [Extension guide](https://github.com/omobolajiadeyan/phishguard-ai/blob/docs/evaluator-guide/docs/BROWSER_EXTENSION.md) |
+| Log Analyzer | Added JSON summary evidence, evaluator docs, an evidence graphic, and a JavaScript browser report viewer for exported log findings | [Upgrade commit](https://github.com/omobolajiadeyan/log-analyzer/commit/8350b0b), [Evidence guide](https://github.com/omobolajiadeyan/log-analyzer/blob/main/docs/PROJECT_EVIDENCE.md) |
 | BehaviorSense | Added evaluator docs and a TypeScript browser report viewer for exported anomaly JSON | [Viewer commit](https://github.com/omobolajiadeyan/behaviorsense/commit/bb2fdb9), [Docs commit](https://github.com/omobolajiadeyan/behaviorsense/commit/8b9a472) |
 | VulnGPT | Added evaluator docs and a TypeScript browser report viewer for CVE triage JSON | [Viewer commit](https://github.com/omobolajiadeyan/vulngpt/commit/5b62fb2), [Docs commit](https://github.com/omobolajiadeyan/vulngpt/commit/f3cfe34) |
 | AppSec Compliance Bridge | Added public-safe demo docs and a React/TypeScript frontend shell for the upload-to-POA&M workflow | [Demo docs](https://github.com/omobolajiadeyan/appsec-bridge/commit/fa53843), [React shell](https://github.com/omobolajiadeyan/appsec-bridge/commit/11b50b5) |
