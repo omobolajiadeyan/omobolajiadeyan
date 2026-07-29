@@ -5,6 +5,28 @@ why, and how it was verified.
 
 ## 2026-07-29
 
+### Secrets Scanner And CVE Dashboard Product Evidence
+
+- Contribution: Upgraded the remaining public portfolio tools so they have
+  clearer evaluator paths and user-friendly report review surfaces, instead of
+  presenting only command-line Python utilities.
+- Scope: Added redacted summary evidence, evaluator docs, evidence graphics,
+  sample JSON, and a JavaScript report viewer to Secrets Scanner. Added offline
+  JSON input, summary exports, evaluator docs, evidence graphics, a saved
+  rendered viewer screenshot, and a JavaScript report viewer to CVE Dashboard.
+- Evidence:
+  [Secrets Scanner upgrade commit](https://github.com/omobolajiadeyan/secrets-scanner/commit/37079a9),
+  [Secrets Scanner evidence](https://github.com/omobolajiadeyan/secrets-scanner/blob/main/docs/PROJECT_EVIDENCE.md),
+  [CVE Dashboard upgrade commit](https://github.com/omobolajiadeyan/cve-dashboard/commit/2d32b19),
+  and
+  [CVE Dashboard evidence](https://github.com/omobolajiadeyan/cve-dashboard/blob/main/docs/PROJECT_EVIDENCE.md).
+- Verification: Secrets Scanner passed 23 tests. CVE Dashboard passed 21
+  tests, validated sample/exported JSON, parsed the evidence SVG, generated an
+  offline report from `web/sample-cves.json`, and rendered the browser viewer
+  through a local HTTP server with a headless Edge screenshot.
+- Status: Secrets Scanner and CVE Dashboard upgrades pushed to their main
+  branches.
+
 ### Log Analyzer Product Evidence And Browser Report Viewer
 
 - Contribution: Upgraded Log Analyzer from a CLI-only supporting tool into a
