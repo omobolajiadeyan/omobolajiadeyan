@@ -321,34 +321,6 @@ why, and how it was verified.
 - Evidence: [Issue #40](https://github.com/omobolajiadeyan/phishguard-ai/issues/40).
 - Status: Closed as completed.
 
-### FreNiMi Checkers
-
-- Contribution: Added a public playtest guide and structured issue template so
-  browser, accessibility, offline, rules, and deployment feedback can become
-  useful public evidence.
-- Evidence: [PR #17](https://github.com/omobolajiadeyan/frenimi-checkers/pull/17).
-- Verification: `npm run check`, `npm run policy`, `npm test`, and
-  `npm run audit` passed locally; PR CI, CodeQL, deployment-image, and
-  CodeRabbit checks passed.
-- Status: Merged.
-
-- Contribution: Added a public session-revocation demo script, multiplayer
-  deployment smoke-test checklist, README links, and a test isolation fix so
-  local matchmaking tests use the intended in-memory database.
-- Evidence: [PR #16](https://github.com/omobolajiadeyan/frenimi-checkers/pull/16).
-- Verification: `npm run check`, `npm run policy`, `npm test`, and
-  `npm run audit` passed locally; PR CI, CodeQL, deployment-image, and
-  CodeRabbit checks passed.
-- Status: Merged.
-
-- Contribution: Merged revocable online sessions with server-side active-match
-  protection, WebSocket cleanup, bearer-token export hardening, security docs,
-  and regression tests.
-- Evidence: [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8).
-- Verification: `npm run check`, `npm test`, `npm run policy`, and
-  `npm run audit` passed locally; GitHub CI and CodeQL passed before merge.
-- Status: Merged.
-
 ### Dependency-Track
 
 - Contribution: Posted a concise re-review request after maintainer-requested
@@ -480,15 +452,6 @@ why, and how it was verified.
 - Result: 333 tests passed, 1 skipped; all bundled scenarios validated
   successfully.
 - Status: Merged on 2026-06-18.
-
-### FreNiMi Checkers
-
-- Contribution: Revocable online sessions, WebSocket disconnect handling, active
-  match protection, and safer enterprise export/import behavior.
-- Evidence: [PR #8](https://github.com/omobolajiadeyan/frenimi-checkers/pull/8).
-- Verification: Node test matrix, CodeQL, deployment image build, CodeRabbit, and
-  local security checks passed.
-- Status: Open and waiting for required review.
 
 ### OpenSSF Scorecard
 

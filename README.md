@@ -25,13 +25,17 @@
 
 Security work should be practical enough for engineers to adopt, precise enough for reviewers to trust, and clear enough for leaders to act on.
 
-I build tools and contribute to open-source security projects where the output has to survive real scrutiny: phishing analysis, vulnerability triage, CI/CD hardening, SARIF reporting, policy mapping, and evidence trails that show how a finding was produced.
+I build and maintain security-automation tools where the output has to survive real scrutiny: phishing analysis, vulnerability triage, CI/CD hardening, SARIF reporting, policy mapping, and evidence trails that show how a finding was produced.
 
 | Signal | What It Shows |
 |---|---|
 | [PhishGuard AI](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) on GitHub Marketplace | I can take a security idea from implementation to packaged, reusable developer workflow |
 | OWASP, Prowler, SecOps-NG, RamenDR work | I contribute inside established security communities and respond to maintainer standards |
 | Security+, AWS Academy Cloud Foundations, BS Information Technology | I connect hands-on engineering with governance, auditability, and risk language |
+
+## Evaluator Path
+
+If you are reviewing my work, start with PhishGuard AI as the flagship project, then use the Product Readiness Evidence table to inspect the surrounding security-tool suite. The Open-Source Proof section shows where the same security-automation discipline has been applied inside established external projects.
 
 ---
 
@@ -146,7 +150,7 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
   </tr>
 </table>
 
-**Private pre-launch:** AppSec Compliance Bridge converts application-security scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence, with a React/TypeScript demo shell now in progress.
+**Private pre-launch:** AppSec Compliance Bridge converts application-security scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence. It stays off-stage until the parser security, delivery model, and evaluator evidence are ready for public review.
 
 ---
 
@@ -162,6 +166,12 @@ Recent work includes benchmark recall improvements, a stable Python API guide, S
 | VulnGPT | Added evaluator docs, a TypeScript browser report viewer, project evidence, and a richer sample report for CVE triage JSON | [Evidence commit](https://github.com/omobolajiadeyan/vulngpt/commit/813712e), [Evidence guide](https://github.com/omobolajiadeyan/vulngpt/blob/main/docs/PROJECT_EVIDENCE.md) |
 | AppSec Compliance Bridge | Added public-safe demo docs and a React/TypeScript frontend shell for the upload-to-POA&M workflow | [Demo docs](https://github.com/omobolajiadeyan/appsec-bridge/commit/fa53843), [React shell](https://github.com/omobolajiadeyan/appsec-bridge/commit/11b50b5) |
 | GitHub profile | Replaced raw language-percentage badges with product stack badges that show Python, TypeScript, JavaScript, SARIF, and GitHub Actions roles | [Profile commit](https://github.com/omobolajiadeyan/omobolajiadeyan/commit/0766c84) |
+
+---
+
+## Portfolio Boundaries
+
+This profile is intentionally limited to security automation, AppSec/DevSecOps tooling, vulnerability intelligence, and evidence-driven open-source work. Client delivery previews, general web builds, and unrelated experiments are archived or kept off-stage so they do not dilute the security-engineering signal.
 
 ---
 
