@@ -90,6 +90,7 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 | [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Maps suspicious log activity to MITRE ATT&CK and exports reviewable findings | Python, JavaScript, MITRE ATT&CK, SARIF |
 | [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Scores user and IP anomalies for UEBA-style insider-threat triage | Python, TypeScript, behavioral analytics |
 | [CVE Dashboard](https://github.com/omobolajiadeyan/cve-dashboard) | Turns live or offline NVD data into severity summaries and exportable triage evidence | Python, JavaScript, NVD |
+| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | Turns CVE metadata into actionable triage reports with exploitation likelihood and remediation steps | Python, NVD, CVSS/CWE |
 
 ---
 
