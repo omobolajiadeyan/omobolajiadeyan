@@ -13,6 +13,9 @@
 <a href="https://www.comptia.org/certifications/security">
   <img src="https://img.shields.io/badge/Security%2B-Certified-0052CC?style=flat-square" alt="CompTIA Security+ Certified" />
 </a>
+<a href="https://www.linkedin.com/in/oeadeyan">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect with Omobolaji Adeyan on LinkedIn" />
+</a>
 
 </div>
 
@@ -23,6 +26,23 @@
 I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting. My focus is straightforward: findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
 
 Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <strong>Product Delivery</strong><br />
+      Published on GitHub Marketplace
+    </td>
+    <td width="33%" align="center">
+      <strong>Open-Source Trust</strong><br />
+      Merged work across OWASP, Prowler, SecOps-NG, and RamenDR
+    </td>
+    <td width="33%" align="center">
+      <strong>Security Foundation</strong><br />
+      Security+ · AWS Cloud Foundations · BS Information Technology
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -60,13 +80,27 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 
 ---
 
+## Credentials & Recognition
+
+| Recognition | What it represents |
+|---|---|
+| **CompTIA Security+ Certified** | Validated security operations, architecture, risk, incident response, and governance fundamentals |
+| **AWS Academy Cloud Foundations** | Cloud architecture, shared responsibility, security, pricing, and operational foundations |
+| **BS, Information Technology** | Broad engineering foundation spanning systems, software, data, networking, and technology operations |
+| **OWASP Contributor** | Merged application-security automation work in established OWASP projects |
+| **GitHub Marketplace Publisher** | Took PhishGuard AI from implementation through packaging, documentation, release, and reusable delivery |
+
+---
+
 ## Merged Open-Source Contributions
 
-| Area | Selected evidence |
-|---|---|
-| Application-security automation | [OWASP Agent Security Regression Harness #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150), [OWASP cve-lite-cli #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
-| Cloud and compliance security | [Prowler #11098](https://github.com/prowler-cloud/prowler/pull/11098), [SecOps-NG #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
-| Supply-chain hardening | [RamenDR ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) |
+| Community | Merged contribution | Security impact |
+|---|---|---|
+| OWASP | [Agent Security Regression Harness #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Added scenario-directory and glob validation for repeatable agent-security testing |
+| OWASP | [cve-lite-cli #602](https://github.com/OWASP/cve-lite-cli/pull/602) | Added risk context and next-action guidance to vulnerability reports |
+| Prowler | [Prowler #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Added an M365 control for directory-sync object-takeover protection |
+| SecOps-NG | [SecOps-NG #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Extended compliance mappings for the EU Cyber Resilience Act |
+| RamenDR | [ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) | Hardened the software-supply chain by pinning GitHub Actions to commit SHAs |
 
 Full dated contribution record: **[OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)**
 
