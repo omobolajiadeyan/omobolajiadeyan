@@ -13,178 +13,62 @@
 <a href="https://www.comptia.org/certifications/security">
   <img src="https://img.shields.io/badge/Security%2B-Certified-0052CC?style=flat-square" alt="CompTIA Security+ Certified" />
 </a>
-<a href="https://www.linkedin.com/in/oeadeyan">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
 
 </div>
 
 ---
 
-## What I Stand For
+## Security Engineering That Produces Evidence
 
-Security work should be practical enough for engineers to adopt, precise enough for reviewers to trust, and clear enough for leaders to act on.
+I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting. My focus is straightforward: findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
 
-I build and maintain security-automation tools where the output has to survive real scrutiny: phishing analysis, vulnerability triage, CI/CD hardening, SARIF reporting, policy mapping, and evidence trails that show how a finding was produced.
-
-| Signal | What It Shows |
-|---|---|
-| [PhishGuard AI](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) on GitHub Marketplace | I can take a security idea from implementation to packaged, reusable developer workflow |
-| OWASP, Prowler, SecOps-NG, RamenDR work | I contribute inside established security communities and respond to maintainer standards |
-| Security+, AWS Academy Cloud Foundations, BS Information Technology | I connect hands-on engineering with governance, auditability, and risk language |
-
-## Evaluator Path
-
-If you are reviewing my work, start with PhishGuard AI as the flagship project, then use the Product Readiness Evidence table to inspect the surrounding security-tool suite. The Open-Source Proof section shows where the same security-automation discipline has been applied inside established external projects.
+Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
 
 ---
 
-## Signature Project
+## Flagship Project: [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)
 
-### [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)
-
-PhishGuard AI is an explainable offline phishing detection engine for URLs and email. It is designed for local analysis, CI workflows, GitHub Code Scanning, and security education where black-box scoring is not enough.
+PhishGuard AI is an explainable offline phishing detector for URLs and email. It supports local analysis, CI workflows, GitHub Code Scanning, and security education without sending sensitive inputs to a third-party service.
 
 ```yaml
 - uses: omobolajiadeyan/phishguard-ai@v0.5.1
 ```
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Explainable Detection</strong><br />
-      URL, email, redirect, typosquatting, and authentication-signal analysis with readable reasoning.
-    </td>
-    <td width="33%" valign="top">
-      <strong>Automation Ready</strong><br />
-      JSON and SARIF 2.1.0 output for GitHub Code Scanning, CI workflows, and downstream tooling.
-    </td>
-    <td width="33%" valign="top">
-      <strong>Trust Boundaries</strong><br />
-      SPF, DKIM, and DMARC are treated as supporting evidence, not magic proof of safety.
-    </td>
-  </tr>
-</table>
-
-Recent work includes benchmark recall improvements, a stable Python API guide, SARIF validation, REST API server mode, third-party adoption templates, expanded parser trust-boundary tests, and an unpacked Chrome/Edge extension prototype for current-page URL checks.
+| Capability | Evidence |
+|---|---|
+| Explainable detection | URL, email, redirect, typosquatting, and authentication-signal analysis with readable reasons |
+| Automation | JSON and SARIF 2.1.0 output, reusable GitHub Action, REST API mode, and Code Scanning integration |
+| Defensive trust boundaries | SPF, DKIM, and DMARC are supporting evidence—not automatic proof that a message is safe |
+| Consistent domain analysis | Public-suffix-aware scoring shared across Python, the web demo, and the browser extension |
 
 <p align="center">
   <img src="assets/phishguard-demo.svg" alt="PhishGuard AI CLI output comparing a safe input against a phishing input" width="80%" />
 </p>
 
-<p align="center"><sub>Real CLI output on two public-safe inputs (<code>example.com</code> and the TEST-NET-1 documentation range), refreshed July 28, 2026 — see <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/docs/evaluator-guide/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a> for the exact commands and reproducible benchmark evidence.</sub></p>
+<p align="center"><sub>Reproducible commands, benchmark results, and evaluator guidance are available in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
 
 ---
 
-## Portfolio
+## Selected Security Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omobolajiadeyan/phishguard-ai">PhishGuard AI</a></h3>
-      <p>Offline phishing analysis with explainable scoring, SARIF output, Code Scanning support, and Marketplace packaging.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
-        <img src="https://img.shields.io/badge/JavaScript-browser%20demo-F7DF1E?style=flat-square&logo=javascript&logoColor=111" alt="JavaScript browser demo" />
-        <img src="https://img.shields.io/badge/SARIF-Code%20Scanning-374151?style=flat-square" alt="SARIF Code Scanning" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/phishguard-ai?style=flat-square" alt="Last commit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omobolajiadeyan/secrets-scanner">Secrets Scanner</a></h3>
-      <p>CI-friendly credential scanner with redacted JSON/SARIF output, reusable GitHub Action support, and a browser report viewer for safe evidence review.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
-        <img src="https://img.shields.io/badge/JavaScript-report%20viewer-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript report viewer" />
-        <img src="https://img.shields.io/badge/SARIF-export-374151?style=flat-square" alt="SARIF export" />
-        <img src="https://img.shields.io/badge/GitHub%20Action-CI%20ready-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Action" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/secrets-scanner?style=flat-square" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omobolajiadeyan/log-analyzer">Log Analyzer</a></h3>
-      <p>Threat detection with MITRE ATT&amp;CK mappings, structured JSON/SARIF output, and a browser report viewer for exported evidence.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-core-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python core" />
-        <img src="https://img.shields.io/badge/JavaScript-report%20viewer-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript report viewer" />
-        <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-mapping-DA3832?style=flat-square" alt="MITRE ATT&CK mapping" />
-        <img src="https://img.shields.io/badge/SARIF-output-374151?style=flat-square" alt="SARIF output" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/log-analyzer?style=flat-square" alt="Last commit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omobolajiadeyan/behaviorsense">BehaviorSense</a></h3>
-      <p>Behavioral anomaly detection for user and IP risk scoring, including UEBA-style insider-threat patterns and a TypeScript report viewer for exported JSON.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-engine-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python engine" />
-        <img src="https://img.shields.io/badge/TypeScript-report%20viewer-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript report viewer" />
-        <img src="https://img.shields.io/badge/MITRE%20hints-triage-374151?style=flat-square" alt="MITRE hints" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/behaviorsense?style=flat-square" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omobolajiadeyan/vulngpt">VulnGPT</a></h3>
-      <p>CVE analysis with NVD data, deterministic triage, optional AI-assisted narrative, and a TypeScript report viewer for reviewer-friendly output.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-engine-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python engine" />
-        <img src="https://img.shields.io/badge/TypeScript-report%20viewer-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript report viewer" />
-        <img src="https://img.shields.io/badge/NVD-CVE%20triage-374151?style=flat-square" alt="NVD CVE triage" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/vulngpt?style=flat-square" alt="Last commit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/omobolajiadeyan/cve-dashboard">CVE Dashboard</a></h3>
-      <p>Real-time and offline CVE intelligence using NVD data, severity aggregation, JSON evidence export, and a browser report viewer for reviewer-friendly triage.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-data%20pipeline-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python data pipeline" />
-        <img src="https://img.shields.io/badge/JavaScript-report%20viewer-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript report viewer" />
-        <img src="https://img.shields.io/badge/Dashboard-CVE%20intelligence-0F766E?style=flat-square" alt="CVE intelligence dashboard" />
-        <img src="https://img.shields.io/badge/NVD-live%20data-374151?style=flat-square" alt="NVD live data" />
-        <img src="https://img.shields.io/github/last-commit/omobolajiadeyan/cve-dashboard?style=flat-square" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-**Private pre-launch:** AppSec Compliance Bridge converts application-security scan findings into traceable NIST SP 800-53 control mappings and POA&M evidence. It stays off-stage until the parser security, delivery model, and evaluator evidence are ready for public review.
-
----
-
-## Product Readiness Evidence
-
-| Product | Recent Upgrade | Evidence |
+| Project | Security outcome | Core stack |
 |---|---|---|
-| PhishGuard AI | Added an unpacked Chrome/Edge browser extension prototype so users can check the current tab or paste a URL without using the CLI | [Extension commit](https://github.com/omobolajiadeyan/phishguard-ai/commit/1c4992c), [Extension guide](https://github.com/omobolajiadeyan/phishguard-ai/blob/docs/evaluator-guide/docs/BROWSER_EXTENSION.md) |
-| Log Analyzer | Added JSON summary evidence, evaluator docs, an evidence graphic, and a JavaScript browser report viewer for exported log findings | [Upgrade commit](https://github.com/omobolajiadeyan/log-analyzer/commit/8350b0b), [Evidence guide](https://github.com/omobolajiadeyan/log-analyzer/blob/main/docs/PROJECT_EVIDENCE.md) |
-| Secrets Scanner | Added redacted summary evidence, evaluator docs, an evidence graphic, a clearer README evidence path, and a JavaScript browser report viewer for exported secret findings | [Upgrade commit](https://github.com/omobolajiadeyan/secrets-scanner/commit/3a9ef9b), [Evidence guide](https://github.com/omobolajiadeyan/secrets-scanner/blob/main/docs/PROJECT_EVIDENCE.md) |
-| CVE Dashboard | Added offline JSON input, summary exports, evaluator docs, an evidence graphic, a saved viewer screenshot, and a JavaScript report viewer for CVE triage evidence | [Upgrade commit](https://github.com/omobolajiadeyan/cve-dashboard/commit/2d32b19), [Evidence guide](https://github.com/omobolajiadeyan/cve-dashboard/blob/main/docs/PROJECT_EVIDENCE.md) |
-| BehaviorSense | Added evaluator docs, a TypeScript browser report viewer, project evidence, and a richer sample report for exported anomaly JSON | [Evidence commit](https://github.com/omobolajiadeyan/behaviorsense/commit/b864ec9), [Evidence guide](https://github.com/omobolajiadeyan/behaviorsense/blob/main/docs/PROJECT_EVIDENCE.md) |
-| VulnGPT | Added evaluator docs, a TypeScript browser report viewer, project evidence, and a richer sample report for CVE triage JSON | [Evidence commit](https://github.com/omobolajiadeyan/vulngpt/commit/813712e), [Evidence guide](https://github.com/omobolajiadeyan/vulngpt/blob/main/docs/PROJECT_EVIDENCE.md) |
-| AppSec Compliance Bridge | Added public-safe demo docs and a React/TypeScript frontend shell for the upload-to-POA&M workflow | [Demo docs](https://github.com/omobolajiadeyan/appsec-bridge/commit/fa53843), [React shell](https://github.com/omobolajiadeyan/appsec-bridge/commit/11b50b5) |
-| GitHub profile | Replaced raw language-percentage badges with product stack badges that show Python, TypeScript, JavaScript, SARIF, and GitHub Actions roles | [Profile commit](https://github.com/omobolajiadeyan/omobolajiadeyan/commit/0766c84) |
+| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | Finds exposed credentials with redacted JSON/SARIF evidence and reusable CI integration | Python, JavaScript, SARIF, GitHub Actions |
+| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Maps suspicious log activity to MITRE ATT&CK and exports reviewable findings | Python, JavaScript, MITRE ATT&CK, SARIF |
+| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Scores user and IP anomalies for UEBA-style insider-threat triage | Python, TypeScript, behavioral analytics |
+| [CVE Dashboard](https://github.com/omobolajiadeyan/cve-dashboard) | Turns live or offline NVD data into severity summaries and exportable triage evidence | Python, JavaScript, NVD |
 
 ---
 
-## Portfolio Boundaries
+## Merged Open-Source Contributions
 
-This profile is intentionally limited to security automation, AppSec/DevSecOps tooling, vulnerability intelligence, and evidence-driven open-source work. Client delivery previews, general web builds, and unrelated experiments are archived or kept off-stage so they do not dilute the security-engineering signal.
-
----
-
-## Open-Source Proof
-
-| Area | Selected Evidence |
+| Area | Selected evidence |
 |---|---|
-| Application security automation | [OWASP Agent Security Regression Harness PR #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150), [OWASP cve-lite-cli PR #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
-| Cloud and compliance security | [Prowler PR #11098](https://github.com/prowler-cloud/prowler/pull/11098), [SecOps-NG PR #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
-| Supply-chain hardening | [RamenDR ramenctl PR #466](https://github.com/RamenDR/ramenctl/pull/466) |
-| API and vulnerability tooling | PhishGuard API/server work, SARIF validation, Code Scanning hygiene |
+| Application-security automation | [OWASP Agent Security Regression Harness #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150), [OWASP cve-lite-cli #602](https://github.com/OWASP/cve-lite-cli/pull/602) |
+| Cloud and compliance security | [Prowler #11098](https://github.com/prowler-cloud/prowler/pull/11098), [SecOps-NG #281](https://github.com/secops-ng/secops-ng-framework/pull/281) |
+| Supply-chain hardening | [RamenDR ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) |
 
-Full dated record: [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)
+Full dated contribution record: **[OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)**
 
 ---
 
@@ -198,28 +82,18 @@ Full dated record: [OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)
 
 ## Working Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,react,sqlite,docker,githubactions&perline=8" alt="Python, JavaScript, TypeScript, Node.js, React, SQLite, Docker, and GitHub Actions" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SARIF-2.1.0-374151?style=flat-square" alt="SARIF 2.1.0" />
-  <img src="https://img.shields.io/badge/CodeQL-374151?style=flat-square&logo=github" alt="CodeQL" />
-  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-374151?style=flat-square" alt="MITRE ATT&CK" />
-  <img src="https://img.shields.io/badge/NIST%20SP%20800--53-374151?style=flat-square" alt="NIST SP 800-53" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-374151?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-</p>
+**Python · JavaScript · TypeScript · Node.js · React · SQLite · Docker · GitHub Actions · SARIF · CodeQL · MITRE ATT&CK · NIST SP 800-53**
 
 ---
 
 ## Contact
 
-I am open to senior security engineering roles, application-security tooling collaboration, technical advisory work, and community projects around practical security automation.
+I am open to senior security-engineering roles, application-security tooling collaboration, technical advisory work, and community projects around practical security automation.
 
 <p align="center">
-  <a href="https://omobolajiadeyan.com">Website</a> -
-  <a href="https://www.linkedin.com/in/oeadeyan">LinkedIn</a> -
-  <a href="https://dev.to/doidun2">Writing</a> -
-  <a href="https://hackerone.com/doidun">HackerOne</a> -
+  <a href="https://omobolajiadeyan.com">Website</a> ·
+  <a href="https://www.linkedin.com/in/oeadeyan">LinkedIn</a> ·
+  <a href="https://dev.to/doidun2">Writing</a> ·
+  <a href="https://hackerone.com/doidun">HackerOne</a> ·
   <a href="mailto:omobolaji.adeyan@gmail.com">Email</a>
 </p>
