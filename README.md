@@ -19,11 +19,17 @@
 
 </div>
 
+<div align="center">
+
+**[Flagship](#flagship-project-phishguard-ai)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#merged-open-source-contributions)** · **[Writing](#writing)** · **[Contact](#contact)**
+
+</div>
+
 ---
 
-## Security Engineering That Produces Evidence
+## I Turn Security Signals Into Evidence Teams Can Act On
 
-I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting. My focus is straightforward: findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
+I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting. Findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
 
 Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
 
@@ -49,6 +55,13 @@ Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)**
 ## Flagship Project: [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)
 
 PhishGuard AI is an explainable offline phishing detector for URLs and email. It supports local analysis, CI workflows, GitHub Code Scanning, and security education without sending sensitive inputs to a third-party service.
+
+<p align="center">
+  <strong><a href="https://omobolajiadeyan.github.io/phishguard-ai/">Try the live demo</a></strong> ·
+  <strong><a href="https://github.com/marketplace/actions/phishguard-ai-phishing-detector">View on Marketplace</a></strong> ·
+  <strong><a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">Review the evidence</a></strong> ·
+  <strong><a href="https://github.com/omobolajiadeyan/phishguard-ai">Browse the source</a></strong>
+</p>
 
 ```yaml
 - uses: omobolajiadeyan/phishguard-ai@v0.5.1
