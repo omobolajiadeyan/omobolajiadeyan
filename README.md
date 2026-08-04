@@ -21,7 +21,7 @@
 
 <div align="center">
 
-**[Flagship](#flagship-project-phishguard-ai)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#merged-open-source-contributions)** · **[Writing](#writing)** · **[Contact](#contact)**
+**[Flagship](#flagship-project-phishguard-ai)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Contact](#contact)**
 
 </div>
 
@@ -41,7 +41,7 @@ Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)**
     </td>
     <td width="33%" align="center">
       <strong>Open-Source Trust</strong><br />
-      Merged work across OWASP, Prowler, SecOps-NG, and RamenDR
+      Merged work across OWASP, Prowler, RamenDR, and 10 other open-source organizations
     </td>
     <td width="33%" align="center">
       <strong>Security Foundation</strong><br />
@@ -106,15 +106,31 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 
 ---
 
-## Merged Open-Source Contributions
+## Open-Source Contributions
+
+<p align="center">
+<sub><strong>523</strong> contributions in the past year · <strong>338</strong> commits · <strong>107</strong> pull requests opened · <strong>18</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations</sub>
+</p>
+
+### Merged
 
 | Community | Merged contribution | Security impact |
 |---|---|---|
 | OWASP | [Agent Security Regression Harness #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Added scenario-directory and glob validation for repeatable agent-security testing |
 | OWASP | [cve-lite-cli #602](https://github.com/OWASP/cve-lite-cli/pull/602) | Added risk context and next-action guidance to vulnerability reports |
-| Prowler | [Prowler #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Added an M365 control for directory-sync object-takeover protection |
-| SecOps-NG | [SecOps-NG #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Extended compliance mappings for the EU Cyber Resilience Act |
-| RamenDR | [ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) | Hardened the software-supply chain by pinning GitHub Actions to commit SHAs |
+| Prowler | [Prowler #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Added an M365 control for directory-sync object-takeover protection (co-authored, folded in from #11515) |
+| SecOps-NG | [secops-ng-framework #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Extended compliance mappings for the EU Cyber Resilience Act |
+| RamenDR | [ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) | Hardened the software supply chain by pinning GitHub Actions to commit SHAs |
+| TruFoundation | [TruShell #55](https://github.com/TruFoundation/TruShell/pull/55) | Fixed a shell-injection vulnerability in the OS fallback path |
+
+### Active / Under Review
+
+| Community | Contribution | Status |
+|---|---|---|
+| Anchore | [sbom-action #699](https://github.com/anchore/sbom-action/pull/699) | Retries transient Syft download failures that can break SBOM generation in CI |
+| CISA | [ScubaGear #2237](https://github.com/cisagov/ScubaGear/pull/2237) | Fixes DMARC policy discovery to correctly walk the DNS tree per RFC 9989 |
+| OpenSSF | [Scorecard #5098](https://github.com/ossf/scorecard/pull/5098) | Extends Dangerous Workflow detection to committer-controlled Actions contexts |
+| Dependency-Track | [dependency-track #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Adds a runtime-backed OpenAPI response schema for vulnerability findings |
 
 Full dated contribution record: **[OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)**
 
