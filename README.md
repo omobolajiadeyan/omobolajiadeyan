@@ -21,7 +21,7 @@
 
 <div align="center">
 
-**[Flagship](#flagship-project-phishguard-ai)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Contact](#contact)**
+**[Flagship](#flagship-project-phishguard-ai)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Stack](#working-stack)** · **[Contact](#contact)**
 
 </div>
 
@@ -41,7 +41,7 @@ Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)**
     </td>
     <td width="33%" align="center">
       <strong>Open-Source Trust</strong><br />
-      Merged work across OWASP, Prowler, RamenDR, and 10 other open-source organizations
+      Merged or active work across OWASP, Prowler, RamenDR, and 6 other open-source organizations
     </td>
     <td width="33%" align="center">
       <strong>Security Foundation</strong><br />
@@ -109,7 +109,7 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 ## Open-Source Contributions
 
 <p align="center">
-<sub><strong>523</strong> contributions in the past year · <strong>338</strong> commits · <strong>107</strong> pull requests opened · <strong>18</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations</sub>
+<sub><strong>523</strong> contributions in the past year · <strong>338</strong> commits · <strong>107</strong> pull requests opened · <strong>18</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations, <strong>9</strong> merged or currently active (below)</sub>
 </p>
 
 ### Merged
