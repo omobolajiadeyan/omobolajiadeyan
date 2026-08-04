@@ -134,6 +134,18 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 
 Full dated contribution record: **[OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)**
 
+### GitHub Activity
+
+<sub>Live data pulled directly from the GitHub API — updates automatically, not a static snapshot.</sub>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=omobolajiadeyan&show_icons=true&hide_border=true&hide=commits&count_private=true&title_color=0A66C2&icon_color=0A66C2&text_color=333" alt="Omobolaji Adeyan's GitHub stats" />
+  <img height="165" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=omobolajiadeyan&layout=compact&hide_border=true&title_color=0A66C2&text_color=333" alt="Most-used languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=omobolajiadeyan&hide_border=true&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="Omobolaji Adeyan's GitHub contribution streak" />
+</p>
+
 ---
 
 ## Writing
