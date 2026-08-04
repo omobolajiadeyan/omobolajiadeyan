@@ -10,8 +10,8 @@
 <a href="https://owasp.org">
   <img src="https://img.shields.io/badge/OWASP-Contributor-E0461C?style=flat-square" alt="OWASP Contributor" />
 </a>
-<a href="https://www.comptia.org/certifications/security">
-  <img src="https://img.shields.io/badge/Security%2B-Certified-0052CC?style=flat-square" alt="CompTIA Security+ Certified" />
+<a href="https://www.credly.com/badges/0b64bbac-e9a0-4889-a017-8894513823dc/public_url">
+  <img src="https://img.shields.io/badge/Security%2B-Verify_on_Credly-0052CC?style=flat-square" alt="CompTIA Security+ — verify on Credly" />
 </a>
 <a href="https://www.linkedin.com/in/oeadeyan">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect with Omobolaji Adeyan on LinkedIn" />
@@ -98,7 +98,7 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 
 | Recognition | What it represents |
 |---|---|
-| **CompTIA Security+ Certified** | Validated security operations, architecture, risk, incident response, and governance fundamentals |
+| **[CompTIA Security+ Certified](https://www.credly.com/badges/0b64bbac-e9a0-4889-a017-8894513823dc/public_url)** | Validated security operations, architecture, risk, incident response, and governance fundamentals — verifiable on Credly |
 | **AWS Academy Cloud Foundations** | Cloud architecture, shared responsibility, security, pricing, and operational foundations |
 | **BS, Information Technology** | Broad engineering foundation spanning systems, software, data, networking, and technology operations |
 | **OWASP Contributor** | Merged application-security automation work in established OWASP projects |
