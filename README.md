@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Omobolaji Adeyan - Security Engineering, AppSec Automation, Evidence-Driven Reviews" width="100%" />
+<img src="assets/profile-banner.svg" alt="Omobolaji Adeyan - Founder, FreNiMi. Security Engineering, AppSec Automation, Evidence-Driven Reviews" width="100%" />
 
 <br />
 
@@ -29,7 +29,7 @@
 
 ## I Turn Security Signals Into Evidence Teams Can Act On
 
-I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting. Findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
+Founder of **[FreNiMi](https://frenimi.com)**, a security-first product studio. I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting. Findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
 
 Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
 
@@ -155,7 +155,7 @@ Open pull requests awaiting maintainer review aren't listed here — only work t
 
 ## Contact
 
-I am open to senior security-engineering roles, application-security tooling collaboration, technical advisory work, and community projects around practical security automation.
+Building FreNiMi's security-automation product line, open-sourcing what's reusable along the way. Open to technical advisory work, application-security tooling collaboration, and senior security-engineering roles where the work matches this.
 
 <p align="center">
   <a href="https://omobolajiadeyan.com">Website</a> ·
