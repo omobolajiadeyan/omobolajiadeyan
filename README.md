@@ -29,7 +29,7 @@
 
 ## I Turn Security Signals Into Evidence Teams Can Act On
 
-Founder of **[FreNiMi](https://frenimi.com)**, a security-first product studio. I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting. Findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
+Founder of **[FreNiMi](https://frenimi.com)**, a security-first product studio. I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting — plus **[FreNiMiGuard](https://frenimiguard.com)**, a live NIST 800-53/OSCAL compliance platform for public-sector security teams. Findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
 
 Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
 
