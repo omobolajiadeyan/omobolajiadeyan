@@ -109,7 +109,7 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 ## Open-Source Contributions
 
 <p align="center">
-<sub><strong>523</strong> contributions in the past year · <strong>338</strong> commits · <strong>107</strong> pull requests opened · <strong>18</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations, <strong>9</strong> merged or currently active (below)</sub>
+<sub><strong>523</strong> contributions in the past year · <strong>338</strong> commits · <strong>107</strong> pull requests opened · <strong>18</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations, <strong>6</strong> merged (below)</sub>
 </p>
 
 ### Merged
@@ -123,16 +123,7 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 | RamenDR | [ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) | Hardened the software supply chain by pinning GitHub Actions to commit SHAs |
 | TruFoundation | [TruShell #55](https://github.com/TruFoundation/TruShell/pull/55) | Fixed a shell-injection vulnerability in the OS fallback path |
 
-### Active / Under Review
-
-| Community | Contribution | Status |
-|---|---|---|
-| Anchore | [sbom-action #699](https://github.com/anchore/sbom-action/pull/699) | Retries transient Syft download failures that can break SBOM generation in CI |
-| CISA | [ScubaGear #2237](https://github.com/cisagov/ScubaGear/pull/2237) | Fixes DMARC policy discovery to correctly walk the DNS tree per RFC 9989 |
-| OpenSSF | [Scorecard #5098](https://github.com/ossf/scorecard/pull/5098) | Extends Dangerous Workflow detection to committer-controlled Actions contexts |
-| Dependency-Track | [dependency-track #6477](https://github.com/DependencyTrack/dependency-track/pull/6477) | Adds a runtime-backed OpenAPI response schema for vulnerability findings |
-
-Full dated contribution record: **[OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)**
+Open pull requests awaiting maintainer review aren't listed here — only work that has actually landed. The full dated record, including in-progress contributions and their real status, is in **[OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)**.
 
 ### GitHub Activity
 
