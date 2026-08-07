@@ -5,7 +5,7 @@
 <br />
 
 <a href="https://github.com/marketplace/actions/phishguard-ai-phishing-detector">
-  <img src="https://img.shields.io/badge/GitHub%20Marketplace-PhishGuard%20AI-2EA44F?style=flat-square&logo=github" alt="PhishGuard AI on GitHub Marketplace" />
+  <img src="https://img.shields.io/badge/GitHub%20Marketplace-PhishGuard%20Security-2EA44F?style=flat-square&logo=github" alt="PhishGuard on GitHub Marketplace" />
 </a>
 <a href="https://owasp.org">
   <img src="https://img.shields.io/badge/OWASP-Contributor-E0461C?style=flat-square" alt="OWASP Contributor" />
@@ -21,7 +21,7 @@
 
 <div align="center">
 
-**[Flagship](#flagship-project-phishguard-ai)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Stack](#working-stack)** · **[Contact](#contact)**
+**[Flagship](#flagship-project-phishguard)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Stack](#working-stack)** · **[Contact](#contact)**
 
 </div>
 
@@ -31,7 +31,7 @@
 
 Founder of **[FreNiMi](https://frenimi.com)**, a security-first product studio. I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting — plus **[FreNiMiGuard](https://frenimiguard.com)**, a live NIST 800-53/OSCAL compliance platform for public-sector security teams. Findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
 
-Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
+Start with **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
 
 <table>
   <tr>
@@ -52,9 +52,9 @@ Start with **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)**
 
 ---
 
-## Flagship Project: [PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)
+## Flagship Project: [PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)
 
-PhishGuard AI is an explainable offline phishing detector for URLs and email. It supports local analysis, CI workflows, GitHub Code Scanning, and security education without sending sensitive inputs to a third-party service.
+PhishGuard is an explainable offline phishing detector for URLs and email. It supports local analysis, CI workflows, GitHub Code Scanning, and security education without sending sensitive inputs to a third-party service.
 
 <p align="center">
   <strong><a href="https://omobolajiadeyan.github.io/phishguard-ai/">Try the live demo</a></strong> ·
@@ -75,7 +75,7 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 | Consistent domain analysis | Public-suffix-aware scoring shared across Python, the web demo, and the browser extension |
 
 <p align="center">
-  <img src="assets/phishguard-demo.svg" alt="PhishGuard AI CLI output comparing a safe input against a phishing input" width="80%" />
+  <img src="assets/phishguard-demo.svg" alt="PhishGuard CLI output comparing a safe input against a phishing input" width="80%" />
 </p>
 
 <p align="center"><sub>Reproducible commands, benchmark results, and evaluator guidance are available in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
@@ -102,14 +102,14 @@ PhishGuard AI is an explainable offline phishing detector for URLs and email. It
 | **AWS Academy Cloud Foundations** | Cloud architecture, shared responsibility, security, pricing, and operational foundations |
 | **BS, Information Technology** | Broad engineering foundation spanning systems, software, data, networking, and technology operations |
 | **OWASP Contributor** | Merged application-security automation work in established OWASP projects |
-| **GitHub Marketplace Publisher** | Took PhishGuard AI from implementation through packaging, documentation, release, and reusable delivery |
+| **GitHub Marketplace Publisher** | Took PhishGuard from implementation through packaging, documentation, release, and reusable delivery |
 
 ---
 
 ## Open-Source Contributions
 
 <p align="center">
-<sub><strong>523</strong> contributions in the past year · <strong>338</strong> commits · <strong>107</strong> pull requests opened · <strong>18</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations, <strong>6</strong> merged (below)</sub>
+<sub><strong>577</strong> contributions in the past year · <strong>385</strong> commits · <strong>113</strong> pull requests opened · <strong>19</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations, <strong>6</strong> merged (verified 7 August 2026)</sub>
 </p>
 
 ### Merged

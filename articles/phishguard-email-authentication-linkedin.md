@@ -1,6 +1,6 @@
 # LinkedIn Companion Post
 
-I wrote a technical walkthrough of how PhishGuard AI handles SPF, DKIM, and
+I wrote a technical walkthrough of how PhishGuard handles SPF, DKIM, and
 DMARC in phishing detection.
 
 Article:
@@ -15,7 +15,7 @@ combined with suspicious content. But legitimate forwarding and mailing-list
 behavior can also break authentication checks, so a failure should not
 automatically mean "phishing."
 
-PhishGuard AI treats authentication failures as explainable supporting evidence,
+PhishGuard treats authentication failures as explainable supporting evidence,
 does not reduce risk just because authentication passes, and exports the
 decision path through JSON and SARIF 2.1.0.
 
