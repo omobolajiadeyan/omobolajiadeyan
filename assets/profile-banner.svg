@@ -25,7 +25,7 @@
   <text x="72" y="234" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0">clear findings developers can reproduce, trust, and act on.</text>
   <g>
     <rect x="72" y="291" width="146" height="36" rx="18" fill="#102A43" stroke="#1E3A5F"/>
-    <text x="145" y="315" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PHISHGUARD AI</text>
+    <text x="145" y="315" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PHISHGUARD</text>
     <rect x="232" y="291" width="130" height="36" rx="18" fill="#13251D" stroke="#1F4A34"/>
     <text x="297" y="315" text-anchor="middle" fill="#BBF7D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">OWASP WORK</text>
     <rect x="376" y="291" width="144" height="36" rx="18" fill="#2B2111" stroke="#5C431A"/>

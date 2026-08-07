@@ -105,9 +105,9 @@ why, and how it was verified.
 
 ## 2026-07-17
 
-### PhishGuard AI REST API Server
+### PhishGuard REST API Server
 
-- Contribution: Added a `phishguard serve` REST API mode to PhishGuard AI, the
+- Contribution: Added a `phishguard serve` REST API mode to PhishGuard, the
   next item queued on the project roadmap, for SIEM and proxy integrations
   that want a long-running scoring endpoint instead of shelling out to the
   CLI per lookup.
@@ -149,7 +149,7 @@ why, and how it was verified.
 
 ### PhishGuard Code Scanning And Trust-Boundary Maintenance
 
-- Contribution: Fixed the PhishGuard AI pull-request code-scanning posture by
+- Contribution: Fixed the PhishGuard pull-request code-scanning posture by
   preventing sample phishing URLs from being uploaded to GitHub Code Scanning
   on pull requests while still validating SARIF output in CI.
 - Contribution: Addressed a CodeQL finding in the EML authentication trust
@@ -174,7 +174,7 @@ why, and how it was verified.
 
 - Contribution: Updated the profile homepage to reflect active upstream work
   under review, including OWASP Agent Security Regression Harness SARIF output
-  and OpenAI Agents adapter goal-event support.
+  and agent-adapter goal-event support.
 - Evidence:
   [OWASP PR #153](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/153)
   and
@@ -231,7 +231,7 @@ why, and how it was verified.
 
 - Contribution: Updated the GitHub profile bio to remove inaccurate
   certification wording and align the public description with the accurate
-  role: Security Engineer, OWASP contributor, and PhishGuard AI maintainer.
+  role: Security Engineer, OWASP contributor, and PhishGuard maintainer.
 - Contribution: Replaced two split Dependabot CodeQL updates with a single
   combined workflow update so `github/codeql-action/init` and
   `github/codeql-action/analyze` are pinned to the same v4.37.0 commit.
@@ -265,7 +265,7 @@ why, and how it was verified.
 
 ## 2026-07-03
 
-### PhishGuard AI
+### PhishGuard
 
 - Contribution: Expanded the `Authentication-Results` parser matrix for
   `none`, mixed whitespace, method ordering, unrelated authentication methods,
@@ -356,7 +356,7 @@ why, and how it was verified.
   full-version and peeled-hash approach used in PR #466.
 - Status: Open for maintainer re-review.
 
-### PhishGuard AI
+### PhishGuard
 
 - Contribution: Improved the public first impression and adoption path through
   documentation updates covering use cases, public-safe benchmark guidance, and
@@ -394,7 +394,7 @@ why, and how it was verified.
   DCO, Codacy, and both upstream Snyk checks passed.
 - Status: Open for maintainer re-review.
 
-### PhishGuard AI Visibility Snapshot
+### PhishGuard Visibility Snapshot
 
 - Public repository count: 5 forks on the repository summary.
 - Published technical article:
