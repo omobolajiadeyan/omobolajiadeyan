@@ -20,7 +20,7 @@ Post this as the first comment under the DEV.to article:
 
 ## LinkedIn Follow-Up Post
 
-I published a technical article on how PhishGuard AI treats SPF, DKIM, and DMARC
+I published a technical article on how PhishGuard treats SPF, DKIM, and DMARC
 as useful phishing-detection evidence without turning them into automatic
 verdicts.
 
@@ -42,7 +42,7 @@ https://github.com/omobolajiadeyan/phishguard-ai
 
 ## Direct Message To Security Contacts
 
-Hi [Name], I published a short technical article about how PhishGuard AI handles
+Hi [Name], I published a short technical article about how PhishGuard handles
 SPF, DKIM, and DMARC as phishing-detection evidence without treating failures as
 automatic proof of phishing.
 
@@ -64,7 +64,7 @@ Feedback wanted: SPF/DKIM/DMARC scoring and SARIF output
 
 Body:
 
-I published a technical article explaining how PhishGuard AI treats SPF, DKIM,
+I published a technical article explaining how PhishGuard treats SPF, DKIM,
 and DMARC authentication results as supporting evidence rather than automatic
 phishing verdicts.
 

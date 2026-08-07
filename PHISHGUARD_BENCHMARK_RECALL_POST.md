@@ -1,6 +1,6 @@
-# PhishGuard AI Benchmark Recall Update
+# PhishGuard Benchmark Recall Update
 
-I merged a focused PhishGuard AI model update that improves the project's
+I merged a focused PhishGuard model update that improves the project's
 public-safe benchmark recall while keeping the evidence claims conservative.
 
 What changed:

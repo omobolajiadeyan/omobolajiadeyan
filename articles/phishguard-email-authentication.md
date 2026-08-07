@@ -1,7 +1,7 @@
 ---
 title: SPF, DKIM, and DMARC in Phishing Detection: Useful Signals, Not Magic Answers
 published: true
-description: How PhishGuard AI treats email authentication failures as explainable evidence without turning them into automatic phishing verdicts.
+description: How PhishGuard treats email authentication failures as explainable evidence without turning them into automatic phishing verdicts.
 tags: cybersecurity, emailsecurity, python, opensource
 ---
 
@@ -13,7 +13,7 @@ with the visible sender. But in phishing detection, treating those checks as
 magic answers can create the wrong kind of confidence.
 
 That distinction shaped the email-authentication support I added to
-[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai), my
+[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai), my
 open-source Python phishing-detection project.
 
 PhishGuard parses a trusted receiver's `Authentication-Results` header and
@@ -150,7 +150,7 @@ are not the same thing as population-level accuracy or production adoption.
 - Project:
   [github.com/omobolajiadeyan/phishguard-ai](https://github.com/omobolajiadeyan/phishguard-ai)
 - GitHub Marketplace Action:
-  [PhishGuard AI Phishing Detector](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
+  [PhishGuard Phishing Detector](https://github.com/marketplace/actions/phishguard-ai-phishing-detector)
 - Authentication implementation:
   [PR #21](https://github.com/omobolajiadeyan/phishguard-ai/pull/21)
 - JSON and SARIF examples:
@@ -172,7 +172,7 @@ The more important engineering principle is this: a security tool should show
 its work. It should make the signal, trust boundary, limitation, and scoring
 impact visible enough for another person to test, question, and improve.
 
-That is the direction I am building with PhishGuard AI.
+That is the direction I am building with PhishGuard.
 
 ## Feedback I Would Value
 
