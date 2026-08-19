@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc">
-  <title id="title">PhishGuard AI terminal demonstration</title>
-  <desc id="desc">A polished terminal screenshot generated from real PhishGuard AI CLI output. A reserved example.com URL scores 34.7 percent and is safe, while a TEST-NET-1 credential lure scores 98.8 percent and is phishing.</desc>
+  <title id="title">PhishGuard terminal demonstration</title>
+  <desc id="desc">A polished terminal screenshot generated from real PhishGuard CLI output. A reserved example.com URL scores 34.7 percent and is safe, while a TEST-NET-1 credential lure scores 98.8 percent and is phishing.</desc>
   <defs>
     <linearGradient id="page" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0" stop-color="#f8fafc"/>
@@ -16,7 +16,7 @@
   </defs>
 
   <rect width="1440" height="1040" rx="0" fill="url(#page)"/>
-  <text x="120" y="104" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">PhishGuard AI evidence run</text>
+  <text x="120" y="104" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">PhishGuard evidence run</text>
   <text x="120" y="148" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">Real CLI output using public-safe inputs. Runs offline with no API key.</text>
 
   <g filter="url(#shadow)">
@@ -26,11 +26,11 @@
     <circle cx="186" cy="250" r="9" fill="#ff6b6b"/>
     <circle cx="218" cy="250" r="9" fill="#f8c555"/>
     <circle cx="250" cy="250" r="9" fill="#36c76b"/>
-    <text x="720" y="258" fill="#94a3b8" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="18" text-anchor="middle">phishguard-ai/docs/assets/phishguard-demo.svg</text>
+    <text x="720" y="258" fill="#94a3b8" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="18" text-anchor="middle">docs/assets/phishguard-demo.svg</text>
 
     <g font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="22">
       <text x="190" y="318" fill="#38bdf8">$ python phishguard.py url "https://www.example.com/account" --plain</text>
-      <text x="190" y="366" fill="#e5e7eb">PHISHGUARD AI</text>
+      <text x="190" y="366" fill="#e5e7eb">PHISHGUARD</text>
       <text x="190" y="400" fill="#94a3b8">Explainable phishing detection | github.com/omobolajiadeyan</text>
       <text x="190" y="456" fill="#e5e7eb">URL     : https://www.example.com/account</text>
       <text x="190" y="492" fill="#4ade80">Verdict : SAFE</text>
