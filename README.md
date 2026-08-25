@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Omobolaji Adeyan - Founder, FreNiMi. Security Engineering, AppSec Automation, Evidence-Driven Reviews" width="100%" />
+<img src="assets/profile-banner.svg?v=20260824-3" alt="Omobolaji Adeyan - security products built around reviewable evidence" width="100%" />
 
 <br />
 
