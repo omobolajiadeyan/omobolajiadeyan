@@ -54,7 +54,7 @@ Start with **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)** fo
 
 ## Flagship Project: [PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)
 
-PhishGuard is an explainable offline phishing detector for URLs and email. It supports local analysis, CI workflows, GitHub Code Scanning, and security education without sending sensitive inputs to a third-party service.
+PhishGuard is an explainable phishing detector for URLs and email. Default scoring runs locally with no API key; opt-in RDAP domain-age checks are the documented exception. Use it from the CLI, Python API, browser, REST server, GitHub Actions, or Code Scanning.
 
 <p align="center">
   <strong><a href="https://omobolajiadeyan.github.io/phishguard-ai/">Try the live demo</a></strong> ·
@@ -67,18 +67,18 @@ PhishGuard is an explainable offline phishing detector for URLs and email. It su
 - uses: omobolajiadeyan/phishguard-ai@v0.5.1
 ```
 
-| Capability | Evidence |
+| Capability | Current proof |
 |---|---|
 | Explainable detection | URL, email, redirect, typosquatting, and authentication-signal analysis with readable reasons |
-| Automation | JSON and SARIF 2.1.0 output, reusable GitHub Action, REST API mode, and Code Scanning integration |
-| Defensive trust boundaries | SPF, DKIM, and DMARC are supporting evidence—not automatic proof that a message is safe |
-| Consistent domain analysis | Public-suffix-aware scoring shared across Python, the web demo, and the browser extension |
+| Tested behavior | 199-test validation run; 2 skips and 1 tracked expected failure are disclosed |
+| Automation | JSON and SARIF 2.1.0, reusable GitHub Action, REST API, and Code Scanning integration |
+| Trust boundaries | Local by default; authentication failures are supporting evidence, not automatic proof of phishing |
 
 <p align="center">
-  <img src="assets/phishguard-demo.svg" alt="PhishGuard CLI output comparing a safe input against a phishing input" width="80%" />
+  <img src="assets/phishguard-demo.svg?v=20260824-2" alt="Current PhishGuard AI CLI validation: 25.3 percent SAFE and 98.8 percent PHISHING, with 199 tests completed" width="80%" />
 </p>
 
-<p align="center"><sub>Reproducible commands, benchmark results, and evaluator guidance are available in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
+<p align="center"><sub>Current CLI output is shown above. The full suite was verified separately: 199 tests completed, 2 skipped, and 1 expected failure. Reproduction commands, benchmark results, and limitations are in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
 
 ---
 
