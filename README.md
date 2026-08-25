@@ -21,18 +21,18 @@
 
 <div align="center">
 
-**[Flagship](#flagship-project-phishguard)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Stack](#core-stack)** · **[Contact](#contact)**
+**[PhishGuard](#phishguard--explainable-phishing-detection)** · **[Proof](#proof-over-promises)** · **[Projects](#selected-security-systems)** · **[Open Source](#open-source-impact)** · **[Contact](#build-with-me)**
 
 </div>
 
 ---
 
-## Security Engineering That Produces Reviewable Evidence
+## Security tooling engineers can inspect, reproduce, and trust
 
-I build security tooling that turns noisy signals into findings engineers can
-reproduce, review, and act on. My work spans phishing analysis, vulnerability
-triage, threat detection, CI/CD hardening, SARIF reporting, and NIST
-800-53/OSCAL compliance automation.
+I turn noisy security signals into clear decisions: what happened, why it was
+flagged, and what an engineer should do next. My work spans phishing analysis,
+vulnerability triage, CI/CD hardening, SARIF reporting, and compliance
+automation—with the evidence and limitations kept visible.
 
 I am the founder of **[FreNiMi](https://frenimi.com)**, a security-first product
 studio, and the builder of **[FreNiMiGuard](https://frenimiguard.com)**. Start
@@ -40,28 +40,31 @@ with **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)** for a
 complete product example, then review the linked contributions for the same
 discipline applied inside established open-source projects.
 
-<table>
+<table role="presentation">
   <tr>
     <td width="33%" align="center">
-      <strong>Product Delivery</strong><br />
-      Marketplace action · CLI · API · browser
+      <strong>Ship the system</strong><br />
+      CLI · API · browser · Marketplace
     </td>
     <td width="33%" align="center">
-      <strong>Open-Source Trust</strong><br />
-      Merged security work across 5 communities
+      <strong>Show the proof</strong><br />
+      Tests · benchmarks · SARIF · docs
     </td>
     <td width="33%" align="center">
-      <strong>Security Foundation</strong><br />
-      Security+ · AWS foundations · BS IT
+      <strong>Improve in public</strong><br />
+      Merged work across security communities
     </td>
   </tr>
 </table>
 
 ---
 
-## Flagship Project: [PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)
+## PhishGuard — explainable phishing detection
 
-PhishGuard is an explainable phishing detector for URLs and email. Default scoring runs locally with no API key; opt-in RDAP domain-age checks are the documented exception. Use it from the CLI, Python API, browser, REST server, GitHub Actions, or Code Scanning.
+Most phishing tools return a label. **PhishGuard returns a reviewable case.** It
+scores URLs and email locally, identifies the contributing signals, and exports
+the result wherever engineers already work—from a terminal to GitHub Code
+Scanning. Opt-in RDAP domain-age checks are the documented network exception.
 
 <p align="center">
   <strong><a href="https://omobolajiadeyan.github.io/phishguard-ai/">Try the live demo</a></strong> ·
@@ -74,12 +77,12 @@ PhishGuard is an explainable phishing detector for URLs and email. Default scori
 - uses: omobolajiadeyan/phishguard-ai@v0.5.1
 ```
 
-| Capability | Current proof |
+| The engineering question | PhishGuard's answer |
 |---|---|
-| Explainable detection | URL, email, redirect, typosquatting, and authentication-signal analysis with readable reasons |
-| Tested behavior | 199-test validation run; 2 skips and 1 tracked expected failure are disclosed |
-| Automation | JSON and SARIF 2.1.0, reusable GitHub Action, REST API, and Code Scanning integration |
-| Trust boundaries | Local by default; authentication failures are supporting evidence, not automatic proof of phishing |
+| Why was this flagged? | Feature-level reasons across URL structure, typosquatting, redirects, email content, and supplied authentication results |
+| Can I reproduce it? | 199-test validation run with 2 skips and 1 tracked expected failure disclosed |
+| Can it join my workflow? | CLI, Python, REST, browser, JSON, SARIF 2.1.0, reusable Action, and Code Scanning |
+| What should I not assume? | Heuristic supporting signal—not a guarantee, reputation feed, or replacement for layered controls |
 
 <p align="center">
   <img src="assets/phishguard-demo.svg?v=20260824-2" alt="Current PhishGuard AI CLI validation: 25.3 percent SAFE and 98.8 percent PHISHING, with 199 tests completed" width="80%" />
@@ -87,7 +90,19 @@ PhishGuard is an explainable phishing detector for URLs and email. Default scori
 
 <p align="center"><sub>Current CLI output is shown above. The full suite was verified separately: 199 tests completed, 2 skipped, and 1 expected failure. Reproduction commands, benchmark results, and limitations are in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
 
-### Next Engineering Focus
+### From input to actionable evidence
+
+```text
+URL / email  →  local feature extraction  →  explainable risk score
+                                                   ↓
+                     CLI · JSON · SARIF · API · browser · GitHub Actions
+```
+
+The same scoring contract is shared across Python and the browser port, with
+parity tests protecting against drift. That makes the demo useful as a real
+product interface—not a disconnected mockup.
+
+### What I am improving next
 
 | Priority | Why it matters |
 |---|---|
@@ -101,19 +116,36 @@ limitations remain documented in the
 
 ---
 
-## Selected Security Projects
+## Proof over promises
 
-| Project | Security outcome | Core stack |
-|---|---|---|
-| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | Finds exposed credentials with redacted JSON/SARIF evidence and reusable CI integration | Python, JavaScript, SARIF, GitHub Actions |
-| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Maps suspicious log activity to MITRE ATT&CK and exports reviewable findings | Python, JavaScript, MITRE ATT&CK, SARIF |
-| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Scores user and IP anomalies for UEBA-style insider-threat triage | Python, TypeScript, behavioral analytics |
-| [CVE Dashboard](https://github.com/omobolajiadeyan/cve-dashboard) | Turns live or offline NVD data into severity summaries and exportable triage evidence | Python, JavaScript, NVD |
-| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | Turns CVE metadata into actionable triage reports with exploitation likelihood and remediation steps | Python, NVD, CVSS/CWE |
+I separate shipped behavior, measured behavior, and planned work. Every metric
+links to a reproducible method; known false positives remain visible; and
+security boundaries are documented beside the feature they constrain.
+
+| Proof layer | Where to inspect it |
+|---|---|
+| Runtime behavior | [Dated project evidence](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md) and public-safe commands |
+| Detection quality | [Regression and benchmark methodology](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/BENCHMARK.md) |
+| Model boundaries | [Weights, assumptions, and known limitations](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/DETECTION_MODEL.md) |
+| Delivery quality | Automated tests, repository policy, CodeQL, release artifacts, and Marketplace packaging |
 
 ---
 
-## Credentials & Recognition
+## Selected security systems
+
+| System | Problem → outcome | Evidence surface |
+|---|---|---|
+| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | Exposed credentials → redacted, CI-ready findings | JSON · SARIF · reusable Action |
+| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Raw event noise → ATT&CK-mapped investigation leads | MITRE ATT&CK · SARIF |
+| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | User/IP activity → explainable anomaly triage | Python · TypeScript · UEBA |
+| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE metadata → prioritized remediation context | NVD · CVSS · CWE |
+
+---
+
+<details>
+<summary><strong>Credentials and recognition</strong></summary>
+
+<br />
 
 | Recognition | What it represents |
 |---|---|
@@ -123,11 +155,11 @@ limitations remain documented in the
 | **OWASP Contributor** | Merged application-security automation work in established OWASP projects |
 | **GitHub Marketplace Publisher** | Took PhishGuard from implementation through packaging, documentation, release, and reusable delivery |
 
+</details>
+
 ---
 
-## Open-Source Contributions
-
-### Merged
+## Open-source impact
 
 | Community | Merged contribution | Security impact |
 |---|---|---|
@@ -144,26 +176,25 @@ clearly separates landed contributions from work awaiting maintainer review.
 
 ---
 
-## Writing
+<details>
+<summary><strong>Writing and technical notes</strong></summary>
+
+<br />
 
 - [SPF, DKIM, and DMARC in Phishing Detection: Useful Signals, Not Magic Answers](https://dev.to/doidun2/spf-dkim-and-dmarc-in-phishing-detection-useful-signals-not-magic-answers-4g91)
 - [From Single Files to Scenario Suites: Batch Validation in the OWASP Agent Security Regression Harness](https://dev.to/doidun2/from-single-files-to-scenario-suites-batch-validation-in-the-owasp-agent-security-regression-4hn7)
 - [PhishGuard benchmark recall note](PHISHGUARD_BENCHMARK_RECALL_POST.md)
 
----
-
-## Core Stack
-
-**Python · JavaScript · TypeScript · Node.js · React · SQLite · Docker · GitHub Actions · SARIF · CodeQL · MITRE ATT&CK · NIST SP 800-53**
+</details>
 
 ---
 
-## Contact
+## Build with me
 
-Building FreNiMi's security-automation product line and open-sourcing the
-reusable parts. Open to application-security tooling collaboration, technical
-advisory work, and senior security-engineering opportunities centered on
-measurable product outcomes.
+I am building FreNiMi's security-automation product line and open-sourcing the
+reusable parts. If you are working on application-security tooling, detection
+engineering, or evidence-driven security automation, let’s compare notes—or
+build something useful together.
 
 <p align="center">
   <a href="https://omobolajiadeyan.com">Website</a> ·
