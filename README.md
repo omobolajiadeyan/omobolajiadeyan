@@ -21,31 +21,38 @@
 
 <div align="center">
 
-**[Flagship](#flagship-project-phishguard)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Stack](#working-stack)** · **[Contact](#contact)**
+**[Flagship](#flagship-project-phishguard)** · **[Security Projects](#selected-security-projects)** · **[Credentials](#credentials--recognition)** · **[Open Source](#open-source-contributions)** · **[Writing](#writing)** · **[Stack](#core-stack)** · **[Contact](#contact)**
 
 </div>
 
 ---
 
-## I Turn Security Signals Into Evidence Teams Can Act On
+## Security Engineering That Produces Reviewable Evidence
 
-Founder of **[FreNiMi](https://frenimi.com)**, a security-first product studio. I build practical security-automation tools for phishing analysis, vulnerability triage, threat detection, CI/CD hardening, and SARIF reporting — plus **[FreNiMiGuard](https://frenimiguard.com)**, a live NIST 800-53/OSCAL compliance platform for public-sector security teams. Findings should be explainable to engineers, reproducible by reviewers, and useful to security leaders.
+I build security tooling that turns noisy signals into findings engineers can
+reproduce, review, and act on. My work spans phishing analysis, vulnerability
+triage, threat detection, CI/CD hardening, SARIF reporting, and NIST
+800-53/OSCAL compliance automation.
 
-Start with **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)** for a complete product example, then review the merged open-source contributions below for evidence of the same discipline inside established projects.
+I am the founder of **[FreNiMi](https://frenimi.com)**, a security-first product
+studio, and the builder of **[FreNiMiGuard](https://frenimiguard.com)**. Start
+with **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)** for a
+complete product example, then review the linked contributions for the same
+discipline applied inside established open-source projects.
 
 <table>
   <tr>
     <td width="33%" align="center">
       <strong>Product Delivery</strong><br />
-      Published on GitHub Marketplace
+      Marketplace action · CLI · API · browser
     </td>
     <td width="33%" align="center">
       <strong>Open-Source Trust</strong><br />
-      Merged or active work across OWASP, Prowler, RamenDR, and 6 other open-source organizations
+      Merged security work across 5 communities
     </td>
     <td width="33%" align="center">
       <strong>Security Foundation</strong><br />
-      Security+ · AWS Cloud Foundations · BS Information Technology
+      Security+ · AWS foundations · BS IT
     </td>
   </tr>
 </table>
@@ -80,6 +87,18 @@ PhishGuard is an explainable phishing detector for URLs and email. Default scori
 
 <p align="center"><sub>Current CLI output is shown above. The full suite was verified separately: 199 tests completed, 2 skipped, and 1 expected failure. Reproduction commands, benchmark results, and limitations are in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
 
+### Next Engineering Focus
+
+| Priority | Why it matters |
+|---|---|
+| Offline domain-reputation context | Reduce known false positives on legitimate branded subdomains and security-heavy paths |
+| Unicode confusable matching | Detect brand impersonation beyond the current punycode and hostname signals |
+| Broader benchmark provenance | Measure changes against larger, dated, reproducible public samples without overstating accuracy |
+
+These are evidence-driven priorities, not shipped claims. The current model's
+limitations remain documented in the
+[detection model](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/DETECTION_MODEL.md#known-limitations).
+
 ---
 
 ## Selected Security Projects
@@ -108,10 +127,6 @@ PhishGuard is an explainable phishing detector for URLs and email. Default scori
 
 ## Open-Source Contributions
 
-<p align="center">
-<sub><strong>577</strong> contributions in the past year · <strong>385</strong> commits · <strong>113</strong> pull requests opened · <strong>19</strong> PR reviews · pull requests opened across <strong>13</strong> open-source organizations, <strong>6</strong> merged (verified 7 August 2026)</sub>
-</p>
-
 ### Merged
 
 | Community | Merged contribution | Security impact |
@@ -123,19 +138,9 @@ PhishGuard is an explainable phishing detector for URLs and email. Default scori
 | RamenDR | [ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) | Hardened the software supply chain by pinning GitHub Actions to commit SHAs |
 | TruFoundation | [TruShell #55](https://github.com/TruFoundation/TruShell/pull/55) | Fixed a shell-injection vulnerability in the OS fallback path |
 
-Open pull requests awaiting maintainer review aren't listed here — only work that has actually landed. The full dated record, including in-progress contributions and their real status, is in **[OPEN_SOURCE_LOG.md](OPEN_SOURCE_LOG.md)**.
-
-### GitHub Activity
-
-<sub>Live data pulled directly from the GitHub API — updates automatically, not a static snapshot.</sub>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=omobolajiadeyan&show_icons=true&hide_border=true&hide=commits&count_private=true&title_color=0A66C2&icon_color=0A66C2&text_color=333" alt="Omobolaji Adeyan's GitHub stats" />
-  <img height="165" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=omobolajiadeyan&layout=compact&hide_border=true&title_color=0A66C2&text_color=333" alt="Most-used languages" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=omobolajiadeyan&hide_border=true&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="Omobolaji Adeyan's GitHub contribution streak" />
-</p>
+Only merged work is presented as completed. The
+**[Open Source Log](OPEN_SOURCE_LOG.md)** keeps the fuller dated record and
+clearly separates landed contributions from work awaiting maintainer review.
 
 ---
 
@@ -147,7 +152,7 @@ Open pull requests awaiting maintainer review aren't listed here — only work t
 
 ---
 
-## Working Stack
+## Core Stack
 
 **Python · JavaScript · TypeScript · Node.js · React · SQLite · Docker · GitHub Actions · SARIF · CodeQL · MITRE ATT&CK · NIST SP 800-53**
 
@@ -155,7 +160,10 @@ Open pull requests awaiting maintainer review aren't listed here — only work t
 
 ## Contact
 
-Building FreNiMi's security-automation product line, open-sourcing what's reusable along the way. Open to technical advisory work, application-security tooling collaboration, and senior security-engineering roles where the work matches this.
+Building FreNiMi's security-automation product line and open-sourcing the
+reusable parts. Open to application-security tooling collaboration, technical
+advisory work, and senior security-engineering opportunities centered on
+measurable product outcomes.
 
 <p align="center">
   <a href="https://omobolajiadeyan.com">Website</a> ·
