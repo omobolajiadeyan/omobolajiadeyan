@@ -163,6 +163,7 @@ security boundaries are documented beside the feature they constrain.
 
 | Community | Merged contribution | Security impact |
 |---|---|---|
+| CISA | [ScubaGear #2237](https://github.com/cisagov/ScubaGear/pull/2237) | Made M365 DMARC policy discovery follow the RFC 9989 DNS tree walk, fixing misses on multi-label public suffixes such as `.fed.us` |
 | OWASP | [Agent Security Regression Harness #150](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/150) | Added scenario-directory and glob validation for repeatable agent-security testing |
 | OWASP | [cve-lite-cli #602](https://github.com/OWASP/cve-lite-cli/pull/602) | Added risk context and next-action guidance to vulnerability reports |
 | Prowler | [Prowler #11098](https://github.com/prowler-cloud/prowler/pull/11098) | Added an M365 control for directory-sync object-takeover protection (co-authored, folded in from #11515) |

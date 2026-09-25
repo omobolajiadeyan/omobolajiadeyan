@@ -3,6 +3,41 @@
 This log records recent open-source contributions in detail — what changed,
 why, and how it was verified.
 
+## 2026-09-25
+
+### CISA ScubaGear DMARC Policy Discovery
+
+- Contribution: Fixed `Get-ScubaDmarcRecord` so DMARC fallback discovery follows
+  the bounded DNS Tree Walk in RFC 9989 Section 4.10 instead of assuming the
+  policy always sits at the final two labels of the domain.
+- Scope: Kept the author-domain lookup first, walked parent domains when no
+  record is found, capped total TXT lookups at eight, preserved the existing
+  output shape and logging, and added Pester coverage for parent-domain
+  discovery, multi-label public suffixes (for example
+  `subdomain.example.fed.us` resolving to `_dmarc.example.fed.us` rather than
+  `_dmarc.fed.us`), and the query limit.
+- Evidence:
+  [ScubaGear PR #2237](https://github.com/cisagov/ScubaGear/pull/2237),
+  addressing [issue #89](https://github.com/cisagov/ScubaGear/issues/89).
+- Verification: `Invoke-Pester` on `Get-ScubaDmarcRecord.Tests.ps1` passed 12
+  tests with 0 failures.
+- Status: Merged by a maintainer on 2026-09-22.
+
+### Upstream Status Reconciliation
+
+- Contribution: Re-checked every upstream PR previously logged as open.
+- Outcome: OWASP Agent Security Regression Harness
+  [#153](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/153)
+  (SARIF output) and
+  [#159](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/159)
+  (OpenAI Agents goal events), and awesome-incident-response
+  [#306](https://github.com/meirwah/awesome-incident-response/pull/306), were
+  closed without merge. Anchore sbom-action
+  [#699](https://github.com/anchore/sbom-action/pull/699) and Dependency-Track
+  [#6477](https://github.com/DependencyTrack/dependency-track/pull/6477) remain
+  open awaiting maintainer review.
+- Status: Profile README lists only merged work; ScubaGear #2237 added.
+
 ## 2026-07-29
 
 ### Product Usability Critique And Evidence Tightening
