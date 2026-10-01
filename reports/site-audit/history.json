@@ -32,5 +32,39 @@
         "failures": []
       }
     ]
+  },
+  {
+    "checkedAt": "2026-10-01T08:40:50.463Z",
+    "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/36837759032",
+    "sites": [
+      {
+        "domain": "frenimi.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": []
+      },
+      {
+        "domain": "omobolajiadeyan.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": []
+      }
+    ]
   }
 ]
