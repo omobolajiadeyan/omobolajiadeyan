@@ -21,68 +21,35 @@
 
 <div align="center">
 
-**[PhishGuard](#phishguard--explainable-phishing-detection)** · **[Proof](#proof-over-promises)** · **[Projects](#selected-security-systems)** · **[Open Source](#open-source-impact)** · **[Contact](#build-with-me)**
+**[PhishGuard](#phishguard--explainable-phishing-detection)** · **[Security tools](#selected-security-systems)** · **[Merged contributions](#open-source-impact)** · **[Evidence](#proof-over-promises)** · **[Contact](#build-with-me)**
 
 </div>
 
 ---
 
-<!-- LIVE-SITE-AUDIT:START -->
-### Daily live-site checks
+## Cybersecurity engineering with reviewable evidence
 
-Last checked: **2026-10-01 08:40:50 UTC**. Scheduled daily at 12:17 UTC. Scores are point-in-time lab measurements; a separate live run earlier today scored 74/92 for mobile performance.
-
-| Live site | HTTP checks | Browser checks | Performance¹ | Accessibility | Best practices | SEO |
-|---|---:|---|---:|---:|---:|---:|
-| [frenimi.com](https://frenimi.com/) | 59/59 | Passed | 100 | 100 | 100 | 100 |
-| [omobolajiadeyan.com](https://omobolajiadeyan.com/) | 9/9 | Passed | 100 | 100 | 100 | 100 |
-
-¹ Median of three mobile Lighthouse runs. Lab scores vary; these are not search rankings, real-user Core Web Vitals, or a full accessibility/security audit.
-
-[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/36837759032)
-<!-- LIVE-SITE-AUDIT:END -->
-
-## Featured applications and shipped work
-
-I build products and public-facing applications through **[FreNiMi](https://frenimi.com)**. These are the projects with a live product, public demo, or verified production delivery:
-
-| Project | What to explore |
-|---|---|
-| **[LearnFolk](https://learnfolk.com)** | Live tutoring marketplace; public site and product discovery. |
-| **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** | Explainable phishing analysis, a live browser demo, SARIF output, and a reusable GitHub Action. |
-| **[FreNiMiGuard](https://frenimiguard.com)** | Security posture and compliance product. |
-| **[FreNiMi Checkers](https://github.com/omobolajiadeyan/frenimi-checkers)** | Playable checkers application with an AI opponent and multiplayer support. |
-| **[AFSCME Local 2600](https://local2600.net)** | Production member website and publishing platform; [delivery evidence](https://omobolajiadeyan.com/projects.html#project-local2600). |
-| **[The Potter’s Place](https://www.rccgpottersplace.org)** | Community website and registration workflows; [selected projects](https://omobolajiadeyan.com/projects.html). |
-
-For screenshots, project status, and the broader client portfolio, see **[all selected projects](https://omobolajiadeyan.com/projects.html)**. Older client launches and concepts remain on that portfolio page with their status labeled; the featured list above stays focused on live products and recent verified delivery.
-
-## Security tooling engineers can inspect, reproduce, and trust
-
-I turn noisy security signals into clear decisions: what happened, why it was
-flagged, and what an engineer should do next. My work spans phishing analysis,
-vulnerability triage, CI/CD hardening, SARIF reporting, and compliance
-automation—with the evidence and limitations kept visible.
-
-I am the founder of **[FreNiMi](https://frenimi.com)**, a security-first product
-studio, and the builder of **[FreNiMiGuard](https://frenimiguard.com)**. Start
-with **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)** for a
-complete product example, then review the linked contributions for the same
-discipline applied inside established open-source projects.
+I am a cybersecurity engineer and OWASP contributor focused on application
+security, detection engineering, vulnerability triage, and security
+automation. My work emphasizes reproducible tests, explainable findings,
+standards-based output, and honest limits. I build security tools through
+**[FreNiMi](https://frenimi.com)**. Start with
+**[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)**, then review
+the merged upstream contributions and project evidence below.
 
 <table role="presentation">
   <tr>
     <td width="33%" align="center">
-      <strong>Ship the system</strong><br />
-      CLI · API · browser · Marketplace
+      <strong>Security engineering</strong><br />
+      AppSec · detection · vulnerability triage
     </td>
     <td width="33%" align="center">
-      <strong>Show the proof</strong><br />
-      Tests · benchmarks · SARIF · docs
+      <strong>Evidence you can review</strong><br />
+      Tests · benchmarks · SARIF · limitations
     </td>
     <td width="33%" align="center">
-      <strong>Improve in public</strong><br />
-      Merged work across security communities
+      <strong>Contribute upstream</strong><br />
+      Merged security fixes and tooling
     </td>
   </tr>
 </table>
