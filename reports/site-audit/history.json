@@ -1,0 +1,36 @@
+[
+  {
+    "checkedAt": "2026-10-01T08:32:27.086Z",
+    "runUrl": null,
+    "sites": [
+      {
+        "domain": "frenimi.com",
+        "summary": {
+          "performance": 71,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          71,
+          78
+        ],
+        "failures": []
+      },
+      {
+        "domain": "omobolajiadeyan.com",
+        "summary": {
+          "performance": 89,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          68,
+          96
+        ],
+        "failures": []
+      }
+    ]
+  }
+]

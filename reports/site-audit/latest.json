@@ -1,0 +1,475 @@
+{
+  "checkedAt": "2026-10-01T08:32:27.086Z",
+  "runUrl": null,
+  "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
+  "sites": [
+    {
+      "domain": "frenimi.com",
+      "failures": [],
+      "http": [
+        {
+          "url": "https://frenimi.com/about.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/about.html"
+        },
+        {
+          "url": "https://frenimi.com/activity.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/activity.html"
+        },
+        {
+          "url": "https://frenimi.com/careers.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/careers.html"
+        },
+        {
+          "url": "https://frenimi.com/contact.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/contact.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/browser-based-file-tools.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/browser-based-file-tools.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/compress-pdf-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/compress-pdf-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/crop-pdf-margins-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/crop-pdf-margins-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/editorial-standards.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/editorial-standards.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/image-size-quality-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/image-size-quality-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/"
+        },
+        {
+          "url": "https://frenimi.com/guides/jpg-png-webp-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/jpg-png-webp-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/merge-pdf-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/merge-pdf-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/password-generator-security-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/password-generator-security-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/pdf-metadata-privacy.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/pdf-metadata-privacy.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/private-pdf-workflow.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/private-pdf-workflow.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/protect-pdf-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/protect-pdf-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/qr-code-safety-guide.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/qr-code-safety-guide.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/what-is-frenimi.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/what-is-frenimi.html"
+        },
+        {
+          "url": "https://frenimi.com/",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/"
+        },
+        {
+          "url": "https://frenimi.com/privacy.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/privacy.html"
+        },
+        {
+          "url": "https://frenimi.com/products.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/products.html"
+        },
+        {
+          "url": "https://frenimi.com/services.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/services.html"
+        },
+        {
+          "url": "https://frenimi.com/terms.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/terms.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/add-text-image-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/add-text-image-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/annotate-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/annotate-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/barcode-generator.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/barcode-generator.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/compare-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/compare-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/compress-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/compress-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/crop-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/crop-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/excel-to-csv.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/excel-to-csv.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/fill-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/fill-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/hash-generator.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/hash-generator.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/heic-to-jpg.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/heic-to-jpg.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/image-compressor.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/image-compressor.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/image-converter.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/image-converter.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/image-cropper.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/image-cropper.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/image-resizer.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/image-resizer.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/"
+        },
+        {
+          "url": "https://frenimi.com/tools/jpg-to-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/jpg-to-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/json-formatter.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/json-formatter.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/loop-tempo.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/loop-tempo.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/merge-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/merge-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/metadata-remover-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/metadata-remover-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/page-numbers-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/page-numbers-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/password-generator.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/password-generator.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/pdf-to-images.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/pdf-to-images.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/pricing.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/pricing.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/protect-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/protect-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/qr-code-generator.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/qr-code-generator.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/qr-code-scanner.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/qr-code-scanner.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/rotate-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/rotate-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/sign-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/sign-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/signature-background-remover.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/signature-background-remover.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/split-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/split-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/trust.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/trust.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/watermark-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/watermark-pdf.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/word-counter.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/word-counter.html"
+        },
+        {
+          "url": "https://frenimi.com/robots.txt",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/robots.txt"
+        },
+        {
+          "url": "https://frenimi.com/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/sitemap.xml"
+        }
+      ],
+      "interactions": [
+        {
+          "width": 390,
+          "passed": true
+        },
+        {
+          "width": 1440,
+          "passed": true
+        }
+      ],
+      "lighthouse": [
+        {
+          "run": 1,
+          "scores": {
+            "performance": 71,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 2179.443,
+          "tbtMs": 1664.5000000000002,
+          "cls": 0
+        },
+        {
+          "run": 2,
+          "scores": {
+            "performance": 71,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 2146.218,
+          "tbtMs": 1653,
+          "cls": 0
+        },
+        {
+          "run": 3,
+          "scores": {
+            "performance": 78,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 1848.217,
+          "tbtMs": 925.5,
+          "cls": 0
+        }
+      ],
+      "summary": {
+        "performance": 71,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        71,
+        78
+      ]
+    },
+    {
+      "domain": "omobolajiadeyan.com",
+      "failures": [],
+      "http": [
+        {
+          "url": "https://omobolajiadeyan.com/",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/about.html",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/about.html"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/projects.html",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/projects.html"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/services.html",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/services.html"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/writing.html",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/writing.html"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/contact.html",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/contact.html"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/resume.html",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/resume.html"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/robots.txt",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/robots.txt"
+        },
+        {
+          "url": "https://omobolajiadeyan.com/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://omobolajiadeyan.com/sitemap.xml"
+        }
+      ],
+      "interactions": [
+        {
+          "width": 390,
+          "passed": true
+        },
+        {
+          "width": 1440,
+          "passed": true
+        }
+      ],
+      "lighthouse": [
+        {
+          "run": 1,
+          "scores": {
+            "performance": 68,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 3156.483,
+          "tbtMs": 833,
+          "cls": 0.011198308828336523
+        },
+        {
+          "run": 2,
+          "scores": {
+            "performance": 96,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 1997.0095000000001,
+          "tbtMs": 169.5,
+          "cls": 0
+        },
+        {
+          "run": 3,
+          "scores": {
+            "performance": 89,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 2600.9855,
+          "tbtMs": 218.5,
+          "cls": 0
+        }
+      ],
+      "summary": {
+        "performance": 89,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "performanceRange": [
+        68,
+        96
+      ]
+    }
+  ]
+}
