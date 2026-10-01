@@ -8,7 +8,7 @@ Checked 1 October 2026: `GET https://frenimiguard.com/api/v1/health` returned HT
 
 ## Local engineering validation
 
-Validation was run on the private `feature/endpoint-agent` working tree, based on commit `5647111` plus local uncommitted changes. The source is proprietary and not available in a public repository; these results are therefore not independently reproducible from this profile repository.
+Validation was run on the private `feature/endpoint-agent` branch at commit `1537c09`, with pre-existing, uncommitted feature work still present in the working tree. The source is proprietary and not available in a public repository, and that feature work is not part of the cited commit; the results are therefore not independently reproducible from this profile repository.
 
 - Backend: 222 tests passed, 1 skipped after dependency updates and the JWT-library migration.
 - Frontend: 196 tests passed across 27 files.
