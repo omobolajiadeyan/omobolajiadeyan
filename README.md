@@ -30,7 +30,7 @@
 <!-- LIVE-SITE-AUDIT:START -->
 ### Daily live-site checks
 
-Last checked: **2026-10-01 08:40:50 UTC**. Scheduled daily at 12:17 UTC.
+Last checked: **2026-10-01 08:40:50 UTC**. Scheduled daily at 12:17 UTC. Scores are point-in-time lab measurements; a separate live run earlier today scored 74/92 for mobile performance.
 
 | Live site | HTTP checks | Browser checks | Performance¹ | Accessibility | Best practices | SEO |
 |---|---:|---|---:|---:|---:|---:|
@@ -41,6 +41,21 @@ Last checked: **2026-10-01 08:40:50 UTC**. Scheduled daily at 12:17 UTC.
 
 [Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/36837759032)
 <!-- LIVE-SITE-AUDIT:END -->
+
+## Featured applications and shipped work
+
+I build products and public-facing applications through **[FreNiMi](https://frenimi.com)**. These are the projects with a live product, public demo, or verified production delivery:
+
+| Project | What to explore |
+|---|---|
+| **[LearnFolk](https://learnfolk.com)** | Live tutoring marketplace; public site and product discovery. |
+| **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai)** | Explainable phishing analysis, a live browser demo, SARIF output, and a reusable GitHub Action. |
+| **[FreNiMiGuard](https://frenimiguard.com)** | Security posture and compliance product. |
+| **[FreNiMi Checkers](https://github.com/omobolajiadeyan/frenimi-checkers)** | Playable checkers application with an AI opponent and multiplayer support. |
+| **[AFSCME Local 2600](https://local2600.net)** | Production member website and publishing platform; [delivery evidence](https://omobolajiadeyan.com/projects.html#project-local2600). |
+| **[The Potter’s Place](https://www.rccgpottersplace.org)** | Community website and registration workflows; [selected projects](https://omobolajiadeyan.com/projects.html). |
+
+For screenshots, project status, and the broader client portfolio, see **[all selected projects](https://omobolajiadeyan.com/projects.html)**. Older client launches and concepts remain on that portfolio page with their status labeled; the featured list above stays focused on live products and recent verified delivery.
 
 ## Security tooling engineers can inspect, reproduce, and trust
 
