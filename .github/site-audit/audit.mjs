@@ -90,8 +90,8 @@ if(report.sites.some(s=>s.failures.length))lines.push('','**This run found failu
 lines.push('',`[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](${report.runUrl||'https://github.com/omobolajiadeyan/omobolajiadeyan/actions/workflows/daily-site-audit.yml'})`);
 const block=lines.join('\n');writeFileSync(resolve(reportDir,'latest.md'),block+'\n');
 const readmePath=resolve(root,'README.md');const readme=readFileSync(readmePath,'utf8');
-const begin='<!-- LIVE-SITE-AUDIT:START -->',end='<!-- LIVE-SITE-AUDIT:END -->';assert(readme.includes(begin)&&readme.includes(end),'README report markers missing');
-writeFileSync(readmePath,readme.replace(new RegExp(`${begin}[\\s\\S]*?${end}`),`${begin}\n${block}\n${end}`));
+const begin='<!-- LIVE-SITE-AUDIT:START -->',end='<!-- LIVE-SITE-AUDIT:END -->';
+if(readme.includes(begin)&&readme.includes(end))writeFileSync(readmePath,readme.replace(new RegExp(`${begin}[\\s\\S]*?${end}`),`${begin}\n${block}\n${end}`));
 if(process.env.GITHUB_STEP_SUMMARY)appendFileSync(process.env.GITHUB_STEP_SUMMARY,block+'\n');
 console.log(JSON.stringify(report.sites.map(({domain,summary,failures})=>({domain,summary,failures})),null,2));
 if(report.sites.some(s=>s.failures.length))process.exitCode=1;

@@ -37,6 +37,9 @@ standards-based output, and honest limits. I build security tools through
 **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)**, then review
 the merged upstream contributions and project evidence below.
 
+For compliance engineering and security-platform work, see the
+[FreNiMiGuard case study and validation record](reports/frenimiguard/PROJECT_EVIDENCE.md).
+
 <table role="presentation">
   <tr>
     <td width="33%" align="center">
