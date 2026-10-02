@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg?v=20260824-3" alt="Omobolaji Adeyan - security products built around reviewable evidence" width="100%" />
+<img src="assets/profile-banner.svg?v=20261001-1" alt="Omobolaji Adeyan — cybersecurity engineer and security tool builder. Security tools built around proof, not promises." width="100%" />
 
 <br />
 
@@ -29,11 +29,13 @@
 
 ## Cybersecurity engineering with reviewable evidence
 
-I am a cybersecurity engineer and OWASP contributor focused on application
-security, detection engineering, vulnerability triage, and security
-automation. My work emphasizes reproducible tests, explainable findings,
-standards-based output, and honest limits. I build security tools through
-**[FreNiMi](https://frenimi.com)**. Start with
+I am a cybersecurity engineer and security tool builder. I work across
+application security, detection engineering, vulnerability triage, and
+security automation, and I ship the tools I build: CLIs, GitHub Actions,
+APIs, and SARIF output that drops into Code Scanning. Every tool comes with
+reproducible tests, explainable findings, and documented limits. I build
+under **[FreNiMi](https://frenimi.com)** and contribute upstream to
+CISA, OWASP, and Prowler. Start with
 **[PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai)**, then review
 the merged upstream contributions and project evidence below.
 
@@ -47,12 +49,12 @@ For compliance engineering and security-platform work, see the
       AppSec · detection · vulnerability triage
     </td>
     <td width="33%" align="center">
-      <strong>Evidence you can review</strong><br />
-      Tests · benchmarks · SARIF · limitations
+      <strong>Security tool building</strong><br />
+      CLI · GitHub Actions · SARIF · APIs
     </td>
     <td width="33%" align="center">
-      <strong>Contribute upstream</strong><br />
-      Merged security fixes and tooling
+      <strong>Merged upstream</strong><br />
+      CISA · OWASP · Prowler · more
     </td>
   </tr>
 </table>
@@ -80,7 +82,7 @@ Scanning. Opt-in RDAP domain-age checks are the documented network exception.
 | The engineering question | PhishGuard's answer |
 |---|---|
 | Why was this flagged? | Feature-level reasons across URL structure, typosquatting, redirects, email content, and supplied authentication results |
-| Can I reproduce it? | 199-test validation run with 2 skips and 1 tracked expected failure disclosed |
+| Can I reproduce it? | All 199 tests re-run on 1 Oct 2026, including Python↔browser parity checks; 1 tracked expected failure marks a named, still-open gap |
 | Can it join my workflow? | CLI, Python, REST, browser, JSON, SARIF 2.1.0, reusable Action, and Code Scanning |
 | What should I not assume? | Heuristic supporting signal—not a guarantee, reputation feed, or replacement for layered controls |
 
@@ -88,7 +90,7 @@ Scanning. Opt-in RDAP domain-age checks are the documented network exception.
   <img src="assets/phishguard-demo.svg?v=20260824-2" alt="Current PhishGuard AI CLI validation: 25.3 percent SAFE and 98.8 percent PHISHING, with 199 tests completed" width="80%" />
 </p>
 
-<p align="center"><sub>Current CLI output is shown above. The full suite was verified separately: 199 tests completed, 2 skipped, and 1 expected failure. Reproduction commands, benchmark results, and limitations are in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
+<p align="center"><sub>CLI output above re-checked against <code>main</code> on 1 Oct 2026; scores match. Full suite: 199 tests, 1 tracked expected failure. The 2 JS-parity tests skip only when Node.js is absent. Reproduction commands, benchmark results, and limitations are in <a href="https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md">PROJECT_EVIDENCE.md</a>.</sub></p>
 
 ### From input to actionable evidence
 
@@ -133,12 +135,17 @@ security boundaries are documented beside the feature they constrain.
 
 ## Selected security systems
 
-| System | Problem → outcome | Evidence surface |
-|---|---|---|
-| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | Exposed credentials → redacted, CI-ready findings | JSON · SARIF · reusable Action |
-| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Raw event noise → ATT&CK-mapped investigation leads | MITRE ATT&CK · SARIF |
-| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | User/IP activity → explainable anomaly triage | Python · TypeScript · UEBA |
-| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE metadata → prioritized remediation context | NVD · CVSS · CWE |
+| System | Problem → outcome | Evidence surface | Tests |
+|---|---|---|---|
+| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | Exposed credentials → redacted, CI-ready findings | JSON · SARIF · reusable Action | [![Tests](https://github.com/omobolajiadeyan/secrets-scanner/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/secrets-scanner/actions/workflows/tests.yml) |
+| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Raw event noise → ATT&CK-mapped investigation leads | MITRE ATT&CK · SARIF · reusable Action | [![Tests](https://github.com/omobolajiadeyan/log-analyzer/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/log-analyzer/actions/workflows/tests.yml) |
+| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | User/IP activity → explainable anomaly triage | Python · TypeScript · UEBA | [![Tests](https://github.com/omobolajiadeyan/behaviorsense/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/behaviorsense/actions/workflows/tests.yml) |
+| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | CVE metadata → prioritized remediation context | NVD · CVSS · CWE | [![Tests](https://github.com/omobolajiadeyan/vulngpt/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/vulngpt/actions/workflows/tests.yml) |
+| [FreNiMiGuard](reports/frenimiguard/PROJECT_EVIDENCE.md) | Fragmented posture data → vulnerability and compliance tracking | Private source · dated validation record | 222 backend · 196 frontend (local) |
+
+Test badges are live from each repository's CI. FreNiMiGuard is proprietary,
+so its counts come from a local run on a private branch and can't be
+reproduced from here; the linked record states what that does and doesn't prove.
 
 ---
 
