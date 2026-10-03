@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-02T17:53:17.913Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37043681573",
+  "checkedAt": "2026-10-03T16:19:49.068Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37136393605",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -322,9 +322,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1674.883,
+          "lcpMs": 1439.481,
           "tbtMs": 0,
-          "cls": 0.006239385150871097
+          "cls": 0
         },
         {
           "run": 2,
@@ -334,9 +334,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1682.478,
+          "lcpMs": 1429.565,
           "tbtMs": 0,
-          "cls": 0.006239385150871097
+          "cls": 0
         },
         {
           "run": 3,
@@ -346,9 +346,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1682.6970000000001,
+          "lcpMs": 1442.82,
           "tbtMs": 0,
-          "cls": 0.006239385150871097
+          "cls": 0
         }
       ],
       "summary": {
@@ -431,7 +431,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1141.6309999999999,
+          "lcpMs": 1178.5394999999999,
           "tbtMs": 0,
           "cls": 0
         },
@@ -443,8 +443,8 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1674.0525,
-          "tbtMs": 29,
+          "lcpMs": 1627.842,
+          "tbtMs": 0,
           "cls": 0
         },
         {
@@ -455,9 +455,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1146.775,
+          "lcpMs": 1178.7395000000001,
           "tbtMs": 0,
-          "cls": 0.001062138895172295
+          "cls": 0
         }
       ],
       "summary": {
