@@ -43,7 +43,7 @@ limits alongside the results.
   <tr>
     <td width="25%" align="center"><a href="https://frenimiguard.com"><strong>FreNiMiGuard</strong></a><br /><sub>Live vulnerability-management platform</sub></td>
     <td width="25%" align="center"><a href="#merged-upstream-security-fixes"><strong>7 merged PRs</strong></a><br /><sub>CISA · OWASP · Prowler · more</sub></td>
-    <td width="25%" align="center"><a href="#evidence"><strong>418 tests passing</strong></a><br /><sub>FreNiMiGuard, re-run 3 Oct 2026</sub></td>
+    <td width="25%" align="center"><a href="#evidence"><strong>430 tests passing</strong></a><br /><sub>FreNiMiGuard, re-run 3 Oct 2026</sub></td>
     <td width="25%" align="center"><a href="#open-source-security-tools"><strong>5 open-source tools</strong></a><br /><sub>Each tested in CI</sub></td>
   </tr>
 </table>
@@ -104,18 +104,26 @@ channel, so I treated it as the main attack surface:
   requires the editor role.
 - `python-jose` pulled in an unpatched `ecdsa` dependency. I migrated JWT
   handling to PyJWT and kept the algorithm allow-list.
-
-**Next:** matching on product name alone still over-reports on fully patched
-Windows hosts. I'm moving OS findings to build-number matching so they can be
-confirmed or ruled out automatically, like third-party software already is.
+- Every known-exploited Windows CVE matched every Windows machine by name, so a
+  patched Windows 11 laptop showed EternalBlue. Windows findings are now checked
+  against NVD's data for the machine's own release and build. On real CISA and
+  NVD data, a machine reporting its full build got a definite answer on every
+  Windows CVE checked: 47 ruled out, 14 confirmed. Insider and unknown builds
+  are never ruled out.
+- Signing in logged false "Compliance update" audit events, because loading
+  the checklist also saved it. Loading no longer writes anything.
+- Pages were served without CSP, HSTS, or anti-framing headers, because an
+  nginx block that sets its own headers silently drops the server-wide ones.
+  Every response now carries them.
 
 ### Evidence
 
 | Check (3 Oct 2026) | Result |
 |---|---|
 | Live service | `GET https://frenimiguard.com/api/v1/health` → HTTP 200, API and database online |
-| Backend tests | 222 passed, 1 skipped |
-| Frontend tests | 196 passed across 27 files |
+| Live security headers | CSP, HSTS, `X-Frame-Options`, and `nosniff` on pages, scripts, and API responses (check with `curl -I https://frenimiguard.com/`) |
+| Backend tests | 233 passed, 1 skipped |
+| Frontend tests | 197 passed across 27 files |
 | Dependency audits | `npm audit`: 0 vulnerabilities · `pip-audit`: no known vulnerabilities |
 
 <sub>FreNiMiGuard is proprietary. The tests and audits ran locally on a

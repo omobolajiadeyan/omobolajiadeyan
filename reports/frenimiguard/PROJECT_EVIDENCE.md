@@ -12,20 +12,29 @@ Last checked: **3 October 2026**.
 `GET https://frenimiguard.com/api/v1/health` returned HTTP 200, with the API
 and database online and service version `1.0.0`. That shows the health route
 responded at that time and nothing more. The endpoint doesn't report a
-deployment commit, so it can't show which source revision production runs.
+deployment commit, so it can't show from outside which source revision
+production runs.
+
+Anyone can check that every response, including the HTML pages, script
+bundles, and API, carries `Content-Security-Policy`, `Strict-Transport-Security`,
+`X-Frame-Options: DENY`, and `X-Content-Type-Options: nosniff`:
+
+```bash
+curl -sI https://frenimiguard.com/ | grep -iE 'content-security|strict-transport|x-frame|x-content-type'
+```
 
 ## Local engineering validation
 
-The checks below ran on the private `feature/endpoint-agent` branch at commit
-`1537c09`, with a clean working tree apart from an untracked archive folder.
-That commit isn't on the release branch yet, so production may be running an
-earlier revision. The source isn't public, so you can't reproduce these
-results from this repository.
+The checks below ran at commit `31244e7` on the private release branch, with a
+clean working tree apart from an untracked archive folder. That commit was
+deployed to production on 4 October 2026 (UTC). Before the deploy, the
+checksums of the live backend's source files matched the previous release. The
+source isn't public, so you can't reproduce these results from this repository.
 
 | Check | Result |
 |---|---|
-| Backend tests (`pytest`) | 222 passed, 1 skipped |
-| Frontend tests (`vitest run`) | 196 passed across 27 files |
+| Backend tests (`pytest`) | 233 passed, 1 skipped |
+| Frontend tests (`vitest run`) | 197 passed across 27 files |
 | Frontend dependencies (`npm audit`) | 0 known vulnerabilities |
 | Backend dependencies (`pip-audit -r requirements.txt -r requirements-dev.txt`) | No known vulnerabilities in the Windows-installable dependency set |
 
@@ -72,13 +81,42 @@ remote-code-execution channel. It is built around these controls:
   validation still uses the configured algorithm allow-list (HS256 by
   default). Axios, React Router, Vitest, cryptography, and the AWS SDK were
   updated in the same change.
+- **Missing security headers on pages (fixed in `7ee5ede`).** nginx drops
+  server-level `add_header` directives in any `location` that sets its own.
+  The page and bundle locations set `Cache-Control`, so HTML went out with no
+  CSP, HSTS, or anti-framing headers. The headers now live in one snippet
+  included in each such location. All 17 signed-in app pages and the public
+  pages were then exercised in a browser under the exact policy, with no
+  violations or page errors.
+- **False matches on Windows (fixed in `2ca177a`, `31244e7`).** CISA KEV
+  entries for Windows carry no version data, so every Windows CVE on the list
+  matched every Windows machine by name. A patched Windows 11 24H2 laptop
+  showed EternalBlue among about 265 findings. NVD lists Windows as one product
+  per release, bounded by full build. The matcher now:
+  - applies only the ranges for the machine's own release;
+  - rules a CVE out when NVD lists other releases but not this one;
+  - compares the full build for the rest.
 
-## Known limitation
+  The agent (1.0.1) now reports the build with its update revision. Run against
+  live CISA and NVD data, a machine reporting its full build got a definite
+  verdict on all 61 Windows CVEs that had NVD data: 47 ruled out, 14 confirmed.
+  Two were spot-checked by hand. Insider and unknown builds are never ruled out
+  by NVD's silence.
+- **Audit events written by a read (fixed in `daec7f2`).** Loading the
+  compliance checklist also saved it when none existed yet. On a new
+  workspace, each sign-in logged four false "Compliance update" events, and a
+  read-only auditor's load failed on the refused write.
 
-Matching on product name alone over-reports on fully patched Windows hosts,
-because CISA KEV entries for Windows carry no version data. Third-party
-software is confirmed or ruled out by NVD version ranges. Windows findings
-still need an analyst until build-number matching is in place.
+## Known limitations
+
+- Windows findings get a definite verdict only once the CVE's NVD record has
+  been fetched. That happens hourly, starting with CVEs that match an asset.
+  It also needs the machine's full build: imported inventories that give only a
+  release name ("Windows 11 23H2") can rule out releases but leave the rest for
+  an analyst. Agents installed before 1.0.1 need reinstalling to report full
+  builds.
+- New Windows feature updates must be added to the release table before
+  machines on them can be ruled out.
 
 ## What this does not prove
 
