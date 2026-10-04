@@ -43,7 +43,7 @@ limits alongside the results.
   <tr>
     <td width="25%" align="center"><a href="https://frenimiguard.com"><strong>FreNiMiGuard</strong></a><br /><sub>Live vulnerability-management platform</sub></td>
     <td width="25%" align="center"><a href="#merged-upstream-security-fixes"><strong>7 merged PRs</strong></a><br /><sub>CISA · OWASP · Prowler · more</sub></td>
-    <td width="25%" align="center"><a href="#evidence"><strong>430 tests passing</strong></a><br /><sub>FreNiMiGuard, re-run 3 Oct 2026</sub></td>
+    <td width="25%" align="center"><a href="#evidence"><strong>438 tests passing</strong></a><br /><sub>FreNiMiGuard, re-run 4 Oct 2026</sub></td>
     <td width="25%" align="center"><a href="#open-source-security-tools"><strong>5 open-source tools</strong></a><br /><sub>Each tested in CI</sub></td>
   </tr>
 </table>
@@ -110,6 +110,10 @@ channel, so I treated it as the main attack surface:
   NVD data, a machine reporting its full build got a definite answer on every
   Windows CVE checked: 47 ruled out, 14 confirmed. Insider and unknown builds
   are never ruled out.
+- NVD records list the platform a product runs on beside the vulnerable
+  product, and the feed counted both, so a GLib bug matched every Windows
+  machine. Only vulnerable products and real version bounds count now. On
+  the one live workstation, open findings fell from 1,457 to 462.
 - Signing in logged false "Compliance update" audit events, because loading
   the checklist also saved it. Loading no longer writes anything.
 - Pages were served without CSP, HSTS, or anti-framing headers, because an
@@ -118,11 +122,11 @@ channel, so I treated it as the main attack surface:
 
 ### Evidence
 
-| Check (3 Oct 2026) | Result |
+| Check (4 Oct 2026) | Result |
 |---|---|
 | Live service | `GET https://frenimiguard.com/api/v1/health` → HTTP 200, API and database online |
 | Live security headers | CSP, HSTS, `X-Frame-Options`, and `nosniff` on pages, scripts, and API responses (check with `curl -I https://frenimiguard.com/`) |
-| Backend tests | 233 passed, 1 skipped |
+| Backend tests | 241 passed, 1 skipped |
 | Frontend tests | 197 passed across 27 files |
 | Dependency audits | `npm audit`: 0 vulnerabilities · `pip-audit`: no known vulnerabilities |
 

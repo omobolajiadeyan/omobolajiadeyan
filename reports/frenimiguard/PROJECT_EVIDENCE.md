@@ -5,7 +5,7 @@ platform that I designed and built at FreNiMi. This record keeps the live
 service check apart from the local engineering validation. Neither is a
 certification or an independent security assessment.
 
-Last checked: **3 October 2026**.
+Last checked: **4 October 2026**.
 
 ## Live service
 
@@ -25,7 +25,7 @@ curl -sI https://frenimiguard.com/ | grep -iE 'content-security|strict-transport
 
 ## Local engineering validation
 
-The checks below ran at commit `31244e7` on the private release branch, with a
+The checks below ran at commit `994e099` on the private release branch, with a
 clean working tree apart from an untracked archive folder. That commit was
 deployed to production on 4 October 2026 (UTC). Before the deploy, the
 checksums of the live backend's source files matched the previous release. The
@@ -33,7 +33,7 @@ source isn't public, so you can't reproduce these results from this repository.
 
 | Check | Result |
 |---|---|
-| Backend tests (`pytest`) | 233 passed, 1 skipped |
+| Backend tests (`pytest`) | 241 passed, 1 skipped |
 | Frontend tests (`vitest run`) | 197 passed across 27 files |
 | Frontend dependencies (`npm audit`) | 0 known vulnerabilities |
 | Backend dependencies (`pip-audit -r requirements.txt -r requirements-dev.txt`) | No known vulnerabilities in the Windows-installable dependency set |
@@ -102,6 +102,16 @@ remote-code-execution channel. It is built around these controls:
   verdict on all 61 Windows CVEs that had NVD data: 47 ruled out, 14 confirmed.
   Two were spot-checked by hand. Insider and unknown builds are never ruled out
   by NVD's silence.
+- **CVEs matched to the platform they run on (fixed in `43fa5e2`, `994e099`).**
+  NVD records list platforms (`"vulnerable": false`) beside the vulnerable
+  product, and the feed counted both, so a GLib bug that shows on Windows
+  matched every Windows machine. Programs named "Microsoft Windows ..." also
+  matched Windows CVEs, and entries with no version data (`-`, as NVD lists
+  most Microsoft products) were read as "every version affected". Only
+  vulnerable entries and real version bounds count now, and feed entries
+  stored the old way are re-read from NVD. On the one live workstation this
+  took open findings from 1,457 to 462. The 11 still confirmed are outdated
+  ASP.NET Core and FFmpeg installs.
 - **Audit events written by a read (fixed in `daec7f2`).** Loading the
   compliance checklist also saved it when none existed yet. On a new
   workspace, each sign-in logged four false "Compliance update" events, and a
