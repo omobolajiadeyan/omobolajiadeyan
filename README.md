@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg?v=20261003-1" alt="Omobolaji Adeyan — cybersecurity engineer and security tool builder. Vulnerability management with signed, approved endpoint fixes, plus merged security fixes in CISA, OWASP, and Prowler projects." width="100%" />
+<img src="assets/profile-banner.svg?v=20261003-2" alt="Omobolaji Adeyan — cybersecurity engineer and security tool builder. Vulnerability management with signed, approved endpoint fixes, plus merged security fixes in CISA, OWASP, and Prowler projects." width="100%" />
 
 <br />
 
@@ -39,6 +39,15 @@ I land security fixes upstream in CISA, OWASP, and Prowler projects.
 Each claim on this page links to something you can check, and I state the
 limits alongside the results.
 
+<table role="presentation">
+  <tr>
+    <td width="25%" align="center"><a href="https://frenimiguard.com"><strong>FreNiMiGuard</strong></a><br /><sub>Live vulnerability-management platform</sub></td>
+    <td width="25%" align="center"><a href="#merged-upstream-security-fixes"><strong>7 merged PRs</strong></a><br /><sub>CISA · OWASP · Prowler · more</sub></td>
+    <td width="25%" align="center"><a href="#evidence"><strong>418 tests passing</strong></a><br /><sub>FreNiMiGuard, re-run 3 Oct 2026</sub></td>
+    <td width="25%" align="center"><a href="#open-source-security-tools"><strong>5 open-source tools</strong></a><br /><sub>Each tested in CI</sub></td>
+  </tr>
+</table>
+
 ---
 
 ## FreNiMiGuard — vulnerability management you can prove
@@ -55,9 +64,9 @@ become NIST 800-53 and OSCAL evidence.
 </p>
 
 <p align="center">
-  <a href="https://frenimiguard.com"><img src="assets/frenimiguard-home.png?v=20261003-1" alt="FreNiMiGuard homepage: Vulnerability Management You Can Prove, with a sample scan ranking known-exploited CVEs by risk score" width="92%" /></a>
+  <img src="assets/frenimiguard-dashboard.png?v=20261003-1" alt="FreNiMiGuard dashboard: 5 assets, 12 installed apps, 635 vulnerabilities needing attention of which 296 are known exploited, an SLA status gauge, and a deadline breakdown by severity" width="100%" />
 </p>
-<p align="center"><sub>Public homepage, captured 3 Oct 2026. The scan panel shows sample data, not customer assets.</sub></p>
+<p align="center"><sub>The dashboard on a test instance, 3 Oct 2026: live CISA KEV and NVD feeds matched against a sample inventory of third-party apps on five machines. Not customer data.</sub></p>
 
 <p align="center">
   <img src="assets/frenimiguard-flow.svg?v=20261003-1" alt="FreNiMiGuard pipeline: inventory, match against CISA KEV and NVD, prioritize by risk and SLA, fix through approved and signed actions, verify by rescanning, and export NIST 800-53 and OSCAL evidence. Remote actions sit behind an endpoint trust boundary." width="100%" />
@@ -83,6 +92,11 @@ channel, so I treated it as the main attack surface:
 | A leaked API key | There are no admin API keys, only auditor and analyst roles. Keys and agent tokens are stored only as SHA-256 hashes and can expire |
 | A leaked JWT secret also exposes cloud credentials | Integration credentials are encrypted with a separate key, so one leaked secret does not unlock the other |
 | A finding is marked "patched" but never was | Findings close automatically only when a fresh inventory shows the installed version is outside NVD's affected range. Name-only matches go to an analyst |
+
+<p align="center">
+  <img src="assets/frenimiguard-remote-actions.png?v=20261003-1" alt="FreNiMiGuard endpoint settings: Allow remote actions is off by default; Require a second administrator to approve is on; actions are signed with the workspace key, which agents pin at enrollment" width="100%" />
+</p>
+<p align="center"><sub>The same controls in the product's endpoint settings.</sub></p>
 
 **Found and fixed in my own code:**
 - The read-only auditor role could write to assets, incidents, alerts,

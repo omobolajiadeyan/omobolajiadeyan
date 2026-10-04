@@ -1,38 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Omobolaji Adeyan — cybersecurity engineer and security tool builder</title>
-  <desc id="desc">Banner reading: Cybersecurity engineer and security tool builder. Security tools built around proof, not promises. Vulnerability management with signed, approved endpoint fixes, plus merged security fixes in CISA, OWASP, and Prowler projects. Focus areas: application security, detection engineering, vulnerability triage, and security automation.</desc>
-  <rect width="1200" height="360" rx="26" fill="#0B1020"/>
-  <path d="M0 0H1200V360H0V0Z" fill="url(#bg)"/>
-  <path d="M72 276H1128" stroke="#1E293B" stroke-width="1"/>
-  <path d="M792 56H1128V244H792V56Z" fill="#0F172A" fill-opacity="0.86" stroke="#334155"/>
-  <text x="816" y="83" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">EVIDENCE PIPELINE</text>
-  <path d="M816 108H1098" stroke="#334155"/>
-  <path d="M816 148H1098" stroke="#334155"/>
-  <path d="M816 188H1098" stroke="#334155"/>
-  <circle cx="830" cy="108" r="7" fill="#0B1020" stroke="#38BDF8" stroke-width="2"/>
-  <circle cx="958" cy="148" r="7" fill="#0B1020" stroke="#A78BFA" stroke-width="2"/>
-  <circle cx="1084" cy="188" r="7" fill="#0B1020" stroke="#22C55E" stroke-width="2"/>
-  <path d="M837 111C878 121 910 137 951 145M965 151C1007 160 1037 177 1077 186" stroke="#475569" stroke-width="2" stroke-dasharray="4 5"/>
-  <text x="816" y="133" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">SIGNAL</text>
-  <text x="927" y="173" fill="#DDD6FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">EXPLAIN</text>
-  <text x="1041" y="213" fill="#BBF7D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">ACT</text>
-  <path d="M888 282C926 242 961 242 1000 282C1038 322 1075 322 1114 282" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.65"/>
-  <path d="M888 307C926 267 961 267 1000 307C1038 347 1075 347 1114 307" stroke="#22C55E" stroke-width="2" stroke-opacity="0.52"/>
-  <text x="72" y="78" fill="#38BDF8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">CYBERSECURITY ENGINEER · SECURITY TOOL BUILDER</text>
-  <text x="72" y="128" fill="#E5E7EB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="0">Omobolaji Adeyan</text>
-  <text x="72" y="168" fill="#7DD3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="0">Security tools built around proof—not promises.</text>
-  <text x="72" y="212" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0">Vulnerability management with signed, approved endpoint fixes,</text>
-  <text x="72" y="239" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0">plus merged security fixes in CISA, OWASP, and Prowler projects.</text>
-  <g>
-    <rect x="72" y="291" width="78" height="36" rx="18" fill="#102A43" stroke="#1E3A5F"/>
-    <text x="111" y="314" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.6">APPSEC</text>
-    <rect x="160" y="291" width="209" height="36" rx="18" fill="#13251D" stroke="#1F4A34"/>
-    <text x="264.5" y="314" text-anchor="middle" fill="#BBF7D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.6">DETECTION ENGINEERING</text>
-    <rect x="379" y="291" width="200" height="36" rx="18" fill="#2B2111" stroke="#5C431A"/>
-    <text x="479" y="314" text-anchor="middle" fill="#FDE68A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.6">VULNERABILITY TRIAGE</text>
-    <rect x="589" y="291" width="191" height="36" rx="18" fill="#211B35" stroke="#40305F"/>
-    <text x="684.5" y="314" text-anchor="middle" fill="#DDD6FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.6">SECURITY AUTOMATION</text>
-  </g>
+  <desc id="desc">Banner reading: Cybersecurity engineer and security tool builder. Security tools built around proof, not promises. Vulnerability management with signed, approved endpoint fixes, plus merged security fixes in CISA, OWASP, and Prowler projects. A panel follows one finding through FreNiMiGuard: matched against CISA KEV, version confirmed against NVD, fix approved by a second admin and signed, then closed after a rescan. Focus areas: application security, vulnerability management, detection engineering, and security automation.</desc>
   <defs>
     <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 80) rotate(160) scale(820 520)">
       <stop stop-color="#123D5A"/>
@@ -40,4 +8,58 @@
       <stop offset="1" stop-color="#070A12"/>
     </radialGradient>
   </defs>
+  <rect width="1200" height="360" rx="26" fill="#0B1020"/>
+  <path d="M0 0H1200V360H0V0Z" fill="url(#bg)"/>
+  <path d="M72 276H1128" stroke="#1E293B" stroke-width="1"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="72" y="78" fill="#38BDF8" font-size="13" font-weight="700" letter-spacing="2">CYBERSECURITY ENGINEER · SECURITY TOOL BUILDER</text>
+    <text x="72" y="128" fill="#E5E7EB" font-size="44" font-weight="700">Omobolaji Adeyan</text>
+    <text x="72" y="168" fill="#7DD3FC" font-size="22" font-weight="600">Security tools built around proof—not promises.</text>
+    <text x="72" y="212" fill="#CBD5E1" font-size="18">Vulnerability management with signed, approved endpoint fixes,</text>
+    <text x="72" y="239" fill="#CBD5E1" font-size="18">plus merged security fixes in CISA, OWASP, and Prowler projects.</text>
+  </g>
+
+  <!-- One finding, followed through FreNiMiGuard -->
+  <rect x="800" y="48" width="328" height="208" rx="14" fill="#0F172A" fill-opacity="0.88" stroke="#334155"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="822" y="76" fill="#64748B" font-size="11" font-weight="700" letter-spacing="1.4">FRENIMIGUARD · ONE FINDING</text>
+    <path d="M832 104V218" stroke="#334155" stroke-width="2"/>
+
+    <circle cx="832" cy="104" r="7" fill="#0B1020" stroke="#F87171" stroke-width="2"/>
+    <text x="852" y="100" fill="#E5E7EB" font-size="13" font-weight="600">Matched to installed app</text>
+    <text x="852" y="116" fill="#94A3B8" font-size="11.5">CISA Known Exploited list</text>
+    <rect x="1050" y="92" width="62" height="20" rx="10" fill="#3B1219" stroke="#7F1D1D"/>
+    <text x="1081" y="106" text-anchor="middle" fill="#FCA5A5" font-size="10.5" font-weight="700" letter-spacing="0.6">KEV</text>
+
+    <circle cx="832" cy="142" r="7" fill="#0B1020" stroke="#FBBF24" stroke-width="2"/>
+    <text x="852" y="138" fill="#E5E7EB" font-size="13" font-weight="600">Version inside NVD range</text>
+    <text x="852" y="154" fill="#94A3B8" font-size="11.5">Owner and SLA deadline set</text>
+    <rect x="1022" y="130" width="90" height="20" rx="10" fill="#2B2111" stroke="#5C431A"/>
+    <text x="1067" y="144" text-anchor="middle" fill="#FDE68A" font-size="10.5" font-weight="700" letter-spacing="0.6">CONFIRMED</text>
+
+    <circle cx="832" cy="180" r="7" fill="#0B1020" stroke="#A78BFA" stroke-width="2"/>
+    <text x="852" y="176" fill="#E5E7EB" font-size="13" font-weight="600">Fix approved by 2nd admin</text>
+    <text x="852" y="192" fill="#94A3B8" font-size="11.5">RSA-signed action to the agent</text>
+    <rect x="1040" y="168" width="72" height="20" rx="10" fill="#211B35" stroke="#40305F"/>
+    <text x="1076" y="182" text-anchor="middle" fill="#DDD6FE" font-size="10.5" font-weight="700" letter-spacing="0.6">SIGNED</text>
+
+    <circle cx="832" cy="218" r="7" fill="#22C55E" stroke="#22C55E" stroke-width="2"/>
+    <path d="M828.5 218L831 220.5L835.5 215.5" stroke="#052E16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="852" y="214" fill="#E5E7EB" font-size="13" font-weight="600">Patched version on rescan</text>
+    <text x="852" y="230" fill="#94A3B8" font-size="11.5">Closed, with audit evidence</text>
+    <rect x="1040" y="206" width="72" height="20" rx="10" fill="#13251D" stroke="#1F4A34"/>
+    <text x="1076" y="220" text-anchor="middle" fill="#BBF7D0" font-size="10.5" font-weight="700" letter-spacing="0.6">CLOSED</text>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.6" text-anchor="middle">
+    <rect x="72" y="291" width="78" height="36" rx="18" fill="#102A43" stroke="#1E3A5F"/>
+    <text x="111" y="314" fill="#BAE6FD">APPSEC</text>
+    <rect x="160" y="291" width="248" height="36" rx="18" fill="#2B2111" stroke="#5C431A"/>
+    <text x="284" y="314" fill="#FDE68A">VULNERABILITY MANAGEMENT</text>
+    <rect x="418" y="291" width="209" height="36" rx="18" fill="#13251D" stroke="#1F4A34"/>
+    <text x="522.5" y="314" fill="#BBF7D0">DETECTION ENGINEERING</text>
+    <rect x="637" y="291" width="191" height="36" rx="18" fill="#211B35" stroke="#40305F"/>
+    <text x="732.5" y="314" fill="#DDD6FE">SECURITY AUTOMATION</text>
+  </g>
 </svg>
