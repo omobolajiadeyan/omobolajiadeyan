@@ -1,6 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Omobolaji Adeyan — cybersecurity engineer and security tool builder</title>
-  <desc id="desc">Banner reading: Cybersecurity engineer and security tool builder. Security tools built around proof, not promises. Focus areas: application security, detection engineering, vulnerability triage, and security automation.</desc>
+  <desc id="desc">Banner reading: Cybersecurity engineer and security tool builder. Security tools built around proof, not promises. Vulnerability management with signed, approved endpoint fixes, plus merged security fixes in CISA, OWASP, and Prowler projects. Focus areas: application security, detection engineering, vulnerability triage, and security automation.</desc>
   <rect width="1200" height="360" rx="26" fill="#0B1020"/>
   <path d="M0 0H1200V360H0V0Z" fill="url(#bg)"/>
   <path d="M72 276H1128" stroke="#1E293B" stroke-width="1"/>
@@ -21,8 +21,8 @@
   <text x="72" y="78" fill="#38BDF8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">CYBERSECURITY ENGINEER · SECURITY TOOL BUILDER</text>
   <text x="72" y="128" fill="#E5E7EB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="0">Omobolaji Adeyan</text>
   <text x="72" y="168" fill="#7DD3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="0">Security tools built around proof—not promises.</text>
-  <text x="72" y="212" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0">Phishing detection, secret scanning, ATT&amp;CK-mapped log analysis, and</text>
-  <text x="72" y="239" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0">CVE triage—shipped with tests, SARIF output, and documented limits.</text>
+  <text x="72" y="212" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0">Vulnerability management with signed, approved endpoint fixes,</text>
+  <text x="72" y="239" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" letter-spacing="0">plus merged security fixes in CISA, OWASP, and Prowler projects.</text>
   <g>
     <rect x="72" y="291" width="78" height="36" rx="18" fill="#102A43" stroke="#1E3A5F"/>
     <text x="111" y="314" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="0.6">APPSEC</text>
