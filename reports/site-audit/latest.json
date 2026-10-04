@@ -1,11 +1,14 @@
 {
-  "checkedAt": "2026-10-03T16:19:49.068Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37136393605",
+  "checkedAt": "2026-10-04T16:51:55.226Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37218297862",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
       "domain": "frenimi.com",
-      "failures": [],
+      "failures": [
+        "Browser 390px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#run-proof-checks')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"run-proof-checks\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+        "Browser 1440px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#run-proof-checks')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"run-proof-checks\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+      ],
       "http": [
         {
           "url": "https://frenimi.com/about.html",
@@ -293,6 +296,31 @@
           "finalUrl": "https://frenimi.com/tools/word-counter.html"
         },
         {
+          "url": "https://frenimi.com/buyer-guides.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/buyer-guides.html"
+        },
+        {
+          "url": "https://frenimi.com/engineering-support.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/engineering-support.html"
+        },
+        {
+          "url": "https://frenimi.com/pricing.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/pricing.html"
+        },
+        {
+          "url": "https://frenimi.com/website-cost.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/website-cost.html"
+        },
+        {
+          "url": "https://frenimi.com/website-quality.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/website-quality.html"
+        },
+        {
           "url": "https://frenimi.com/robots.txt",
           "status": 200,
           "finalUrl": "https://frenimi.com/robots.txt"
@@ -306,11 +334,13 @@
       "interactions": [
         {
           "width": 390,
-          "passed": true
+          "passed": false,
+          "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#run-proof-checks')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"run-proof-checks\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
         },
         {
           "width": 1440,
-          "passed": true
+          "passed": false,
+          "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#run-proof-checks')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"run-proof-checks\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
         }
       ],
       "lighthouse": [
@@ -318,11 +348,11 @@
           "run": 1,
           "scores": {
             "performance": 100,
-            "accessibility": 100,
+            "accessibility": 97,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1439.481,
+          "lcpMs": 1573.267,
           "tbtMs": 0,
           "cls": 0
         },
@@ -330,11 +360,11 @@
           "run": 2,
           "scores": {
             "performance": 100,
-            "accessibility": 100,
+            "accessibility": 97,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1429.565,
+          "lcpMs": 1206.922,
           "tbtMs": 0,
           "cls": 0
         },
@@ -342,18 +372,18 @@
           "run": 3,
           "scores": {
             "performance": 100,
-            "accessibility": 100,
+            "accessibility": 97,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1442.82,
+          "lcpMs": 1372.976,
           "tbtMs": 0,
           "cls": 0
         }
       ],
       "summary": {
         "performance": 100,
-        "accessibility": 100,
+        "accessibility": 97,
         "best-practices": 100,
         "seo": 100
       },
@@ -431,7 +461,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1178.5394999999999,
+          "lcpMs": 1351.423,
           "tbtMs": 0,
           "cls": 0
         },
@@ -443,7 +473,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1627.842,
+          "lcpMs": 1264.6889999999999,
           "tbtMs": 0,
           "cls": 0
         },
@@ -455,7 +485,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1178.7395000000001,
+          "lcpMs": 1312.022,
           "tbtMs": 0,
           "cls": 0
         }
