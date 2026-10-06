@@ -43,8 +43,8 @@ limits alongside the results.
   <tr>
     <td width="25%" align="center"><a href="https://frenimiguard.com"><strong>FreNiMiGuard</strong></a><br /><sub>Live vulnerability-management platform</sub></td>
     <td width="25%" align="center"><a href="#merged-upstream-security-fixes"><strong>7 merged PRs</strong></a><br /><sub>CISA · OWASP · Prowler · more</sub></td>
-    <td width="25%" align="center"><a href="#evidence"><strong>438 tests passing</strong></a><br /><sub>FreNiMiGuard, re-run 4 Oct 2026</sub></td>
-    <td width="25%" align="center"><a href="#open-source-security-tools"><strong>5 open-source tools</strong></a><br /><sub>Each tested in CI</sub></td>
+    <td width="25%" align="center"><a href="#evidence"><strong>Evidence with limits</strong></a><br /><sub>Local checks are dated and qualified</sub></td>
+    <td width="25%" align="center"><a href="#open-source-security-tools"><strong>5 focused security tools</strong></a><br /><sub>With quick-start and CI links</sub></td>
   </tr>
 </table>
 
@@ -151,20 +151,46 @@ these results do and don't prove.</sub>
 | RamenDR | [ramenctl #466](https://github.com/RamenDR/ramenctl/pull/466) | Pinned GitHub Actions to commit SHAs to harden the supply chain |
 | SecOps-NG | [secops-ng-framework #281](https://github.com/secops-ng/secops-ng-framework/pull/281) | Added the EU Cyber Resilience Act Article 13(8) support-period mapping |
 
-Only merged work is listed. The [Open Source Log](OPEN_SOURCE_LOG.md) keeps
-the dated record and separates merged work from PRs still under review.
+Only merged work is listed. These are contributions to the upstream projects,
+not claims that their fork mirrors are products I maintain. The
+[Open Source Log](OPEN_SOURCE_LOG.md) keeps the dated record and separates
+merged work from PRs still under review.
 
 ---
 
 ## Open-source security tools
 
+These projects target different jobs: phishing triage, exposed-secret detection,
+event-level log signals, population-based anomaly triage, and CVE remediation
+guidance. Start with the linked quick-start in each repository before using it
+on real data.
+
 | Tool | What it does | Output | Tests |
 |---|---|---|---|
-| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | Finds exposed credentials in CI and redacts them in findings | JSON · SARIF · GitHub Action | [![Tests](https://github.com/omobolajiadeyan/secrets-scanner/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/secrets-scanner/actions/workflows/tests.yml) |
-| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Turns raw logs into MITRE ATT&CK-mapped investigation leads | SARIF · GitHub Action | [![Tests](https://github.com/omobolajiadeyan/log-analyzer/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/log-analyzer/actions/workflows/tests.yml) |
-| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Scores user and IP activity for explainable anomaly triage | Python · TypeScript | [![Tests](https://github.com/omobolajiadeyan/behaviorsense/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/behaviorsense/actions/workflows/tests.yml) |
-| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | Turns NVD CVE data into prioritized remediation guidance | NVD · CVSS · CWE | [![Tests](https://github.com/omobolajiadeyan/vulngpt/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/vulngpt/actions/workflows/tests.yml) |
-| [PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai) | Scores URLs and email for phishing offline and explains each score | SARIF · [Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) | [![Tests](https://github.com/omobolajiadeyan/phishguard-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/phishguard-ai/actions/workflows/tests.yml) |
+| [PhishGuard](https://github.com/omobolajiadeyan/phishguard-ai) | Scores URLs and email for phishing offline and explains each score | SARIF · [Marketplace Action](https://github.com/marketplace/actions/phishguard-ai-phishing-detector) · [Evidence](https://github.com/omobolajiadeyan/phishguard-ai/blob/main/docs/PROJECT_EVIDENCE.md) | [![Tests](https://github.com/omobolajiadeyan/phishguard-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/phishguard-ai/actions/workflows/tests.yml) |
+| [Secrets Scanner](https://github.com/omobolajiadeyan/secrets-scanner) | Finds exposed credentials in CI and redacts them in findings | JSON · SARIF · GitHub Action · [Evidence](https://github.com/omobolajiadeyan/secrets-scanner/blob/main/docs/PROJECT_EVIDENCE.md) | [![Tests](https://github.com/omobolajiadeyan/secrets-scanner/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/secrets-scanner/actions/workflows/tests.yml) |
+| [Log Analyzer](https://github.com/omobolajiadeyan/log-analyzer) | Turns raw logs into MITRE ATT&CK-mapped investigation leads | SARIF · GitHub Action · [Evidence](https://github.com/omobolajiadeyan/log-analyzer/blob/main/docs/PROJECT_EVIDENCE.md) | [![Tests](https://github.com/omobolajiadeyan/log-analyzer/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/log-analyzer/actions/workflows/tests.yml) |
+| [BehaviorSense](https://github.com/omobolajiadeyan/behaviorsense) | Scores user and IP activity for explainable anomaly triage | Python · TypeScript · [Evidence](https://github.com/omobolajiadeyan/behaviorsense/blob/main/docs/PROJECT_EVIDENCE.md) | [![Tests](https://github.com/omobolajiadeyan/behaviorsense/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/behaviorsense/actions/workflows/tests.yml) |
+| [VulnGPT](https://github.com/omobolajiadeyan/vulngpt) | Turns NVD CVE data into prioritized remediation guidance | NVD · CVSS · CWE · [Evidence](https://github.com/omobolajiadeyan/vulngpt/blob/main/docs/PROJECT_EVIDENCE.md) | [![Tests](https://github.com/omobolajiadeyan/vulngpt/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/vulngpt/actions/workflows/tests.yml) |
+
+**Choosing a tool:** use Log Analyzer for explicit indicators in individual log
+events and BehaviorSense for unusual behavior compared with a population
+baseline. [CVE Dashboard](https://github.com/omobolajiadeyan/cve-dashboard)
+is a quick filtered NVD feed
+([evidence](https://github.com/omobolajiadeyan/cve-dashboard/blob/main/docs/PROJECT_EVIDENCE.md));
+[VulnGPT](https://github.com/omobolajiadeyan/vulngpt) turns an individual CVE
+into triage and remediation guidance.
+
+---
+
+## Other engineering projects
+
+[FreNiMi Checkers](https://github.com/omobolajiadeyan/frenimi-checkers) is a
+separate product-engineering project: an American-checkers game with local AI,
+offline play, and an optional ranked multiplayer service. The
+[browser demo](https://omobolajiadeyan.github.io/frenimi-checkers/) is the
+fastest way to try it; server-backed matchmaking requires a separate
+deployment.
 
 ---
 
