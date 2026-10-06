@@ -42,6 +42,16 @@ source isn't public, so you can't reproduce these results from this repository.
 distribution, so the Windows audit doesn't cover it. That runtime dependency
 needs a Linux CI audit before release.
 
+## Follow-up test run
+
+On 6 October 2026, after additional billing and lifecycle-email work, the
+private source checkout's full backend suite reported **340 passed and 11
+skipped**; the frontend suite reported **220 passed across 31 files**. The
+source snapshot was subsequently published to the private repository as commit
+`34f3520`. These results are local test evidence, not a deployment check. The
+dependency audits above are from the earlier 4 October snapshot and were not
+rerun as part of this follow-up.
+
 ## Security design of the endpoint agent
 
 The agent can run updates on customer machines, which makes it a

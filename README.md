@@ -122,18 +122,19 @@ channel, so I treated it as the main attack surface:
 
 ### Evidence
 
-| Check (4 Oct 2026) | Result |
+| Check | Result |
 |---|---|
-| Live service | `GET https://frenimiguard.com/api/v1/health` → HTTP 200, API and database online |
-| Live security headers | CSP, HSTS, `X-Frame-Options`, and `nosniff` on pages, scripts, and API responses (check with `curl -I https://frenimiguard.com/`) |
-| Backend tests | 241 passed, 1 skipped |
-| Frontend tests | 197 passed across 27 files |
-| Dependency audits | `npm audit`: 0 vulnerabilities · `pip-audit`: no known vulnerabilities |
+| Live service (4 Oct 2026) | `GET https://frenimiguard.com/api/v1/health` → HTTP 200, API and database online |
+| Live security headers (4 Oct 2026) | CSP, HSTS, `X-Frame-Options`, and `nosniff` on pages, scripts, and API responses |
+| Backend tests (6 Oct 2026) | 340 passed, 11 skipped |
+| Frontend tests (6 Oct 2026) | 220 passed across 31 files |
+| Dependency audits (4 Oct 2026 snapshot) | `npm audit`: 0 vulnerabilities · `pip-audit`: no known vulnerabilities in the Windows-installable dependency set |
 
-<sub>FreNiMiGuard is proprietary. The tests and audits ran locally on a
-private branch, so they can't be reproduced from this repository. No
-penetration test, authorization to operate, compliance certification, or
-customer deployment is claimed. The
+<sub>FreNiMiGuard source is in a private repository, so these tests and audits
+can't be reproduced from this public profile. The newer test counts are from
+the private source checkout; they do not establish that those changes are
+deployed. No penetration test, authorization to operate, compliance
+certification, or customer deployment is claimed. The
 [evidence record](reports/frenimiguard/PROJECT_EVIDENCE.md) says exactly what
 these results do and don't prove.</sub>
 
@@ -191,6 +192,16 @@ offline play, and an optional ranked multiplayer service. The
 [browser demo](https://omobolajiadeyan.github.io/frenimi-checkers/) is the
 fastest way to try it; server-backed matchmaking requires a separate
 deployment.
+
+### LearnFolk launch-readiness engineering
+
+In a live launch-readiness review of the tutoring marketplace, I found
+transaction-integrity and access-control gaps. I implemented source fixes and
+added regression tests in
+[LearnFolk PR #1](https://github.com/omobolajiadeyan/learnfolk/pull/1).
+The changes are not deployed: the PR is open, a database migration is
+required, and production retesting remains a launch gate. I do not present
+these source fixes as a production resolution.
 
 ---
 
