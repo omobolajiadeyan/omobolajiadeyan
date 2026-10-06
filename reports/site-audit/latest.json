@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-04T16:51:55.226Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37218297862",
+  "checkedAt": "2026-10-06T18:24:08.161Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37510948401",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -321,6 +321,11 @@
           "finalUrl": "https://frenimi.com/website-quality.html"
         },
         {
+          "url": "https://frenimi.com/evidence.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/evidence.html"
+        },
+        {
           "url": "https://frenimi.com/robots.txt",
           "status": 200,
           "finalUrl": "https://frenimi.com/robots.txt"
@@ -352,20 +357,20 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1573.267,
+          "lcpMs": 1522.0900000000001,
           "tbtMs": 0,
           "cls": 0
         },
         {
           "run": 2,
           "scores": {
-            "performance": 100,
+            "performance": 99,
             "accessibility": 97,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1206.922,
-          "tbtMs": 0,
+          "lcpMs": 1550.13,
+          "tbtMs": 68,
           "cls": 0
         },
         {
@@ -376,8 +381,8 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1372.976,
-          "tbtMs": 0,
+          "lcpMs": 1520.117,
+          "tbtMs": 58,
           "cls": 0
         }
       ],
@@ -388,7 +393,7 @@
         "seo": 100
       },
       "performanceRange": [
-        100,
+        99,
         100
       ]
     },
@@ -461,7 +466,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1351.423,
+          "lcpMs": 1288.46,
           "tbtMs": 0,
           "cls": 0
         },
@@ -473,7 +478,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1264.6889999999999,
+          "lcpMs": 1336.179,
           "tbtMs": 0,
           "cls": 0
         },
@@ -485,7 +490,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1312.022,
+          "lcpMs": 1259.379,
           "tbtMs": 0,
           "cls": 0
         }
