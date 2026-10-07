@@ -42,7 +42,12 @@ for (const domain of ['frenimi.com','omobolajiadeyan.com']) {
           await page.locator('#open-phishguard').click();await page.locator('#fn-url').fill('https://example.com/');
           await page.locator('#fn-analysis-form button[type=submit]').click();await page.locator('.fn-score-heading').waitFor();
           assert.match(await page.locator('#fn-analysis-result').innerText(),/Model score/);
-          await page.locator('.calm-demo-close').click();await page.locator('#run-proof-checks').click();
+          await page.locator('.calm-demo-close').click();
+          const engineeringDetails=page.locator('details.fn-engineering-details');
+          if(await engineeringDetails.count())await engineeringDetails.evaluate(details=>{details.open=true;});
+          const proofButton=page.locator('#run-proof-checks');
+          await proofButton.evaluate(button=>button.scrollIntoView({block:'center',behavior:'instant'}));
+          await proofButton.click();
           await page.waitForFunction(()=>!document.querySelector('#run-proof-checks').disabled);
           assert.match(await page.locator('#proof-check-status').innerText(),/4\/4 checks passed/);
           await page.locator('#project-tab-1').click();assert.match(await page.locator('#project-panel').innerText(),/First Zion/);
