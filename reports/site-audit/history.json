@@ -276,5 +276,42 @@
         "failures": []
       }
     ]
+  },
+  {
+    "checkedAt": "2026-10-07T18:58:04.887Z",
+    "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37670793896",
+    "sites": [
+      {
+        "domain": "frenimi.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 97,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": [
+          "Browser 390px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#run-proof-checks')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"run-proof-checks\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+          "Browser 1440px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#run-proof-checks')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"run-proof-checks\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+        ]
+      },
+      {
+        "domain": "omobolajiadeyan.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": []
+      }
+    ]
   }
 ]
