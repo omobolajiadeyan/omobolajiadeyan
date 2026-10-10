@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-09T18:22:31.062Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/37972765142",
+  "checkedAt": "2026-10-10T17:21:41.370Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/38071371872",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -11,6 +11,11 @@
           "url": "https://frenimi.com/about.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/about.html"
+        },
+        {
+          "url": "https://frenimi.com/work.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/work.html"
         },
         {
           "url": "https://frenimi.com/activity.html",
@@ -133,11 +138,6 @@
           "finalUrl": "https://frenimi.com/tools/annotate-pdf.html"
         },
         {
-          "url": "https://frenimi.com/tools/barcode-generator.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/barcode-generator.html"
-        },
-        {
           "url": "https://frenimi.com/tools/compare-pdf.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/compare-pdf.html"
@@ -153,11 +153,6 @@
           "finalUrl": "https://frenimi.com/tools/crop-pdf.html"
         },
         {
-          "url": "https://frenimi.com/tools/excel-to-csv.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/excel-to-csv.html"
-        },
-        {
           "url": "https://frenimi.com/tools/fill-pdf.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/fill-pdf.html"
@@ -168,11 +163,6 @@
           "finalUrl": "https://frenimi.com/tools/hash-generator.html"
         },
         {
-          "url": "https://frenimi.com/tools/heic-to-jpg.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/heic-to-jpg.html"
-        },
-        {
           "url": "https://frenimi.com/tools/image-compressor.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/image-compressor.html"
@@ -181,11 +171,6 @@
           "url": "https://frenimi.com/tools/image-converter.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/image-converter.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/image-cropper.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/image-cropper.html"
         },
         {
           "url": "https://frenimi.com/tools/image-resizer.html",
@@ -233,11 +218,6 @@
           "finalUrl": "https://frenimi.com/tools/password-generator.html"
         },
         {
-          "url": "https://frenimi.com/tools/pdf-to-images.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/pdf-to-images.html"
-        },
-        {
           "url": "https://frenimi.com/tools/pricing.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/pricing.html"
@@ -251,11 +231,6 @@
           "url": "https://frenimi.com/tools/qr-code-generator.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/qr-code-generator.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/qr-code-scanner.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/qr-code-scanner.html"
         },
         {
           "url": "https://frenimi.com/tools/rotate-pdf.html",
@@ -281,11 +256,6 @@
           "url": "https://frenimi.com/tools/trust.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/trust.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/watermark-pdf.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/watermark-pdf.html"
         },
         {
           "url": "https://frenimi.com/tools/word-counter.html",
@@ -348,42 +318,42 @@
           "run": 1,
           "scores": {
             "performance": 100,
-            "accessibility": 97,
+            "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1750.1309999999999,
+          "lcpMs": 1179.93,
           "tbtMs": 0,
-          "cls": 0.04564746159482778
+          "cls": 0
         },
         {
           "run": 2,
           "scores": {
             "performance": 100,
-            "accessibility": 97,
+            "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1531.8029999999999,
+          "lcpMs": 1521.6955,
           "tbtMs": 0,
-          "cls": 0.04564746159482778
+          "cls": 0
         },
         {
           "run": 3,
           "scores": {
             "performance": 100,
-            "accessibility": 97,
+            "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1745.129,
-          "tbtMs": 0,
-          "cls": 0.04564746159482778
+          "lcpMs": 1510.479,
+          "tbtMs": 21,
+          "cls": 0
         }
       ],
       "summary": {
         "performance": 100,
-        "accessibility": 97,
+        "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       },
@@ -456,14 +426,14 @@
         {
           "run": 1,
           "scores": {
-            "performance": 100,
+            "performance": 97,
             "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1271.737,
-          "tbtMs": 0,
-          "cls": 0.00403096761269032
+          "lcpMs": 1325.042,
+          "tbtMs": 189.5,
+          "cls": 0
         },
         {
           "run": 2,
@@ -473,9 +443,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1268.836,
+          "lcpMs": 1342.254,
           "tbtMs": 0,
-          "cls": 0.003904370976763711
+          "cls": 0
         },
         {
           "run": 3,
@@ -485,9 +455,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1272.289,
+          "lcpMs": 1333.2350000000001,
           "tbtMs": 0,
-          "cls": 0.003904370976763711
+          "cls": 0
         }
       ],
       "summary": {
@@ -497,7 +467,7 @@
         "seo": 100
       },
       "performanceRange": [
-        100,
+        97,
         100
       ]
     }
