@@ -34,7 +34,7 @@ I'm a cybersecurity engineer who builds security products end to end: threat
 model, backend, agent, UI, tests, and deployment. My main work is
 **[FreNiMiGuard](https://frenimiguard.com)**, a vulnerability-management
 platform I designed and built at [FreNiMi](https://frenimi.com). Outside that,
-I land security fixes upstream in CISA, OWASP, and Prowler projects.
+I land security fixes upstream in projects from the US CISA agency, OWASP, and Prowler.
 
 Each claim on this page links to something you can check, and I state the
 limits alongside the results.
@@ -212,9 +212,12 @@ these source fixes as a production resolution.
 
 | Credential | |
 |---|---|
-| **[CompTIA Security+](https://www.credly.com/badges/0b64bbac-e9a0-4889-a017-8894513823dc/public_url)** | Verify on Credly |
+| **[Certified Information Systems Auditor (CISA)](https://www.credly.com/badges/9b20da73-5cf6-47f1-86db-215a27acf33a/public_url)** | ISACA, 2024 · Verify on Credly |
+| **[CompTIA Security+ ce](https://www.credly.com/badges/0b64bbac-e9a0-4889-a017-8894513823dc/public_url)** | CompTIA, 2024 · Verify on Credly |
 | **AWS Academy Cloud Foundations** | Cloud architecture, shared responsibility, and security fundamentals |
-| **BS, Information Technology** | Systems, software, networking, and data |
+| **BSc, Information Technology** | Arizona State University, 2025 |
+| **MA, Human Resource Management** | University of Plymouth, 2016 |
+| **BSc (Hons), Business and Management** | University of Plymouth, 2015 |
 | **GitHub Marketplace publisher** | Published and maintain a reusable security GitHub Action |
 
 </details>
