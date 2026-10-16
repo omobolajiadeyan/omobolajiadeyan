@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-15T17:03:45.746Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/38774092295",
+  "checkedAt": "2026-10-16T16:41:32.444Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/38933863989",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -337,7 +337,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1688.8155000000002,
+          "lcpMs": 1716.77,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -349,7 +349,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1690.9685,
+          "lcpMs": 1717.6285,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -361,7 +361,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1694.2615,
+          "lcpMs": 1718.6264999999999,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         }
@@ -446,9 +446,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1222.685,
-          "tbtMs": 12,
-          "cls": 0.00403096761269032
+          "lcpMs": 1230.5594999999998,
+          "tbtMs": 0,
+          "cls": 0.003904370976763711
         },
         {
           "run": 2,
@@ -458,9 +458,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1676.4009999999998,
+          "lcpMs": 1242.75,
           "tbtMs": 0,
-          "cls": 0.00403096761269032
+          "cls": 0.003890924697907129
         },
         {
           "run": 3,
@@ -470,9 +470,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1716.796,
-          "tbtMs": 2,
-          "cls": 0.004026946965455559
+          "lcpMs": 1280.4965,
+          "tbtMs": 0,
+          "cls": 0.00403096761269032
         }
       ],
       "summary": {
