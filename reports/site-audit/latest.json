@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-19T18:44:11.553Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/39304948859",
+  "checkedAt": "2026-10-20T17:10:31.199Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/39463634419",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -332,14 +332,14 @@
         {
           "run": 1,
           "scores": {
-            "performance": 100,
+            "performance": 59,
             "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1514.488,
-          "tbtMs": 0,
-          "cls": 0.0427252179165717
+          "lcpMs": 4042.5254999999997,
+          "tbtMs": 2095,
+          "cls": 0
         },
         {
           "run": 2,
@@ -349,7 +349,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1516.908,
+          "lcpMs": 1683.5665,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -361,7 +361,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1442.6354999999999,
+          "lcpMs": 1674.953,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         }
@@ -373,7 +373,7 @@
         "seo": 100
       },
       "performanceRange": [
-        100,
+        59,
         100
       ]
     },
@@ -446,9 +446,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1247.3545,
+          "lcpMs": 1217.9344999999998,
           "tbtMs": 0,
-          "cls": 0.004017521333833738
+          "cls": 0
         },
         {
           "run": 2,
@@ -458,9 +458,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1226.614,
+          "lcpMs": 1670.4845,
           "tbtMs": 0,
-          "cls": 0.004026946965455559
+          "cls": 0.004017521333833738
         },
         {
           "run": 3,
@@ -470,9 +470,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1260.597,
+          "lcpMs": 1660.4735,
           "tbtMs": 0,
-          "cls": 0.00390035032952895
+          "cls": 0.00403096761269032
         }
       ],
       "summary": {
