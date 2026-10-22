@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-21T17:14:56.770Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/39641983984",
+  "checkedAt": "2026-10-22T17:12:58.848Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/39820601613",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -337,8 +337,8 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1698.0585,
-          "tbtMs": 21,
+          "lcpMs": 1722.2925,
+          "tbtMs": 0,
           "cls": 0.0427252179165717
         },
         {
@@ -349,7 +349,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1709.8525,
+          "lcpMs": 1699.7069999999999,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -361,7 +361,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1703.0925,
+          "lcpMs": 1684.3175,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         }
@@ -446,9 +446,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1253.71,
+          "lcpMs": 1235.933,
           "tbtMs": 0,
-          "cls": 0.00403096761269032
+          "cls": 0.004026946965455559
         },
         {
           "run": 2,
@@ -458,9 +458,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1258.8135000000002,
+          "lcpMs": 1252.3654999999999,
           "tbtMs": 0,
-          "cls": 0.00390035032952895
+          "cls": 0.003904370976763711
         },
         {
           "run": 3,
@@ -470,9 +470,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1231.1699999999998,
+          "lcpMs": 1232.6685,
           "tbtMs": 0,
-          "cls": 0.00390035032952895
+          "cls": 0.004026946965455559
         }
       ],
       "summary": {
