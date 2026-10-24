@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-23T17:10:26.334Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/39992798543",
+  "checkedAt": "2026-10-24T15:58:53.599Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/40109379964",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -332,12 +332,12 @@
         {
           "run": 1,
           "scores": {
-            "performance": 100,
+            "performance": 99,
             "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1677.517,
+          "lcpMs": 1549.0720000000001,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -349,9 +349,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1678.242,
+          "lcpMs": 1519.184,
           "tbtMs": 0,
-          "cls": 0.0427252179165717
+          "cls": 0
         },
         {
           "run": 3,
@@ -361,8 +361,8 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1667.7795,
-          "tbtMs": 25,
+          "lcpMs": 1240.914,
+          "tbtMs": 0,
           "cls": 0.0427252179165717
         }
       ],
@@ -373,7 +373,7 @@
         "seo": 100
       },
       "performanceRange": [
-        100,
+        99,
         100
       ]
     },
@@ -441,49 +441,49 @@
         {
           "run": 1,
           "scores": {
-            "performance": 99,
+            "performance": 100,
             "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1709.6455,
-          "tbtMs": 2,
-          "cls": 0.004026946965455559
+          "lcpMs": 1304.091,
+          "tbtMs": 0,
+          "cls": 0
         },
         {
           "run": 2,
           "scores": {
-            "performance": 99,
+            "performance": 100,
             "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1722.4575,
-          "tbtMs": 7,
-          "cls": 0.00403096761269032
+          "lcpMs": 1320.5545,
+          "tbtMs": 0,
+          "cls": 0
         },
         {
           "run": 3,
           "scores": {
-            "performance": 99,
+            "performance": 100,
             "accessibility": 100,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1715.5095000000001,
-          "tbtMs": 64,
-          "cls": 0.00403096761269032
+          "lcpMs": 1302.1105,
+          "tbtMs": 0,
+          "cls": 0
         }
       ],
       "summary": {
-        "performance": 99,
+        "performance": 100,
         "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       },
       "performanceRange": [
-        99,
-        99
+        100,
+        100
       ]
     }
   ]
