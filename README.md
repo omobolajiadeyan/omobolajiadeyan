@@ -124,7 +124,7 @@ channel, so I treated it as the main attack surface:
 
 | Check | Result |
 |---|---|
-| Live service (25 Oct 2026) | `GET https://frenimiguard.com/api/v1/health` â†’ HTTP 200, API and database online |
+| Live service (25 Oct 2026) | `GET https://frenimiguard.com/api/v1/health` -> HTTP 200, API and database online |
 | Live security headers (25 Oct 2026) | Homepage response included CSP, one-year HSTS with `includeSubDomains`, `X-Frame-Options: DENY`, `nosniff`, `Referrer-Policy`, and `Permissions-Policy` |
 | Backend tests (6 Oct 2026) | 340 passed, 11 skipped |
 | Frontend tests (6 Oct 2026) | 220 passed across 31 files |
