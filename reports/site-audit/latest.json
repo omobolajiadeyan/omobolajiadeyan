@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-25T16:33:39.676Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/40211453038",
+  "checkedAt": "2026-10-26T18:41:56.997Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/40379932550",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -337,8 +337,8 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1436.051,
-          "tbtMs": 16,
+          "lcpMs": 1303.278,
+          "tbtMs": 0,
           "cls": 0.0427252179165717
         },
         {
@@ -349,9 +349,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1461.9255,
+          "lcpMs": 1751.3955,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0427252179165717
         },
         {
           "run": 3,
@@ -361,9 +361,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1396.4135,
-          "tbtMs": 0,
-          "cls": 0
+          "lcpMs": 1733.6375,
+          "tbtMs": 48,
+          "cls": 0.0427252179165717
         }
       ],
       "summary": {
@@ -446,9 +446,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1295.5115,
+          "lcpMs": 1269.2514999999999,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.003890924697907129
         },
         {
           "run": 2,
@@ -458,9 +458,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1330.9665,
+          "lcpMs": 1271.858,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.003890924697907129
         },
         {
           "run": 3,
@@ -470,9 +470,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1292.5285,
+          "lcpMs": 1255.525,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.004026946965455559
         }
       ],
       "summary": {
