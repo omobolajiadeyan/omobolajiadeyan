@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-27T18:11:56.256Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/40556127940",
+  "checkedAt": "2026-10-28T18:22:04.056Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/40744357487",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -308,6 +308,11 @@
           "finalUrl": "https://frenimi.com/application-security-review.html"
         },
         {
+          "url": "https://frenimi.com/tools/watermark-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/watermark-pdf.html"
+        },
+        {
           "url": "https://frenimi.com/robots.txt",
           "status": 200,
           "finalUrl": "https://frenimi.com/robots.txt"
@@ -337,9 +342,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1397.6875,
-          "tbtMs": 2,
-          "cls": 0
+          "lcpMs": 1382.4515000000001,
+          "tbtMs": 0,
+          "cls": 0.0427252179165717
         },
         {
           "run": 2,
@@ -349,9 +354,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1362.676,
+          "lcpMs": 1248.314,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0427252179165717
         },
         {
           "run": 3,
@@ -361,7 +366,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1247.1425,
+          "lcpMs": 1397.0265,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         }
@@ -451,9 +456,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1341.705,
+          "lcpMs": 1344.287,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0009123321592995628
         },
         {
           "run": 2,
@@ -463,9 +468,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1336.019,
+          "lcpMs": 1346.126,
           "tbtMs": 0,
-          "cls": 0.00001227694957780122
+          "cls": 0.0009123321592995628
         },
         {
           "run": 3,
@@ -475,9 +480,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1331.488,
+          "lcpMs": 1339.722,
           "tbtMs": 0,
-          "cls": 0.0009327937419292315
+          "cls": 0
         }
       ],
       "summary": {
