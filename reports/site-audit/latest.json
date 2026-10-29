@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-28T18:22:04.056Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/40744357487",
+  "checkedAt": "2026-10-29T18:29:36.056Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/40931243383",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -342,7 +342,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1382.4515000000001,
+          "lcpMs": 1299.3205,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -354,7 +354,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1248.314,
+          "lcpMs": 1293.1889999999999,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -366,9 +366,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1397.0265,
+          "lcpMs": 1301.5055,
           "tbtMs": 0,
-          "cls": 0.0427252179165717
+          "cls": 0
         }
       ],
       "summary": {
@@ -456,9 +456,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1344.287,
+          "lcpMs": 1253.684,
           "tbtMs": 0,
-          "cls": 0.0009123321592995628
+          "cls": 0.003830752280871607
         },
         {
           "run": 2,
@@ -468,9 +468,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1346.126,
+          "lcpMs": 1272.908,
           "tbtMs": 0,
-          "cls": 0.0009123321592995628
+          "cls": 0.0017786060486272987
         },
         {
           "run": 3,
@@ -480,9 +480,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1339.722,
+          "lcpMs": 1169.324,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0018236215304125699
         }
       ],
       "summary": {
