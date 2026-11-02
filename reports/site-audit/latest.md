@@ -1,6 +1,6 @@
 ### Daily live-site checks
 
-Last checked: **2026-11-01 17:56:24 UTC**. Scheduled daily at 12:17 UTC.
+Last checked: **2026-11-02 21:43:40 UTC**. Scheduled daily at 12:17 UTC.
 
 | Live site | HTTP checks | Browser checks | Performance¹ | Accessibility | Best practices | SEO |
 |---|---:|---|---:|---:|---:|---:|
@@ -9,4 +9,4 @@ Last checked: **2026-11-01 17:56:24 UTC**. Scheduled daily at 12:17 UTC.
 
 ¹ Median of three mobile Lighthouse runs. Lab scores vary; these are not search rankings, real-user Core Web Vitals, or a full accessibility/security audit.
 
-[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41333971780)
+[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41530907905)
