@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-02T21:43:40.721Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41530907905",
+  "checkedAt": "2026-11-03T19:30:31.523Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41703739131",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -218,6 +218,11 @@
           "finalUrl": "https://frenimi.com/tools/password-generator.html"
         },
         {
+          "url": "https://frenimi.com/tools/pdf-editor.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/pdf-editor.html"
+        },
+        {
           "url": "https://frenimi.com/tools/pricing.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/pricing.html"
@@ -342,7 +347,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1680.2165,
+          "lcpMs": 1625.8685,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -354,7 +359,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1684.2825,
+          "lcpMs": 1685.5585,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         },
@@ -366,7 +371,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1683.8,
+          "lcpMs": 1683.103,
           "tbtMs": 0,
           "cls": 0.0427252179165717
         }
@@ -451,14 +456,14 @@
         {
           "run": 1,
           "scores": {
-            "performance": 83,
+            "performance": 99,
             "accessibility": 96,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1524.29,
-          "tbtMs": 698,
-          "cls": 0.003830752280871607
+          "lcpMs": 1606.8980000000001,
+          "tbtMs": 26,
+          "cls": 0.0018236215304125699
         },
         {
           "run": 2,
@@ -468,31 +473,31 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1523.246,
-          "tbtMs": 15,
-          "cls": 0.0017786060486272987
+          "lcpMs": 1228.9389999999999,
+          "tbtMs": 0,
+          "cls": 0.003830752280871607
         },
         {
           "run": 3,
           "scores": {
-            "performance": 100,
+            "performance": 99,
             "accessibility": 96,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1524.038,
-          "tbtMs": 18.5,
+          "lcpMs": 1610.571,
+          "tbtMs": 29,
           "cls": 0.0018236215304125699
         }
       ],
       "summary": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 96,
         "best-practices": 100,
         "seo": 100
       },
       "performanceRange": [
-        83,
+        99,
         100
       ]
     }

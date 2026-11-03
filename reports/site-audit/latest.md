@@ -1,12 +1,12 @@
 ### Daily live-site checks
 
-Last checked: **2026-11-02 21:43:40 UTC**. Scheduled daily at 12:17 UTC.
+Last checked: **2026-11-03 19:30:31 UTC**. Scheduled daily at 12:17 UTC.
 
 | Live site | HTTP checks | Browser checks | Performance¹ | Accessibility | Best practices | SEO |
 |---|---:|---|---:|---:|---:|---:|
-| [frenimi.com](https://frenimi.com/) | 63/63 | Passed | 100 | 100 | 100 | 100 |
-| [omobolajiadeyan.com](https://omobolajiadeyan.com/) | 10/10 | Passed | 100 | 96 | 100 | 100 |
+| [frenimi.com](https://frenimi.com/) | 64/64 | Passed | 100 | 100 | 100 | 100 |
+| [omobolajiadeyan.com](https://omobolajiadeyan.com/) | 10/10 | Passed | 99 | 96 | 100 | 100 |
 
 ¹ Median of three mobile Lighthouse runs. Lab scores vary; these are not search rankings, real-user Core Web Vitals, or a full accessibility/security audit.
 
-[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41530907905)
+[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41703739131)
