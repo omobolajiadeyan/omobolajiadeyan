@@ -1299,5 +1299,45 @@
         "failures": []
       }
     ]
+  },
+  {
+    "checkedAt": "2026-11-04T19:47:40.245Z",
+    "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41900204698",
+    "sites": [
+      {
+        "domain": "frenimi.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 97,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": [
+          "Browser 390px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+          "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+        ]
+      },
+      {
+        "domain": "omobolajiadeyan.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 96,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": [
+          "Browser 390px: Expected values to be strictly equal:\n\n0 !== 1\n",
+          "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+        ]
+      }
+    ]
   }
 ]

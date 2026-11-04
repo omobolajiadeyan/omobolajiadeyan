@@ -1,11 +1,14 @@
 {
-  "checkedAt": "2026-11-03T19:30:31.523Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41703739131",
+  "checkedAt": "2026-11-04T19:47:40.245Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41900204698",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
       "domain": "frenimi.com",
-      "failures": [],
+      "failures": [
+        "Browser 390px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+      ],
       "http": [
         {
           "url": "https://frenimi.com/about.html",
@@ -13,14 +16,19 @@
           "finalUrl": "https://frenimi.com/about.html"
         },
         {
-          "url": "https://frenimi.com/work.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/work.html"
-        },
-        {
           "url": "https://frenimi.com/activity.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/activity.html"
+        },
+        {
+          "url": "https://frenimi.com/application-security-review.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/application-security-review.html"
+        },
+        {
+          "url": "https://frenimi.com/buyer-guides.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/buyer-guides.html"
         },
         {
           "url": "https://frenimi.com/careers.html",
@@ -28,9 +36,34 @@
           "finalUrl": "https://frenimi.com/careers.html"
         },
         {
+          "url": "https://frenimi.com/chicago-website-development.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/chicago-website-development.html"
+        },
+        {
           "url": "https://frenimi.com/contact.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/contact.html"
+        },
+        {
+          "url": "https://frenimi.com/custom-software-development.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/custom-software-development.html"
+        },
+        {
+          "url": "https://frenimi.com/engineering-demos.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/engineering-demos.html"
+        },
+        {
+          "url": "https://frenimi.com/engineering-support.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/engineering-support.html"
+        },
+        {
+          "url": "https://frenimi.com/evidence.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/evidence.html"
         },
         {
           "url": "https://frenimi.com/guides/browser-based-file-tools.html",
@@ -51,6 +84,11 @@
           "url": "https://frenimi.com/guides/editorial-standards.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/guides/editorial-standards.html"
+        },
+        {
+          "url": "https://frenimi.com/guides/free-vs-paid-pdf-tools.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/guides/free-vs-paid-pdf-tools.html"
         },
         {
           "url": "https://frenimi.com/guides/image-size-quality-guide.html",
@@ -106,6 +144,11 @@
           "url": "https://frenimi.com/",
           "status": 200,
           "finalUrl": "https://frenimi.com/"
+        },
+        {
+          "url": "https://frenimi.com/pricing.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/pricing.html"
         },
         {
           "url": "https://frenimi.com/privacy.html",
@@ -263,24 +306,14 @@
           "finalUrl": "https://frenimi.com/tools/trust.html"
         },
         {
+          "url": "https://frenimi.com/tools/watermark-pdf.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/watermark-pdf.html"
+        },
+        {
           "url": "https://frenimi.com/tools/word-counter.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/word-counter.html"
-        },
-        {
-          "url": "https://frenimi.com/buyer-guides.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/buyer-guides.html"
-        },
-        {
-          "url": "https://frenimi.com/engineering-support.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/engineering-support.html"
-        },
-        {
-          "url": "https://frenimi.com/pricing.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/pricing.html"
         },
         {
           "url": "https://frenimi.com/website-cost.html",
@@ -293,29 +326,9 @@
           "finalUrl": "https://frenimi.com/website-quality.html"
         },
         {
-          "url": "https://frenimi.com/evidence.html",
+          "url": "https://frenimi.com/work.html",
           "status": 200,
-          "finalUrl": "https://frenimi.com/evidence.html"
-        },
-        {
-          "url": "https://frenimi.com/chicago-website-development.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/chicago-website-development.html"
-        },
-        {
-          "url": "https://frenimi.com/custom-software-development.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/custom-software-development.html"
-        },
-        {
-          "url": "https://frenimi.com/application-security-review.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/application-security-review.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/watermark-pdf.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/watermark-pdf.html"
+          "finalUrl": "https://frenimi.com/work.html"
         },
         {
           "url": "https://frenimi.com/robots.txt",
@@ -331,11 +344,13 @@
       "interactions": [
         {
           "width": 390,
-          "passed": true
+          "passed": false,
+          "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
         },
         {
           "width": 1440,
-          "passed": true
+          "passed": false,
+          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
         }
       ],
       "lighthouse": [
@@ -343,43 +358,43 @@
           "run": 1,
           "scores": {
             "performance": 100,
-            "accessibility": 100,
-            "best-practices": 100,
+            "accessibility": 97,
+            "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1625.8685,
+          "lcpMs": 1226.739,
           "tbtMs": 0,
-          "cls": 0.0427252179165717
+          "cls": 0
         },
         {
           "run": 2,
           "scores": {
             "performance": 100,
-            "accessibility": 100,
-            "best-practices": 100,
+            "accessibility": 97,
+            "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1685.5585,
+          "lcpMs": 1313.594,
           "tbtMs": 0,
-          "cls": 0.0427252179165717
+          "cls": 0
         },
         {
           "run": 3,
           "scores": {
             "performance": 100,
-            "accessibility": 100,
-            "best-practices": 100,
+            "accessibility": 97,
+            "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1683.103,
+          "lcpMs": 1190.2725,
           "tbtMs": 0,
-          "cls": 0.0427252179165717
+          "cls": 0
         }
       ],
       "summary": {
         "performance": 100,
-        "accessibility": 100,
-        "best-practices": 100,
+        "accessibility": 97,
+        "best-practices": 96,
         "seo": 100
       },
       "performanceRange": [
@@ -389,7 +404,10 @@
     },
     {
       "domain": "omobolajiadeyan.com",
-      "failures": [],
+      "failures": [
+        "Browser 390px: Expected values to be strictly equal:\n\n0 !== 1\n",
+        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+      ],
       "http": [
         {
           "url": "https://omobolajiadeyan.com/",
@@ -445,25 +463,27 @@
       "interactions": [
         {
           "width": 390,
-          "passed": true
+          "passed": false,
+          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
         },
         {
           "width": 1440,
-          "passed": true
+          "passed": false,
+          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
         }
       ],
       "lighthouse": [
         {
           "run": 1,
           "scores": {
-            "performance": 99,
+            "performance": 100,
             "accessibility": 96,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1606.8980000000001,
-          "tbtMs": 26,
-          "cls": 0.0018236215304125699
+          "lcpMs": 1312.996,
+          "tbtMs": 0,
+          "cls": 0
         },
         {
           "run": 2,
@@ -473,31 +493,31 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1228.9389999999999,
+          "lcpMs": 1229.1109999999999,
           "tbtMs": 0,
-          "cls": 0.003830752280871607
+          "cls": 0
         },
         {
           "run": 3,
           "scores": {
-            "performance": 99,
+            "performance": 100,
             "accessibility": 96,
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1610.571,
-          "tbtMs": 29,
-          "cls": 0.0018236215304125699
+          "lcpMs": 1375.6770000000001,
+          "tbtMs": 0,
+          "cls": 0
         }
       ],
       "summary": {
-        "performance": 99,
+        "performance": 100,
         "accessibility": 96,
         "best-practices": 100,
         "seo": 100
       },
       "performanceRange": [
-        99,
+        100,
         100
       ]
     }
