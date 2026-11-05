@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-04T19:47:40.245Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/41900204698",
+  "checkedAt": "2026-11-05T19:58:39.989Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/42098920432",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
       "domain": "frenimi.com",
       "failures": [
         "Browser 390px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
-        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+        "Browser 1440px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
       ],
       "http": [
         {
@@ -350,7 +350,7 @@
         {
           "width": 1440,
           "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
         }
       ],
       "lighthouse": [
@@ -362,7 +362,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1226.739,
+          "lcpMs": 1161.4795,
           "tbtMs": 0,
           "cls": 0
         },
@@ -374,7 +374,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1313.594,
+          "lcpMs": 1180.761,
           "tbtMs": 0,
           "cls": 0
         },
@@ -386,7 +386,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1190.2725,
+          "lcpMs": 1167.432,
           "tbtMs": 0,
           "cls": 0
         }
@@ -404,10 +404,7 @@
     },
     {
       "domain": "omobolajiadeyan.com",
-      "failures": [
-        "Browser 390px: Expected values to be strictly equal:\n\n0 !== 1\n",
-        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
-      ],
+      "failures": [],
       "http": [
         {
           "url": "https://omobolajiadeyan.com/",
@@ -463,13 +460,11 @@
       "interactions": [
         {
           "width": 390,
-          "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "passed": true
         },
         {
           "width": 1440,
-          "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "passed": true
         }
       ],
       "lighthouse": [
@@ -481,9 +476,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1312.996,
+          "lcpMs": 1248.243,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.003830752280871607
         },
         {
           "run": 2,
@@ -493,9 +488,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1229.1109999999999,
+          "lcpMs": 1247.716,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0017704214155754312
         },
         {
           "run": 3,
@@ -505,9 +500,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1375.6770000000001,
+          "lcpMs": 1244.326,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0037775521660344683
         }
       ],
       "summary": {
