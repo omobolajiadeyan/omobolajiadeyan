@@ -19,6 +19,9 @@
 <a href="https://www.linkedin.com/in/oeadeyan">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect with Omobolaji Adeyan on LinkedIn" />
 </a>
+<a href="https://github.com/omobolajiadeyan?tab=followers">
+  <img src="https://img.shields.io/github/followers/omobolajiadeyan?style=social" alt="Follow Omobolaji Adeyan on GitHub" />
+</a>
 
 </div>
 
@@ -192,6 +195,26 @@ offline play, and an optional ranked multiplayer service. The
 [browser demo](https://omobolajiadeyan.github.io/frenimi-checkers/) is the
 fastest way to try it; server-backed matchmaking requires a separate
 deployment.
+
+## Recent project updates
+
+- **[FreNiMiGuard](https://github.com/omobolajiadeyan/frenimiguard):** recorded
+  production server hardening and corrected the pricing section's sticky-header
+  offset ([#2](https://github.com/omobolajiadeyan/frenimiguard/pull/2),
+  [#3](https://github.com/omobolajiadeyan/frenimiguard/pull/3)).
+- **[FreNiMi Checkers](https://github.com/omobolajiadeyan/frenimi-checkers):**
+  improved turn handling when a checker is crowned and completed dependency and
+  workflow maintenance with passing CI ([#67](https://github.com/omobolajiadeyan/frenimi-checkers/pull/67),
+  [#64](https://github.com/omobolajiadeyan/frenimi-checkers/pull/64),
+  [#69](https://github.com/omobolajiadeyan/frenimi-checkers/pull/69),
+  [#70](https://github.com/omobolajiadeyan/frenimi-checkers/pull/70),
+  [#71](https://github.com/omobolajiadeyan/frenimi-checkers/pull/71),
+  [#73](https://github.com/omobolajiadeyan/frenimi-checkers/pull/73),
+  [#74](https://github.com/omobolajiadeyan/frenimi-checkers/pull/74),
+  [#75](https://github.com/omobolajiadeyan/frenimi-checkers/pull/75)).
+- **[PhishGuard AI](https://github.com/omobolajiadeyan/phishguard-ai):**
+  refreshed pinned GitHub Actions and kept the full test and security-check
+  suite green ([#115](https://github.com/omobolajiadeyan/phishguard-ai/pull/115)).
 
 ### LearnFolk launch-readiness engineering
 

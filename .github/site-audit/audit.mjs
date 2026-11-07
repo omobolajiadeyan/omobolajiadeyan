@@ -39,20 +39,21 @@ for (const domain of ['frenimi.com','omobolajiadeyan.com']) {
         assert(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth<=1),'Horizontal overflow');
         await page.screenshot({path:resolve(artifacts,`${domain}-${width}.png`)});
         if(domain==='frenimi.com') {
-          await page.locator('#open-phishguard').click();await page.locator('#fn-url').fill('https://example.com/');
-          await page.locator('#fn-analysis-form button[type=submit]').click();await page.locator('.fn-score-heading').waitFor();
-          assert.match(await page.locator('#fn-analysis-result').innerText(),/Model score/);
-          await page.locator('.calm-demo-close').click();
-          const engineeringDetails=page.locator('details.fn-engineering-details');
-          if(await engineeringDetails.count())await engineeringDetails.evaluate(details=>{details.open=true;});
-          const proofButton=page.locator('#run-proof-checks');
-          await proofButton.evaluate(button=>button.scrollIntoView({block:'center',behavior:'instant'}));
-          await proofButton.click();
-          await page.waitForFunction(()=>!document.querySelector('#run-proof-checks').disabled);
-          assert.match(await page.locator('#proof-check-status').innerText(),/4\/4 checks passed/);
-          await page.locator('#project-tab-1').click();assert.match(await page.locator('#project-panel').innerText(),/First Zion/);
-          await page.locator('[data-demo-role=analyst]').click();assert(await page.locator('dialog[open]').count());await page.keyboard.press('Escape');
-          if(width===390){await page.locator('.nav-toggle').click();assert.equal(await page.locator('.nav-toggle').getAttribute('aria-expanded'),'true');}
+          if(width===390){await page.locator('.nav-toggle').click();assert.equal(await page.locator('.nav-toggle').getAttribute('aria-expanded'),'true');await page.locator('.nav-toggle').click();assert.equal(await page.locator('.nav-toggle').getAttribute('aria-expanded'),'false');}
+          await page.getByRole('tab',{name:'02 · Phishing signals'}).click();
+          await page.getByRole('button',{name:'Try PhishGuard'}).click();
+          const phishingDemo=page.getByRole('dialog',{name:'Try PhishGuard AI'});
+          await phishingDemo.getByRole('textbox',{name:'URL to inspect'}).fill('https://example.com/');
+          await phishingDemo.getByRole('button',{name:'Analyze locally'}).click();
+          await phishingDemo.getByText(/Model score · higher means more risk signals/).waitFor();
+          assert.match(await phishingDemo.innerText(),/Model score · higher means more risk signals/);
+          await phishingDemo.getByRole('button',{name:'Close',exact:true}).click();
+          await page.getByRole('tab',{name:'03 · Security workflow'}).click();
+          await page.getByRole('button',{name:/Enter as analyst/}).click();
+          const operationsDialog=page.locator('dialog[open]');
+          try{await operationsDialog.waitFor({timeout:5000});}catch(error){if(errors.length)throw new Error(`${error.message}; page errors: ${errors.join('; ')}`);throw error;}
+          assert.match(await operationsDialog.innerText(),/Security operations lab/);
+          await page.keyboard.press('Escape');
         } else {
           await page.keyboard.press('Control+k');assert(await page.locator('dialog[open], [role=dialog]:visible').count());await page.keyboard.press('Escape');
           if(width===390){await page.getByRole('button',{name:'Open menu'}).click();assert((await page.locator('#mobileNav').getAttribute('class')).includes('open'));}
