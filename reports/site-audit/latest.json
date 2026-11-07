@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-06T19:26:14.877Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/42279531690",
+  "checkedAt": "2026-11-07T14:26:44.392Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/42381595770",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
       "domain": "frenimi.com",
       "failures": [
-        "Browser 390px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
-        "Browser 1440px: locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+        "Browser 390px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')",
+        "Browser 1440px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
       ],
       "http": [
         {
@@ -345,12 +345,12 @@
         {
           "width": 390,
           "passed": false,
-          "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+          "error": "locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
         },
         {
           "width": 1440,
           "passed": false,
-          "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#open-phishguard')\n    - locator resolved to <button type=\"button\" class=\"calm-primary\" id=\"open-phishguard\" aria-haspopup=\"dialog\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+          "error": "locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
         }
       ],
       "lighthouse": [
@@ -362,8 +362,8 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1219.712,
-          "tbtMs": 22,
+          "lcpMs": 1180.2245,
+          "tbtMs": 0,
           "cls": 0
         },
         {
@@ -374,7 +374,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1286.722,
+          "lcpMs": 1176.22,
           "tbtMs": 0,
           "cls": 0
         },
@@ -386,7 +386,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1284.2694999999999,
+          "lcpMs": 1185.3145,
           "tbtMs": 0,
           "cls": 0
         }
@@ -476,7 +476,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1346.722,
+          "lcpMs": 1116.969,
           "tbtMs": 0,
           "cls": 0
         },
@@ -488,9 +488,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1339.3310000000001,
+          "lcpMs": 1129.731,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0017786060486272987
         },
         {
           "run": 3,
@@ -500,9 +500,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1329.5819999999999,
+          "lcpMs": 1276.69,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0017786060486272987
         }
       ],
       "summary": {
