@@ -1524,5 +1524,42 @@
         "failures": []
       }
     ]
+  },
+  {
+    "checkedAt": "2026-11-09T22:23:54.768Z",
+    "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/42711410236",
+    "sites": [
+      {
+        "domain": "frenimi.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 97,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": [
+          "Browser 390px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')",
+          "Browser 1440px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
+        ]
+      },
+      {
+        "domain": "omobolajiadeyan.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 96,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": []
+      }
+    ]
   }
 ]
