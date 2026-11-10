@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-09T22:23:54.768Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/42711410236",
+  "checkedAt": "2026-11-10T19:45:24.941Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/42888346130",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -331,6 +331,11 @@
           "finalUrl": "https://frenimi.com/work.html"
         },
         {
+          "url": "https://frenimi.com/tools/video-compressor.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/video-compressor.html"
+        },
+        {
           "url": "https://frenimi.com/robots.txt",
           "status": 200,
           "finalUrl": "https://frenimi.com/robots.txt"
@@ -362,8 +367,8 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1255.2765,
-          "tbtMs": 0,
+          "lcpMs": 1234.495,
+          "tbtMs": 14.999999999999886,
           "cls": 0
         },
         {
@@ -374,8 +379,8 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1260.973,
-          "tbtMs": 4,
+          "lcpMs": 1232.286,
+          "tbtMs": 0,
           "cls": 0
         },
         {
@@ -386,7 +391,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1259.72,
+          "lcpMs": 1251.7565,
           "tbtMs": 0,
           "cls": 0
         }
@@ -476,7 +481,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1252.028,
+          "lcpMs": 1293.396,
           "tbtMs": 0,
           "cls": 0
         },
@@ -488,7 +493,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1343.121,
+          "lcpMs": 1192.26,
           "tbtMs": 0,
           "cls": 0
         },
@@ -500,8 +505,8 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1267.613,
-          "tbtMs": 0,
+          "lcpMs": 1390.04,
+          "tbtMs": 5,
           "cls": 0
         }
       ],
