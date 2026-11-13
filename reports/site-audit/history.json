@@ -1672,5 +1672,45 @@
         "failures": []
       }
     ]
+  },
+  {
+    "checkedAt": "2026-11-13T19:44:53.498Z",
+    "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/43494927096",
+    "sites": [
+      {
+        "domain": "frenimi.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 97,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": [
+          "Browser 390px: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('dialog', { name: 'Try PhishGuard AI' }).getByText(/Model score · higher means more risk signals/) to be visible\n",
+          "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+        ]
+      },
+      {
+        "domain": "omobolajiadeyan.com",
+        "summary": {
+          "performance": 100,
+          "accessibility": 96,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "performanceRange": [
+          100,
+          100
+        ],
+        "failures": [
+          "Browser 390px: Expected values to be strictly equal:\n\n0 !== 1\n",
+          "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+        ]
+      }
+    ]
   }
 ]
