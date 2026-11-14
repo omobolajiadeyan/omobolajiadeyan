@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-13T19:44:53.498Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/43494927096",
+  "checkedAt": "2026-11-14T18:05:46.293Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/43624603713",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
       "domain": "frenimi.com",
       "failures": [
-        "Browser 390px: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('dialog', { name: 'Try PhishGuard AI' }).getByText(/Model score · higher means more risk signals/) to be visible\n",
-        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+        "Browser 390px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')",
+        "Browser 1440px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
       ],
       "http": [
         {
@@ -350,12 +350,12 @@
         {
           "width": 390,
           "passed": false,
-          "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('dialog', { name: 'Try PhishGuard AI' }).getByText(/Model score · higher means more risk signals/) to be visible\n"
+          "error": "locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
         },
         {
           "width": 1440,
           "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "error": "locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
         }
       ],
       "lighthouse": [
@@ -367,7 +367,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1291.5555,
+          "lcpMs": 1335.2135,
           "tbtMs": 0,
           "cls": 0
         },
@@ -379,7 +379,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1248.7455,
+          "lcpMs": 1417.2375,
           "tbtMs": 0,
           "cls": 0
         },
@@ -391,7 +391,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1261.6855,
+          "lcpMs": 1233.76,
           "tbtMs": 0,
           "cls": 0
         }
@@ -409,10 +409,7 @@
     },
     {
       "domain": "omobolajiadeyan.com",
-      "failures": [
-        "Browser 390px: Expected values to be strictly equal:\n\n0 !== 1\n",
-        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
-      ],
+      "failures": [],
       "http": [
         {
           "url": "https://omobolajiadeyan.com/",
@@ -468,13 +465,11 @@
       "interactions": [
         {
           "width": 390,
-          "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "passed": true
         },
         {
           "width": 1440,
-          "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "passed": true
         }
       ],
       "lighthouse": [
@@ -486,8 +481,8 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1372.8310000000001,
-          "tbtMs": 0,
+          "lcpMs": 1270.9479999999999,
+          "tbtMs": 1,
           "cls": 0
         },
         {
@@ -498,7 +493,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1360.548,
+          "lcpMs": 1215.045,
           "tbtMs": 0,
           "cls": 0
         },
@@ -510,7 +505,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1383.606,
+          "lcpMs": 1219.279,
           "tbtMs": 0,
           "cls": 0
         }
