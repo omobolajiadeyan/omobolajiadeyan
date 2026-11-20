@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-19T20:39:41.432Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/44610850836",
+  "checkedAt": "2026-11-20T20:23:55.514Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/44810906399",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -336,6 +336,36 @@
           "finalUrl": "https://frenimi.com/tools/video-compressor.html"
         },
         {
+          "url": "https://frenimi.com/tools/excel-to-csv.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/excel-to-csv.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/barcode-generator.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/barcode-generator.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/heic-to-jpg.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/heic-to-jpg.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/image-cropper.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/image-cropper.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/pdf-to-images.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/pdf-to-images.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/qr-code-scanner.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/qr-code-scanner.html"
+        },
+        {
           "url": "https://frenimi.com/robots.txt",
           "status": 200,
           "finalUrl": "https://frenimi.com/robots.txt"
@@ -367,7 +397,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1155.9205,
+          "lcpMs": 1279.79,
           "tbtMs": 0,
           "cls": 0
         },
@@ -379,7 +409,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1160.6509999999998,
+          "lcpMs": 1235.2359999999999,
           "tbtMs": 0,
           "cls": 0
         },
@@ -391,7 +421,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1153.4265,
+          "lcpMs": 1225.147,
           "tbtMs": 0,
           "cls": 0
         }
@@ -481,9 +511,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1342.204,
-          "tbtMs": 27.5,
-          "cls": 0.0018236215304125699
+          "lcpMs": 1235.621,
+          "tbtMs": 0,
+          "cls": 0.0009123321592995628
         },
         {
           "run": 2,
@@ -493,9 +523,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1417.624,
-          "tbtMs": 35.5,
-          "cls": 0.0018236215304125699
+          "lcpMs": 1237.004,
+          "tbtMs": 0,
+          "cls": 0.0009123321592995628
         },
         {
           "run": 3,
@@ -505,9 +535,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1710.068,
-          "tbtMs": 3,
-          "cls": 0.0018236215304125699
+          "lcpMs": 1219.5990000000002,
+          "tbtMs": 0,
+          "cls": 0
         }
       ],
       "summary": {
