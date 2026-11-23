@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-22T19:42:46.686Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45062256091",
+  "checkedAt": "2026-11-23T23:55:33.376Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45292829870",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -397,7 +397,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1226.5215,
+          "lcpMs": 1179.2385,
           "tbtMs": 0,
           "cls": 0
         },
@@ -409,8 +409,8 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1333.0810000000001,
-          "tbtMs": 0,
+          "lcpMs": 1169.8325,
+          "tbtMs": 47,
           "cls": 0
         },
         {
@@ -421,7 +421,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1229.6695,
+          "lcpMs": 1177.1005,
           "tbtMs": 0,
           "cls": 0
         }
@@ -511,9 +511,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1349.351,
+          "lcpMs": 1164.9850000000001,
           "tbtMs": 0,
-          "cls": 0.0009327937419292315
+          "cls": 0.0018236215304125699
         },
         {
           "run": 2,
@@ -523,9 +523,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1351.7359999999999,
+          "lcpMs": 1130.83,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0018236215304125699
         },
         {
           "run": 3,
@@ -535,9 +535,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1345.601,
+          "lcpMs": 1271.87,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0018236215304125699
         }
       ],
       "summary": {
