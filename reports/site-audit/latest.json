@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-24T22:28:41.315Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45501219165",
+  "checkedAt": "2026-11-25T21:43:54.003Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45706934076",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
@@ -397,7 +397,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1152.973,
+          "lcpMs": 1188.7285000000002,
           "tbtMs": 0,
           "cls": 0
         },
@@ -409,20 +409,20 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1222.4405000000002,
+          "lcpMs": 1271.3685,
           "tbtMs": 0,
           "cls": 0
         },
         {
           "run": 3,
           "scores": {
-            "performance": 100,
+            "performance": 99,
             "accessibility": 97,
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1161.601,
-          "tbtMs": 0,
+          "lcpMs": 1186.839,
+          "tbtMs": 111.99999999999989,
           "cls": 0
         }
       ],
@@ -433,7 +433,7 @@
         "seo": 100
       },
       "performanceRange": [
-        100,
+        99,
         100
       ]
     },
@@ -511,7 +511,7 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1603.81,
+          "lcpMs": 1266.857,
           "tbtMs": 0,
           "cls": 0.0018236215304125699
         },
@@ -523,9 +523,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1388.763,
+          "lcpMs": 1269.647,
           "tbtMs": 0,
-          "cls": 0.003830752280871607
+          "cls": 0.0018236215304125699
         },
         {
           "run": 3,
@@ -535,9 +535,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1184.54,
-          "tbtMs": 19,
-          "cls": 0.003830752280871607
+          "lcpMs": 1264.6570000000002,
+          "tbtMs": 0,
+          "cls": 0.0017704214155754312
         }
       ],
       "summary": {

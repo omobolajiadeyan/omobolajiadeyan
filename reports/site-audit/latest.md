@@ -1,6 +1,6 @@
 ### Daily live-site checks
 
-Last checked: **2026-11-24 22:28:41 UTC**. Scheduled daily at 12:17 UTC.
+Last checked: **2026-11-25 21:43:54 UTC**. Scheduled daily at 12:17 UTC.
 
 | Live site | HTTP checks | Browser checks | Performance¹ | Accessibility | Best practices | SEO |
 |---|---:|---|---:|---:|---:|---:|
@@ -11,4 +11,4 @@ Last checked: **2026-11-24 22:28:41 UTC**. Scheduled daily at 12:17 UTC.
 
 **This run found failures or incomplete checks. See the report before relying on these results.**
 
-[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45501219165)
+[Latest data](reports/site-audit/latest.json) · [90-run history](reports/site-audit/history.json) · [Workflow and detailed artifacts](https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45706934076)
