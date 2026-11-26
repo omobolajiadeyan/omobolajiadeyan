@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-25T21:43:54.003Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45706934076",
+  "checkedAt": "2026-11-26T21:35:23.497Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45899061074",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
       "domain": "frenimi.com",
       "failures": [
-        "Browser 390px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')",
-        "Browser 1440px: locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
+        "Browser 390px: Horizontal overflow",
+        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
       ],
       "http": [
         {
@@ -181,6 +181,11 @@
           "finalUrl": "https://frenimi.com/tools/annotate-pdf.html"
         },
         {
+          "url": "https://frenimi.com/tools/barcode-generator.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/barcode-generator.html"
+        },
+        {
           "url": "https://frenimi.com/tools/compare-pdf.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/compare-pdf.html"
@@ -196,6 +201,11 @@
           "finalUrl": "https://frenimi.com/tools/crop-pdf.html"
         },
         {
+          "url": "https://frenimi.com/tools/excel-to-csv.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/excel-to-csv.html"
+        },
+        {
           "url": "https://frenimi.com/tools/fill-pdf.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/fill-pdf.html"
@@ -206,6 +216,11 @@
           "finalUrl": "https://frenimi.com/tools/hash-generator.html"
         },
         {
+          "url": "https://frenimi.com/tools/heic-to-jpg.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/heic-to-jpg.html"
+        },
+        {
           "url": "https://frenimi.com/tools/image-compressor.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/image-compressor.html"
@@ -214,6 +229,11 @@
           "url": "https://frenimi.com/tools/image-converter.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/image-converter.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/image-cropper.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/image-cropper.html"
         },
         {
           "url": "https://frenimi.com/tools/image-resizer.html",
@@ -266,6 +286,11 @@
           "finalUrl": "https://frenimi.com/tools/pdf-editor.html"
         },
         {
+          "url": "https://frenimi.com/tools/pdf-to-images.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/pdf-to-images.html"
+        },
+        {
           "url": "https://frenimi.com/tools/pricing.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/pricing.html"
@@ -279,6 +304,11 @@
           "url": "https://frenimi.com/tools/qr-code-generator.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/qr-code-generator.html"
+        },
+        {
+          "url": "https://frenimi.com/tools/qr-code-scanner.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/qr-code-scanner.html"
         },
         {
           "url": "https://frenimi.com/tools/rotate-pdf.html",
@@ -306,6 +336,11 @@
           "finalUrl": "https://frenimi.com/tools/trust.html"
         },
         {
+          "url": "https://frenimi.com/tools/video-compressor.html",
+          "status": 200,
+          "finalUrl": "https://frenimi.com/tools/video-compressor.html"
+        },
+        {
           "url": "https://frenimi.com/tools/watermark-pdf.html",
           "status": 200,
           "finalUrl": "https://frenimi.com/tools/watermark-pdf.html"
@@ -331,41 +366,6 @@
           "finalUrl": "https://frenimi.com/work.html"
         },
         {
-          "url": "https://frenimi.com/tools/video-compressor.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/video-compressor.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/excel-to-csv.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/excel-to-csv.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/barcode-generator.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/barcode-generator.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/heic-to-jpg.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/heic-to-jpg.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/image-cropper.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/image-cropper.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/pdf-to-images.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/pdf-to-images.html"
-        },
-        {
-          "url": "https://frenimi.com/tools/qr-code-scanner.html",
-          "status": 200,
-          "finalUrl": "https://frenimi.com/tools/qr-code-scanner.html"
-        },
-        {
           "url": "https://frenimi.com/robots.txt",
           "status": 200,
           "finalUrl": "https://frenimi.com/robots.txt"
@@ -380,12 +380,12 @@
         {
           "width": 390,
           "passed": false,
-          "error": "locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
+          "error": "Horizontal overflow"
         },
         {
           "width": 1440,
           "passed": false,
-          "error": "locator.waitFor: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('dialog[open]') to be visible\n; page errors: Cannot read properties of null (reading 'append')"
+          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
         }
       ],
       "lighthouse": [
@@ -397,7 +397,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1188.7285000000002,
+          "lcpMs": 1311.193,
           "tbtMs": 0,
           "cls": 0
         },
@@ -409,20 +409,20 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1271.3685,
+          "lcpMs": 1299.24,
           "tbtMs": 0,
           "cls": 0
         },
         {
           "run": 3,
           "scores": {
-            "performance": 99,
+            "performance": 100,
             "accessibility": 97,
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1186.839,
-          "tbtMs": 111.99999999999989,
+          "lcpMs": 1316.4180000000001,
+          "tbtMs": 0,
           "cls": 0
         }
       ],
@@ -433,13 +433,16 @@
         "seo": 100
       },
       "performanceRange": [
-        99,
+        100,
         100
       ]
     },
     {
       "domain": "omobolajiadeyan.com",
-      "failures": [],
+      "failures": [
+        "Browser 390px: Expected values to be strictly equal:\n\n0 !== 1\n",
+        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
+      ],
       "http": [
         {
           "url": "https://omobolajiadeyan.com/",
@@ -495,11 +498,13 @@
       "interactions": [
         {
           "width": 390,
-          "passed": true
+          "passed": false,
+          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
         },
         {
           "width": 1440,
-          "passed": true
+          "passed": false,
+          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
         }
       ],
       "lighthouse": [
@@ -511,9 +516,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1266.857,
+          "lcpMs": 1392.366,
           "tbtMs": 0,
-          "cls": 0.0018236215304125699
+          "cls": 0
         },
         {
           "run": 2,
@@ -523,9 +528,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1269.647,
+          "lcpMs": 1359.9745,
           "tbtMs": 0,
-          "cls": 0.0018236215304125699
+          "cls": 0
         },
         {
           "run": 3,
@@ -535,9 +540,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1264.6570000000002,
+          "lcpMs": 1308.0335,
           "tbtMs": 0,
-          "cls": 0.0017704214155754312
+          "cls": 0
         }
       ],
       "summary": {
