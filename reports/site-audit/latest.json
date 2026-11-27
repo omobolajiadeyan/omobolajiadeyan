@@ -1,14 +1,11 @@
 {
-  "checkedAt": "2026-11-26T21:35:23.497Z",
-  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/45899061074",
+  "checkedAt": "2026-11-27T21:19:16.597Z",
+  "runUrl": "https://github.com/omobolajiadeyan/omobolajiadeyan/actions/runs/46069471860",
   "method": "Three sequential mobile Lighthouse runs per homepage; median performance, other categories from the median-performance run.",
   "sites": [
     {
       "domain": "frenimi.com",
-      "failures": [
-        "Browser 390px: Horizontal overflow",
-        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
-      ],
+      "failures": [],
       "http": [
         {
           "url": "https://frenimi.com/about.html",
@@ -379,13 +376,11 @@
       "interactions": [
         {
           "width": 390,
-          "passed": false,
-          "error": "Horizontal overflow"
+          "passed": true
         },
         {
           "width": 1440,
-          "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "passed": true
         }
       ],
       "lighthouse": [
@@ -397,8 +392,8 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1311.193,
-          "tbtMs": 0,
+          "lcpMs": 1235.866,
+          "tbtMs": 5,
           "cls": 0
         },
         {
@@ -409,7 +404,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1299.24,
+          "lcpMs": 1232.884,
           "tbtMs": 0,
           "cls": 0
         },
@@ -421,7 +416,7 @@
             "best-practices": 96,
             "seo": 100
           },
-          "lcpMs": 1316.4180000000001,
+          "lcpMs": 1226.466,
           "tbtMs": 0,
           "cls": 0
         }
@@ -439,10 +434,7 @@
     },
     {
       "domain": "omobolajiadeyan.com",
-      "failures": [
-        "Browser 390px: Expected values to be strictly equal:\n\n0 !== 1\n",
-        "Browser 1440px: Expected values to be strictly equal:\n\n0 !== 1\n"
-      ],
+      "failures": [],
       "http": [
         {
           "url": "https://omobolajiadeyan.com/",
@@ -498,13 +490,11 @@
       "interactions": [
         {
           "width": 390,
-          "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "passed": true
         },
         {
           "width": 1440,
-          "passed": false,
-          "error": "Expected values to be strictly equal:\n\n0 !== 1\n"
+          "passed": true
         }
       ],
       "lighthouse": [
@@ -516,9 +506,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1392.366,
+          "lcpMs": 1232.9270000000001,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.003883042195710859
         },
         {
           "run": 2,
@@ -528,9 +518,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1359.9745,
+          "lcpMs": 1231.126,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0018227113304146825
         },
         {
           "run": 3,
@@ -540,9 +530,9 @@
             "best-practices": 100,
             "seo": 100
           },
-          "lcpMs": 1308.0335,
+          "lcpMs": 1231.545,
           "tbtMs": 0,
-          "cls": 0
+          "cls": 0.0018759114452518212
         }
       ],
       "summary": {
